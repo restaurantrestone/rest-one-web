@@ -395,7 +395,7 @@
           "title": "Фруктовый большой",
           "description": "",
           "price": 200000,
-          "image": "images-webp/fruktoviy-boshoy.webp",
+          "image": "/images/1775236278158.jpg",
           "available": true,
           "hidden": false,
           "badges": [],
