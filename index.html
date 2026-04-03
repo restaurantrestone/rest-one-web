@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Rest One — Меню</title>
+<meta property="og:title" content="Rest One — Меню">
+<meta property="og:description" content="Актуальное меню ресторана Rest One">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --bg: #0e0d0b;
+    --surface: #161411;
+    --surface-hover: #1e1a15;
+    --gold: #c9a84c;
+    --gold-dim: #a08838;
+    --gold-glow: rgba(201, 168, 76, 0.12);
+    --text: #e8e0d0;
+    --text-secondary: #8a7d6b;
+    --text-muted: #5a5045;
+    --border: #2a2520;
+    --font: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: var(--font);
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  /* ---- Loading ---- */
+  .loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    gap: 24px;
+  }
+  .loading-spinner {
+    width: 36px; height: 36px;
+    border: 2px solid var(--border);
+    border-top-color: var(--gold);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+  .loading-text {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    font-weight: 300;
+    letter-spacing: 0.03em;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ---- Error ---- */
+  .error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    gap: 16px;
+    padding: 24px;
+    text-align: center;
+  }
+  .error-icon { font-size: 2.5rem; opacity: 0.4; }
+  .error-text {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    font-weight: 300;
+  }
+
+  /* ---- Header ---- */
+  .header {
+    text-align: center;
+    padding: 48px 20px 28px;
+    position: relative;
+  }
+  .header::after {
+    content: '';
+    display: block;
+    width: 48px;
+    height: 1px;
+    background: var(--gold);
+    margin: 20px auto 0;
+  }
+  .restaurant-name {
+    font-size: 2.2rem;
+    font-weight: 300;
+    color: var(--gold);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  .menu-subtitle {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-top: 8px;
+    font-weight: 400;
+  }
+
+  /* ---- Category Tabs ---- */
+  .tabs-wrapper {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+    padding: 0 0 0 16px;
+  }
+  .tabs-wrapper::after {
+    content: '';
+    position: absolute;
+    right: 0; top: 0; bottom: 0;
+    width: 40px;
+    background: linear-gradient(to right, transparent, var(--bg));
+    pointer-events: none;
+    z-index: 2;
+  }
+  .tabs {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding: 14px 40px 14px 0;
+    scroll-padding: 16px;
+  }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tab {
+    flex-shrink: 0;
+    padding: 8px 18px;
+    border: 1px solid var(--border);
+    border-radius: 100px;
+    background: transparent;
+    color: var(--text-secondary);
+    font-family: var(--font);
+    font-size: 0.95rem;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    white-space: nowrap;
+    letter-spacing: 0.01em;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .tab:active { transform: scale(0.96); }
+  .tab.active {
+    background: var(--gold);
+    color: #0e0d0b;
+    border-color: var(--gold);
+    font-weight: 500;
+  }
+
+  /* ---- Content ---- */
+  .content {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px 16px 100px;
+  }
+  .category-section { display: none; }
+  .category-section.active { display: block; }
+
+  /* ---- Section Headers (Bar sections) ---- */
+  .section-header {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--gold-dim);
+    letter-spacing: 0.08em;
+    padding: 24px 0 12px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 16px;
+    text-transform: uppercase;
+  }
+  .section-header:first-child { padding-top: 0; }
+
+  /* ---- Dish Card ---- */
+  .dish-card {
+    background: var(--surface);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 16px;
+    border: 1px solid var(--border);
+    transition: border-color 0.2s;
+  }
+  .dish-image-wrap {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+    background: #111;
+  }
+  .dish-image-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .dish-image-wrap img.error { display: none; }
+  .dish-badges {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    gap: 6px;
+  }
+  .badge {
+    padding: 3px 10px;
+    border-radius: 100px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-family: var(--font);
+  }
+  .badge-new {
+    background: var(--gold);
+    color: #0e0d0b;
+  }
+  .badge-hit {
+    background: #c0392b;
+    color: #fff;
+  }
+
+  .dish-info {
+    padding: 14px 16px 16px;
+  }
+  .dish-top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .dish-name {
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: var(--text);
+    line-height: 1.3;
+  }
+  .dish-price {
+    font-size: 1.05rem;
+    color: var(--gold);
+    font-weight: 500;
+    white-space: nowrap;
+    flex-shrink: 0;
+    padding-top: 2px;
+  }
+  .dish-description {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin-top: 6px;
+    font-weight: 300;
+  }
+  .dish-weight-note {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-top: 4px;
+    font-style: italic;
+  }
+
+  /* ---- Variants ---- */
+  .variants {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 10px;
+  }
+  .variant-pill {
+    padding: 5px 12px;
+    border: 1px solid var(--border);
+    border-radius: 100px;
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+    font-family: var(--font);
+    font-weight: 400;
+    letter-spacing: 0.01em;
+  }
+  .variant-pill .variant-price {
+    color: var(--gold-dim);
+    margin-left: 4px;
+  }
+
+  /* ---- No-photo card (bar items etc) ---- */
+  .dish-card.no-photo .dish-info {
+    padding: 14px 16px;
+  }
+  .dish-card.no-photo {
+    border-radius: 10px;
+  }
+
+  /* ---- Footer ---- */
+  .footer {
+    text-align: center;
+    padding: 32px 20px 48px;
+    border-top: 1px solid var(--border);
+    margin-top: 20px;
+  }
+  .footer-text {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    letter-spacing: 0.08em;
+  }
+
+  /* ---- Fade-in animation ---- */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .fade-in {
+    animation: fadeUp 0.35s ease forwards;
+    opacity: 0;
+  }
+</style>
+</head>
+<body>
+
+<div id="app">
+  <div class="loading" id="loading">
+    <div class="loading-spinner"></div>
+    <div class="loading-text">Загрузка меню...</div>
+  </div>
+</div>
+
+<script>
+(function() {
+  const app = document.getElementById('app');
+
+  // Get slug from URL param ?r=slug or default to "rest-one"
+  const params = new URLSearchParams(window.location.search);
+  const slug = params.get('r') || 'rest-one';
+
+  // Fetch menu
+  fetch(slug + '/menu.json')
+    .then(r => {
+      if (!r.ok) throw new Error('Menu not found');
+      return r.json();
+    })
+    .then(data => render(data))
+    .catch(() => showError());
+
+  function showError() {
+    app.innerHTML = `
+      <div class="error">
+        <div class="error-icon">☕</div>
+        <div class="error-text">Меню временно недоступно</div>
+      </div>`;
+  }
+
+  function formatPrice(price, currency) {
+    if (!price && price !== 0) return '';
+    const formatted = price.toLocaleString('ru-RU');
+    return formatted + ' ' + (currency || 'сум');
+  }
+
+  function render(menu) {
+    const currency = menu.settings?.currency || 'сум';
+    const name = menu.settings?.name || 'Rest One';
+    const categories = (menu.categories || []).filter(c => !c.hidden);
+
+    // Update page title & OG
+    document.title = name + ' — Меню';
+    const ogTitle = document.querySelector('meta[property="og:title"]');
+    if (ogTitle) ogTitle.content = name + ' — Меню';
+    const ogDesc = document.querySelector('meta[property="og:description"]');
+    if (ogDesc) ogDesc.content = 'Актуальное меню ресторана ' + name;
+
+    if (!categories.length) {
+      showError();
+      return;
+    }
+
+    let html = '';
+
+    // Header
+    html += `
+      <header class="header">
+        <h1 class="restaurant-name">${esc(name)}</h1>
+        <p class="menu-subtitle">меню</p>
+      </header>`;
+
+    // Tabs
+    html += '<div class="tabs-wrapper"><div class="tabs" id="tabs">';
+    categories.forEach((cat, i) => {
+      html += `<button class="tab${i === 0 ? ' active' : ''}" data-index="${i}">${esc(cat.name)}</button>`;
+    });
+    html += '</div></div>';
+
+    // Content
+    html += '<div class="content">';
+    categories.forEach((cat, i) => {
+      html += `<div class="category-section${i === 0 ? ' active' : ''}" data-cat="${i}">`;
+
+      const items = (cat.items || []).filter(item => item.available !== false && !item.hidden);
+      const noPhotos = cat.noPhotos === true;
+      const hasSections = cat.sections && cat.sections.length > 0;
+
+      if (hasSections) {
+        // Group items by section
+        cat.sections.forEach(section => {
+          const sectionItems = items.filter(item => item.section === section);
+          if (!sectionItems.length) return;
+          html += `<div class="section-header">${esc(section)}</div>`;
+          sectionItems.forEach((item, idx) => {
+            html += renderDish(item, noPhotos, currency, idx);
+          });
+        });
+        // Items without section
+        const unsectioned = items.filter(item => !item.section);
+        unsectioned.forEach((item, idx) => {
+          html += renderDish(item, noPhotos, currency, idx);
+        });
+      } else {
+        items.forEach((item, idx) => {
+          html += renderDish(item, noPhotos, currency, idx);
+        });
+      }
+
+      html += '</div>';
+    });
+    html += '</div>';
+
+    // Footer
+    html += `
+      <div class="footer">
+        <div class="footer-text">Powered by Rest One</div>
+      </div>`;
+
+    app.innerHTML = html;
+
+    // Tab switching
+    const tabs = document.getElementById('tabs');
+    tabs.addEventListener('click', function(e) {
+      const btn = e.target.closest('.tab');
+      if (!btn) return;
+      const idx = btn.dataset.index;
+
+      // Update tabs
+      tabs.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      btn.classList.add('active');
+
+      // Update content
+      document.querySelectorAll('.category-section').forEach(s => s.classList.remove('active'));
+      const section = document.querySelector('.category-section[data-cat="' + idx + '"]');
+      if (section) {
+        section.classList.add('active');
+        // Reset animations
+        section.querySelectorAll('.dish-card').forEach((card, i) => {
+          card.style.animation = 'none';
+          card.offsetHeight; // reflow
+          card.style.animation = '';
+          card.style.animationDelay = (i * 0.04) + 's';
+        });
+      }
+
+      // Scroll tab into view
+      btn.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+
+      // Scroll content to top
+      window.scrollTo({ top: document.querySelector('.tabs-wrapper').offsetTop, behavior: 'smooth' });
+    });
+
+    // Handle broken images
+    document.querySelectorAll('.dish-image-wrap img').forEach(img => {
+      img.addEventListener('error', function() {
+        this.parentElement.style.display = 'none';
+      });
+    });
+  }
+
+  function renderDish(item, noPhotos, currency, idx) {
+    const hasImage = item.image && item.image !== 'images-webp/placeholder.webp' && !noPhotos;
+    const hasVariants = item.variants && item.variants.length > 0;
+    const hasDescription = item.description && item.description.trim();
+    const delay = idx * 0.04;
+
+    let imgSrc = '';
+    if (hasImage) {
+      imgSrc = item.image.replace('images-webp/', slug + '/images-webp/');
+    }
+
+    let badges = '';
+    if (item.badges && item.badges.length) {
+      badges = '<div class="dish-badges">';
+      item.badges.forEach(b => {
+        if (b === 'new') badges += '<span class="badge badge-new">New</span>';
+        else if (b === 'hit') badges += '<span class="badge badge-hit">Хит</span>';
+        else badges += '<span class="badge badge-new">' + esc(b) + '</span>';
+      });
+      badges += '</div>';
+    }
+
+    let priceText = '';
+    if (hasVariants) {
+      // Show price range or "от X"
+      const prices = item.variants.map(v => v.price).filter(p => p > 0);
+      if (prices.length) {
+        priceText = 'от ' + formatPrice(Math.min(...prices), currency);
+      }
+    } else if (item.price) {
+      priceText = formatPrice(item.price, currency);
+      if (item.pricePerKg) priceText += '/кг';
+    }
+
+    let weightNote = '';
+    if (item.pricePerKg && item.minWeight) {
+      weightNote = `<div class="dish-weight-note">от ${item.minWeight}г</div>`;
+    }
+
+    let variantsHtml = '';
+    if (hasVariants) {
+      variantsHtml = '<div class="variants">';
+      item.variants.forEach(v => {
+        variantsHtml += `<span class="variant-pill">${esc(v.label)}<span class="variant-price">${formatPrice(v.price, currency)}</span></span>`;
+      });
+      variantsHtml += '</div>';
+    }
+
+    let card = `<div class="dish-card fade-in${!hasImage ? ' no-photo' : ''}" style="animation-delay:${delay}s">`;
+
+    if (hasImage) {
+      card += `<div class="dish-image-wrap">
+        <img src="${imgSrc}" alt="${esc(item.title)}" loading="lazy">
+        ${badges}
+      </div>`;
+    }
+
+    card += `<div class="dish-info">
+      <div class="dish-top-row">
+        <div class="dish-name">${!hasImage ? badges : ''}${esc(item.title)}</div>
+        ${priceText ? `<div class="dish-price">${priceText}</div>` : ''}
+      </div>
+      ${hasDescription ? `<div class="dish-description">${esc(item.description)}</div>` : ''}
+      ${weightNote}
+      ${variantsHtml}
+    </div>`;
+
+    card += '</div>';
+    return card;
+  }
+
+  function esc(str) {
+    if (!str) return '';
+    const d = document.createElement('div');
+    d.textContent = str;
+    return d.innerHTML;
+  }
+})();
+</script>
+</body>
+</html>
