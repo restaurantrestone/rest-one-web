@@ -1,0 +1,649 @@
+{
+  "settings": {
+    "name": "Rest One",
+    "defaultTheme": "light",
+    "currency": "сум"
+  },
+  "categories": [
+    {
+      "name": "Салаты",
+      "image": "images-webp/rest-one.webp",
+      "items": [
+        {
+          "id": "salad_rest_one",
+          "title": "Салат Rest-One",
+          "description": "Помидоры, огурцы, лук, фитаки, орех, сузма, зелень",
+          "price": 60000,
+          "image": "images-webp/rest-one.webp",
+          "available": true,
+          "hidden": false,
+          "badges": [
+            "new"
+          ]
+        },
+        {
+          "id": "salad_greek",
+          "title": "Греческий",
+          "description": "Помидоры, огурцы, лук, фитаки, орех, сузма, зелень",
+          "price": 60000,
+          "image": "images-webp/greek-salad.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "salad_red_orange",
+          "title": "Red & Orange",
+          "description": "Помидоры, огурцы, лук, фитаки, орех, сузма, зелень",
+          "price": 55000,
+          "image": "images-webp/red-orange.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "salad_chirokchi",
+          "title": "Салат «Чирокчи»",
+          "description": "Перец светофор, кабачки, баклажаны, помидоры, огурцы, кунжут, кинза, бон филе, соевый соус",
+          "price": 60000,
+          "image": "images-webp/chirokchi.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "salad_pekin",
+          "title": "Пекин острый",
+          "description": "Перец светофор, кабачки, баклажаны, помидоры, огурцы, кунжут, кинза, бон филе, соевый соус",
+          "price": 40000,
+          "image": "images-webp/pekin.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "salad_achichuk",
+          "title": "Салат «Аччик-чучук»",
+          "description": "Помидоры, лук, зеленый лук, базилик, острый перец",
+          "price": 35000,
+          "image": "images-webp/achichuk.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "salad_crab_crisps",
+          "title": "Krab crisps",
+          "description": "Крабовые палочки, кукурузa, сухарики, яблоко, майонез",
+          "price": 50000,
+          "image": "images-webp/crab-crisps.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "salad_exotic",
+          "title": "Салат Экзотик",
+          "description": "Ананас, орех, куриное филе, кукурузa, шампиньон, майонез",
+          "price": 55000,
+          "image": "images-webp/exotic-salad.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "salad_caesar",
+          "title": "Цезарь",
+          "description": "Куриное филе, салат айсберг, сухарики, соус цезарь, пармезан",
+          "price": 50000,
+          "image": "images-webp/caesar.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "salad_olivier",
+          "title": "Оливье с красной икрой",
+          "description": "Картофель, морковь, огурцы, зеленый горошек, яйцо, майонез, красная икра",
+          "price": 90000,
+          "image": "images-webp/olivier.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "salad_smak",
+          "title": "Смак",
+          "description": "Копченое мясо, горох",
+          "price": 60000,
+          "image": "images-webp/smak.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "salad_mens_caprice",
+          "title": "Мужской каприз",
+          "description": "Язык, куриное филе, картофель пай, огурцы, сыр",
+          "price": 45000,
+          "image": "images-webp/mens-caprice.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "salad_choban",
+          "title": "Чабан",
+          "description": "Помидоры, огурцы, лук, зелень",
+          "price": 40000,
+          "image": "images-webp/choban.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "salad_crispy_eggplant",
+          "title": "Хрустящие баклажаны",
+          "description": "Баклажаны, чеснок, орех, сливочный сыр, зелень",
+          "price": 45000,
+          "image": "images-webp/crispy-eggplant.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "salad_burrata",
+          "title": "Буратта",
+          "description": "Моцарелла буратта, помидоры, соус песто, базилик",
+          "price": 75000,
+          "image": "images-webp/burrata.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "salad_rukola_shrimp",
+          "title": "Салат рукола с креветками",
+          "description": "Креветка, помидоры черри, рукола, пармезан, кисло-сладкий соус, кедровый орех, перепелиные яйца",
+          "price": 100000,
+          "image": "images-webp/rukola-shrimp.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "salad_rukola_pear",
+          "title": "Салат из руколы с грушами",
+          "description": "Рукола, груша, орех, гранат, сыр дор блю, карамельный соус",
+          "price": 60000,
+          "image": "images-webp/rukola-pear.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "salad_smoky",
+          "title": "Салат Smoky",
+          "description": "",
+          "price": 60000,
+          "image": "images-webp/salad-smoky.webp",
+          "available": true,
+          "hidden": false,
+          "badges": [
+            "new"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Супы",
+      "image": "images-webp/borsh.webp",
+      "items": [
+        {
+          "id": "soup_borsh",
+          "title": "Борщ",
+          "description": "",
+          "price": 30000,
+          "image": "images-webp/borsh.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "soup_lentil",
+          "title": "Чечевичный суп",
+          "description": "",
+          "price": 30000,
+          "image": "images-webp/chechevichniy-sup.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "soup_mushroom",
+          "title": "Грибной суп",
+          "description": "",
+          "price": 45000,
+          "image": "images-webp/gribnoy-sup.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "soup_chicken",
+          "title": "Куриный суп",
+          "description": "",
+          "price": 45000,
+          "image": "images-webp/kurini-sup.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "soup_mastava",
+          "title": "Мастава",
+          "description": "",
+          "price": 30000,
+          "image": "images-webp/mastava.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "soup_shi",
+          "title": "Щи",
+          "description": "",
+          "price": 30000,
+          "image": "images-webp/shi.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "soup_shurpa",
+          "title": "Шурпа",
+          "description": "",
+          "price": 45000,
+          "image": "images-webp/shurpa.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "soup_solyanka",
+          "title": "Солянка",
+          "description": "",
+          "price": 30000,
+          "image": "images-webp/solyanka.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "soup_pumpkin",
+          "title": "Тыквенный суп",
+          "description": "",
+          "price": 30000,
+          "image": "images-webp/tikvenniy-sup.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        }
+      ]
+    },
+    {
+      "name": "Пицца",
+      "image": "images-webp/margarita.webp",
+      "items": [
+        {
+          "id": "pizza_hawaiian",
+          "title": "Гавайская пицца",
+          "description": "",
+          "price": 90000,
+          "image": "images-webp/gavayskiy-pitsa.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "pizza_margarita",
+          "title": "Маргарита",
+          "description": "",
+          "price": 55000,
+          "image": "images-webp/margarita.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "pizza_pepperoni",
+          "title": "Пепперони",
+          "description": "",
+          "price": 70000,
+          "image": "images-webp/peperoni.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "pizza_caesar",
+          "title": "Пицца Цезарь",
+          "description": "",
+          "price": 80000,
+          "image": "images-webp/pitsa-sezar.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "pizza_restone",
+          "title": "Пицца Rest-One",
+          "description": "",
+          "price": 100000,
+          "image": "images-webp/restone-pitsa.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        }
+      ]
+    },
+    {
+      "name": "Паста / Итальянское",
+      "image": "images-webp/baloneze.webp",
+      "items": [
+        {
+          "id": "pasta_bolognese",
+          "title": "Болоньезе",
+          "description": "",
+          "price": 70000,
+          "image": "images-webp/baloneze.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "pasta_fettuccini",
+          "title": "Феттучини Альфредо",
+          "description": "",
+          "price": 80000,
+          "image": "images-webp/fettuchini(alfredo).webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        }
+      ]
+    },
+    {
+      "name": "Горячие блюда",
+      "image": "images-webp/franch.webp",
+      "items": [
+        {
+          "id": "hot_french",
+          "title": "Мясо по-французски",
+          "description": "",
+          "price": 130000,
+          "image": "images-webp/franch.webp",
+          "available": true,
+          "hidden": false,
+          "badges": [],
+          "pricePerKg": true,
+          "minWeight": 400,
+          "maxWeight": 1000
+        },
+        {
+          "id": "hot_fruit_large",
+          "title": "Фруктовый большой",
+          "description": "",
+          "price": 200000,
+          "image": "images-webp/fruktoviy-boshoy.webp",
+          "available": true,
+          "hidden": false,
+          "badges": [],
+          "pricePerKg": true,
+          "minWeight": 100,
+          "maxWeight": 1000
+        },
+        {
+          "id": "hot_rice_veggies",
+          "title": "Рис с овощами",
+          "description": "",
+          "price": 40000,
+          "image": "images-webp/ris-s-ovoshami.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        }
+      ]
+    },
+    {
+      "name": "Закуски",
+      "image": "images-webp/myasnoy-assorti.webp",
+      "items": [
+        {
+          "id": "snack_bindjak",
+          "title": "Бинджак",
+          "description": "",
+          "price": 35000,
+          "image": "images-webp/bindjak.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "snack_dolma",
+          "title": "Долма (5шт)",
+          "description": "",
+          "price": 30000,
+          "image": "images-webp/dolma.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "snack_grenki",
+          "title": "Гренки",
+          "description": "",
+          "price": 25000,
+          "image": "images-webp/grenki.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "snack_fried_mozzarella",
+          "title": "Жареная моцарелла",
+          "description": "Моцарелла, карамель, ягоды",
+          "price": 40000,
+          "image": "images-webp/jarenniy-motsarella.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "snack_buffalo_wings",
+          "title": "Крылышки Баффало",
+          "description": "",
+          "price": 45000,
+          "image": "images-webp/kriljka-baffalo.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "snack_pickled_assorted",
+          "title": "Маринованное ассорти",
+          "description": "Помидоры черри, томаты, дунганский перец, чеснок, огурцы мар., анзур, квашеная капуста",
+          "price": 60000,
+          "image": "images-webp/marinovani-assorti.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "snack_meat_assorted",
+          "title": "Мясное ассорти",
+          "description": "Язык, казы, копченое мясо, рулетка (говядина), индейка, горчичный соус",
+          "price": 200000,
+          "image": "images-webp/myasnoy-assorti.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "snack_veggie_assorted",
+          "title": "Овощное ассорти",
+          "description": "Огурцы, помидоры, редиска, морковь, сельдерей, болгарский перец, сузма, зелень",
+          "price": 60000,
+          "image": "images-webp/ovoshnoy-assorti.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "snack_herring",
+          "title": "Селедка по-русски",
+          "description": "Селедка, картофель отварной, маринованная свекла, лук",
+          "price": 45000,
+          "image": "images-webp/seledka-po-russki.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "snack_cheese_assorted",
+          "title": "Сырное ассорти",
+          "description": "Мрамор, гурман, пармезан, бейби, дор блю, бри, орех, мёд",
+          "price": 200000,
+          "image": "images-webp/sirniy-assorty.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "snack_tongue_cream",
+          "title": "Язык в сливочном соусе",
+          "description": "Язык, шампиньон, лук, орех, сливочный соус, кашнич",
+          "price": 45000,
+          "image": "images-webp/yazik-v-slichochnom-souse.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        }
+      ]
+    },
+    {
+      "name": "Хлеб / Выпечка",
+      "image": "images-webp/xachapuri-adjarskiy.webp",
+      "items": [
+        {
+          "id": "bread_khachapuri_adjarian",
+          "title": "Хачапури по-аджарски",
+          "description": "",
+          "price": 50000,
+          "image": "images-webp/xachapuri-adjarskiy.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "bread_khachapuri_megrelian",
+          "title": "Хачапури по-мегрельски",
+          "description": "",
+          "price": 60000,
+          "image": "images-webp/xachapuri-megrelskiy.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        }
+      ]
+    },
+    {
+      "name": "Гарниры",
+      "image": "images-webp/derevensky.webp",
+      "items": [
+        {
+          "id": "side_village_potatoes",
+          "title": "Картошка по-деревенски",
+          "description": "",
+          "price": 25000,
+          "image": "images-webp/derevensky.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "side_mashed_potatoes",
+          "title": "Картошка пюре",
+          "description": "",
+          "price": 25000,
+          "image": "images-webp/kartoshka-pyure.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        }
+      ]
+    },
+    {
+      "name": "Соусы / Дополнительно",
+      "image": "images-webp/chakka.webp",
+      "items": [
+        {
+          "id": "sauce_chakka",
+          "title": "Чакка",
+          "description": "",
+          "price": 15000,
+          "image": "images-webp/chakka.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "sauce_lemon",
+          "title": "Лимон",
+          "description": "",
+          "price": 15000,
+          "image": "images-webp/limon.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        }
+      ]
+    },
+    {
+      "name": "Бар",
+      "image": "images-webp/placeholder.webp",
+      "items": [
+        {
+          "id": "858e54be-6845-4fef-8a1e-6a3db622dae4",
+          "title": "Coca-Cola",
+          "section": "Холодные напитки",
+          "description": "",
+          "price": 0,
+          "image": "images-webp/placeholder.webp",
+          "available": true,
+          "hidden": false,
+          "badges": [],
+          "variants": [
+            {
+              "label": "0,5л.",
+              "price": 8000
+            },
+            {
+              "label": "1л.",
+              "price": 12000
+            },
+            {
+              "label": "1,5л.",
+              "price": 18000
+            }
+          ]
+        }
+      ],
+      "noPhotos": true,
+      "sections": [
+        "Холодные напитки",
+        "Кофе"
+      ]
+    }
+  ]
+}
