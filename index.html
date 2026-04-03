@@ -484,9 +484,10 @@
     const hasDescription = item.description && item.description.trim();
     const delay = idx * 0.04;
 
-    let imgSrc = '';
+   let imgSrc = '';
     if (hasImage) {
-      imgSrc = item.image.replace('images-webp/', slug + '/images-webp/');
+      const cleanImg = item.image.startsWith('/') ? item.image.slice(1) : item.image;
+      imgSrc = slug + '/' + cleanImg;
     }
 
     let badges = '';
