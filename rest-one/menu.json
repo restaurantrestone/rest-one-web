@@ -382,7 +382,7 @@
           "title": "Мясо по-французски",
           "description": "",
           "price": 130000,
-          "image": "images-webp/franch.webp",
+          "image": "/images/1775237470294.jpg",
           "available": true,
           "hidden": false,
           "badges": [],
