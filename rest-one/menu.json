@@ -637,6 +637,31 @@
               "price": 18000
             }
           ]
+        },
+        {
+          "id": "66f1debe-09b7-49bf-8a00-04017f426d60",
+          "title": "Fanta",
+          "description": "",
+          "price": 0,
+          "image": "logo.png",
+          "available": true,
+          "hidden": false,
+          "badges": [],
+          "section": "Холодные напитки",
+          "variants": [
+            {
+              "label": "0,5л.",
+              "price": 8000
+            },
+            {
+              "label": "1л.",
+              "price": 12000
+            },
+            {
+              "label": "1,5л.",
+              "price": 16000
+            }
+          ]
         }
       ],
       "noPhotos": true,
