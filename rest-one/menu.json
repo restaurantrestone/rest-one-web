@@ -1587,5 +1587,14 @@
       "name": "Напитка",
       "items": []
     }
-  ]
+  ],
+  "restaurant": {
+    "name": "Rest One",
+    "description": "лаъззат ва шинамлик!\nМуаллифлик таомлари | Романтик муҳит | Жонли мусиқа",
+    "phone": "+998 97 054 2222",
+    "address": "Navoiy, Uzbekistan street, 247",
+    "hours": "09:00 - 23:00",
+    "instagram": "https://www.instagram.com/restone_navoiy/",
+    "telegram": ""
+  }
 }
