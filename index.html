@@ -2,561 +2,231 @@
 <html lang="ru">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>Rest One — Меню</title>
-<meta property="og:title" content="Rest One — Меню">
-<meta property="og:description" content="Актуальное меню ресторана Rest One">
-<meta property="og:type" content="website">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Rest One</title>
 <style>
-  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#e8e2d8;min-height:100vh;display:flex;align-items:flex-start;justify-content:center;padding:16px 0 32px}
 
-  :root {
-    --bg: #0e0d0b;
-    --surface: #161411;
-    --surface-hover: #1e1a15;
-    --gold: #c9a84c;
-    --gold-dim: #a08838;
-    --gold-glow: rgba(201, 168, 76, 0.12);
-    --text: #e8e0d0;
-    --text-secondary: #8a7d6b;
-    --text-muted: #5a5045;
-    --border: #2a2520;
-    --font: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
-  }
+.w{
+  font-family:Arial,sans-serif;
+  background:#faf8f4;
+  color:#1a1612;
+  width:100%;
+  max-width:390px;
+  border-radius:20px;
+  overflow:hidden;
+  border:1px solid #e8e2d8;
+  box-shadow:0 4px 24px rgba(0,0,0,.1);
+}
 
-  html { scroll-behavior: smooth; }
+/* HERO */
+.hero{padding:40px 24px 36px;text-align:center;background:#faf8f4;position:relative}
+.hero::after{content:'';position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:40px;height:2px;background:#d4a843;border-radius:2px}
 
-  body {
-    font-family: var(--font);
-    background: var(--bg);
-    color: var(--text);
-    min-height: 100vh;
-    -webkit-font-smoothing: antialiased;
-    overflow-x: hidden;
-  }
+.tag{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#d4a843;font-weight:700;display:block;margin-bottom:14px}
+.rname{font-family:Georgia,serif;font-size:40px;font-weight:700;color:#1a1612;line-height:1.05;margin-bottom:0}
+.rname em{font-style:italic;color:#d4a843}
+.rdesc{font-size:13px;color:#7a7060;line-height:1.7;margin:16px 0 20px}
+.hours{display:inline-flex;align-items:center;gap:7px;font-size:12px;color:#1a1612;background:#f0ece3;padding:7px 16px;border-radius:30px;margin-bottom:28px}
+.dot{width:7px;height:7px;background:#5aaa72;border-radius:50%;flex-shrink:0}
 
-  /* ---- Loading ---- */
-  .loading {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 80vh;
-    gap: 24px;
-  }
-  .loading-spinner {
-    width: 36px; height: 36px;
-    border: 2px solid var(--border);
-    border-top-color: var(--gold);
-    border-radius: 50%;
-    animation: spin 0.8s linear infinite;
-  }
-  .loading-text {
-    font-size: 1.1rem;
-    color: var(--text-secondary);
-    font-weight: 300;
-    letter-spacing: 0.03em;
-  }
-  @keyframes spin { to { transform: rotate(360deg); } }
+/* CONTACT BUTTONS */
+.btns{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.btn{
+  display:flex;align-items:center;justify-content:center;gap:7px;
+  padding:12px 10px;border-radius:14px;
+  font-family:Arial,sans-serif;font-size:13px;font-weight:600;
+  cursor:pointer;background:transparent;transition:opacity .15s;
+  min-height:48px;text-decoration:none;border:none;
+}
+.btn:hover{opacity:.75}
+.btn-ig{color:#c2440c;border:1.5px solid #c2440c}
+.btn-tg{color:#1a7fc4;border:1.5px solid #1a7fc4}
+.btn-ph{color:#1a1612;border:1.5px solid #c8b99a}
+.btn-map{color:#6a5de0;border:1.5px solid #6a5de0}
+.btn-full{grid-column:1/-1}
 
-  /* ---- Error ---- */
-  .error {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 80vh;
-    gap: 16px;
-    padding: 24px;
-    text-align: center;
-  }
-  .error-icon { font-size: 2.5rem; opacity: 0.4; }
-  .error-text {
-    font-size: 1.2rem;
-    color: var(--text-secondary);
-    font-weight: 300;
-  }
+/* MENU TOGGLE */
+.mw{padding:24px 24px 0}
+.btn-open{
+  width:100%;padding:16px;background:#1a1612;color:#faf8f4;
+  border:none;border-radius:16px;
+  font-family:Arial,sans-serif;font-size:15px;font-weight:700;
+  cursor:pointer;display:flex;align-items:center;justify-content:center;gap:10px;
+  min-height:52px;transition:background .15s;
+}
+.btn-open:active,.btn-open:hover{background:#d4a843;color:#1a1612}
+.arr{display:inline-block;transition:transform .25s;font-style:normal}
+.btn-open.open .arr{transform:rotate(180deg)}
 
-  /* ---- Header ---- */
-  .header {
-    text-align: center;
-    padding: 48px 20px 28px;
-    position: relative;
-  }
-  .header::after {
-    content: '';
-    display: block;
-    width: 48px;
-    height: 1px;
-    background: var(--gold);
-    margin: 20px auto 0;
-  }
-  .restaurant-name {
-    font-size: 2.2rem;
-    font-weight: 300;
-    color: var(--gold);
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-  }
-  .menu-subtitle {
-    font-size: 0.9rem;
-    color: var(--text-muted);
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    margin-top: 8px;
-    font-weight: 400;
-  }
+/* MENU SECTION */
+.ms{overflow:hidden;max-height:0;transition:max-height .5s cubic-bezier(.4,0,.2,1)}
+.ms.on{max-height:9999px}
+.mi{padding:28px 20px 36px}
 
-  /* ---- Category Tabs ---- */
-  .tabs-wrapper {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    background: var(--bg);
-    border-bottom: 1px solid var(--border);
-    padding: 0 0 0 16px;
-  }
-  .tabs-wrapper::after {
-    content: '';
-    position: absolute;
-    right: 0; top: 0; bottom: 0;
-    width: 40px;
-    background: linear-gradient(to right, transparent, var(--bg));
-    pointer-events: none;
-    z-index: 2;
-  }
-  .tabs {
-    display: flex;
-    gap: 8px;
-    overflow-x: auto;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    padding: 14px 40px 14px 0;
-    scroll-padding: 16px;
-  }
-  .tabs::-webkit-scrollbar { display: none; }
-  .tab {
-    flex-shrink: 0;
-    padding: 8px 18px;
-    border: 1px solid var(--border);
-    border-radius: 100px;
-    background: transparent;
-    color: var(--text-secondary);
-    font-family: var(--font);
-    font-size: 0.95rem;
-    font-weight: 400;
-    cursor: pointer;
-    transition: all 0.25s ease;
-    white-space: nowrap;
-    letter-spacing: 0.01em;
-    -webkit-tap-highlight-color: transparent;
-  }
-  .tab:active { transform: scale(0.96); }
-  .tab.active {
-    background: var(--gold);
-    color: #0e0d0b;
-    border-color: var(--gold);
-    font-weight: 500;
-  }
+.mh{font-family:Georgia,serif;font-size:26px;font-weight:700;color:#1a1612;margin-bottom:18px}
+.mh em{font-style:italic;color:#d4a843}
 
-  /* ---- Content ---- */
-  .content {
-    max-width: 680px;
-    margin: 0 auto;
-    padding: 20px 16px 100px;
-  }
-  .category-section { display: none; }
-  .category-section.active { display: block; }
+/* CATEGORY TABS */
+.cats{display:flex;gap:7px;overflow-x:auto;padding-bottom:4px;margin-bottom:22px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.cats::-webkit-scrollbar{display:none}
+.cat{
+  padding:8px 18px;border-radius:30px;font-size:13px;font-weight:600;
+  cursor:pointer;white-space:nowrap;border:1.5px solid #e0d8cc;
+  color:#7a7060;background:transparent;
+  font-family:Arial,sans-serif;min-height:38px;flex-shrink:0;transition:all .15s;
+}
+.cat.on{background:#1a1612;color:#faf8f4;border-color:#1a1612}
 
-  /* ---- Section Headers (Bar sections) ---- */
-  .section-header {
-    font-size: 1.1rem;
-    font-weight: 400;
-    color: var(--gold-dim);
-    letter-spacing: 0.08em;
-    padding: 24px 0 12px;
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 16px;
-    text-transform: uppercase;
-  }
-  .section-header:first-child { padding-top: 0; }
+/* CARDS */
+.grid{display:flex;flex-direction:column;gap:12px}
+.card{background:#fff;border:1px solid #ede8df;border-radius:16px;overflow:hidden;display:flex;flex-direction:row;min-height:96px}
+.cimg{width:96px;min-width:96px;display:flex;align-items:center;justify-content:center;flex-shrink:0;overflow:hidden;background:#f5f2ec}
+.cimg img{width:100%;height:100%;object-fit:cover}
+.cimg-ph{font-size:38px}
+.cb{padding:14px;flex:1;display:flex;flex-direction:column;justify-content:space-between}
+.cn{font-size:15px;font-weight:700;color:#1a1612;margin-bottom:4px}
+.cd{font-size:12px;color:#a09585;line-height:1.5;flex:1}
+.cf{display:flex;align-items:center;justify-content:space-between;margin-top:8px}
+.cp{font-family:Georgia,serif;font-size:17px;font-weight:700;color:#1a1612}
+.cbadge{font-size:10px;color:#a07810;background:#fdf5e0;padding:3px 8px;border-radius:20px;font-weight:700}
 
-  /* ---- Dish Card ---- */
-  .dish-card {
-    background: var(--surface);
-    border-radius: 12px;
-    overflow: hidden;
-    margin-bottom: 16px;
-    border: 1px solid var(--border);
-    transition: border-color 0.2s;
-  }
-  .dish-image-wrap {
-    position: relative;
-    width: 100%;
-    aspect-ratio: 16 / 10;
-    overflow: hidden;
-    background: #111;
-  }
-  .dish-image-wrap img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-  .dish-image-wrap img.error { display: none; }
-  .dish-badges {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    display: flex;
-    gap: 6px;
-  }
-  .badge {
-    padding: 3px 10px;
-    border-radius: 100px;
-    font-size: 0.7rem;
-    font-weight: 600;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    font-family: var(--font);
-  }
-  .badge-new {
-    background: var(--gold);
-    color: #0e0d0b;
-  }
-  .badge-hit {
-    background: #c0392b;
-    color: #fff;
-  }
+.foot{padding:16px 24px;border-top:1px solid #ede8df;text-align:center;font-size:12px;color:#b0a898}
 
-  .dish-info {
-    padding: 14px 16px 16px;
-  }
-  .dish-top-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 12px;
-  }
-  .dish-name {
-    font-size: 1.15rem;
-    font-weight: 500;
-    color: var(--text);
-    line-height: 1.3;
-  }
-  .dish-price {
-    font-size: 1.05rem;
-    color: var(--gold);
-    font-weight: 500;
-    white-space: nowrap;
-    flex-shrink: 0;
-    padding-top: 2px;
-  }
-  .dish-description {
-    font-size: 0.85rem;
-    color: var(--text-secondary);
-    line-height: 1.5;
-    margin-top: 6px;
-    font-weight: 300;
-  }
-  .dish-weight-note {
-    font-size: 0.78rem;
-    color: var(--text-muted);
-    margin-top: 4px;
-    font-style: italic;
-  }
-
-  /* ---- Variants ---- */
-  .variants {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    margin-top: 10px;
-  }
-  .variant-pill {
-    padding: 5px 12px;
-    border: 1px solid var(--border);
-    border-radius: 100px;
-    font-size: 0.78rem;
-    color: var(--text-secondary);
-    font-family: var(--font);
-    font-weight: 400;
-    letter-spacing: 0.01em;
-  }
-  .variant-pill .variant-price {
-    color: var(--gold-dim);
-    margin-left: 4px;
-  }
-
-  /* ---- No-photo card (bar items etc) ---- */
-  .dish-card.no-photo .dish-info {
-    padding: 14px 16px;
-  }
-  .dish-card.no-photo {
-    border-radius: 10px;
-  }
-
-  /* ---- Footer ---- */
-  .footer {
-    text-align: center;
-    padding: 32px 20px 48px;
-    border-top: 1px solid var(--border);
-    margin-top: 20px;
-  }
-  .footer-text {
-    font-size: 0.78rem;
-    color: var(--text-muted);
-    letter-spacing: 0.08em;
-  }
-
-  /* ---- Fade-in animation ---- */
-  @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(12px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-  .fade-in {
-    animation: fadeUp 0.35s ease forwards;
-    opacity: 0;
-  }
+/* LOADING */
+.loading{padding:40px;text-align:center;color:#7a7060;font-size:14px}
 </style>
 </head>
 <body>
-
-<div id="app">
-  <div class="loading" id="loading">
-    <div class="loading-spinner"></div>
-    <div class="loading-text">Загрузка меню...</div>
-  </div>
+<div class="w" id="app">
+  <div class="loading">Загрузка...</div>
 </div>
 
 <script>
-(function() {
-  const app = document.getElementById('app');
+const MENU_URL = 'rest-one/menu.json';
 
-  // Get slug from URL param ?r=slug or default to "rest-one"
-  const params = new URLSearchParams(window.location.search);
-  const slug = params.get('r') || 'rest-one';
+let allCategories = [];
+let activeCat = 'all';
 
-  // Fetch menu
-  fetch(slug + '/menu.json')
-    .then(r => {
-      if (!r.ok) throw new Error('Menu not found');
-      return r.json();
-    })
-    .then(data => render(data))
-    .catch(() => showError());
+function esc(s) {
+  return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
 
-  function showError() {
-    app.innerHTML = `
-      <div class="error">
-        <div class="error-icon">☕</div>
-        <div class="error-text">Меню временно недоступно</div>
-      </div>`;
+function renderCards(catName) {
+  let items = [];
+  if (catName === 'all') {
+    allCategories.forEach(c => { if (c.items) items = items.concat(c.items.filter(i => !i.hidden && i.available !== false)); });
+  } else {
+    const cat = allCategories.find(c => c.name === catName);
+    if (cat && cat.items) items = cat.items.filter(i => !i.hidden && i.available !== false);
   }
-
-  function formatPrice(price, currency) {
-    if (!price && price !== 0) return '';
-    const formatted = price.toLocaleString('ru-RU');
-    return formatted + ' ' + (currency || 'сум');
-  }
-
-  function render(menu) {
-    const currency = menu.settings?.currency || 'сум';
-    const name = menu.settings?.name || 'Rest One';
-    const categories = (menu.categories || []).filter(c => !c.hidden);
-
-    // Update page title & OG
-    document.title = name + ' — Меню';
-    const ogTitle = document.querySelector('meta[property="og:title"]');
-    if (ogTitle) ogTitle.content = name + ' — Меню';
-    const ogDesc = document.querySelector('meta[property="og:description"]');
-    if (ogDesc) ogDesc.content = 'Актуальное меню ресторана ' + name;
-
-    if (!categories.length) {
-      showError();
-      return;
-    }
-
-    let html = '';
-
-    // Header
-    html += `
-      <header class="header">
-        <h1 class="restaurant-name">${esc(name)}</h1>
-        <p class="menu-subtitle">меню</p>
-      </header>`;
-
-    // Tabs
-    html += '<div class="tabs-wrapper"><div class="tabs" id="tabs">';
-    categories.forEach((cat, i) => {
-      html += `<button class="tab${i === 0 ? ' active' : ''}" data-index="${i}">${esc(cat.name)}</button>`;
-    });
-    html += '</div></div>';
-
-    // Content
-    html += '<div class="content">';
-    categories.forEach((cat, i) => {
-      html += `<div class="category-section${i === 0 ? ' active' : ''}" data-cat="${i}">`;
-
-      const items = (cat.items || []).filter(item => item.available !== false && !item.hidden);
-      const noPhotos = cat.noPhotos === true;
-      const hasSections = cat.sections && cat.sections.length > 0;
-
-      if (hasSections) {
-        // Group items by section
-        cat.sections.forEach(section => {
-          const sectionItems = items.filter(item => item.section === section);
-          if (!sectionItems.length) return;
-          html += `<div class="section-header">${esc(section)}</div>`;
-          sectionItems.forEach((item, idx) => {
-            html += renderDish(item, noPhotos, currency, idx);
-          });
-        });
-        // Items without section
-        const unsectioned = items.filter(item => !item.section);
-        unsectioned.forEach((item, idx) => {
-          html += renderDish(item, noPhotos, currency, idx);
-        });
-      } else {
-        items.forEach((item, idx) => {
-          html += renderDish(item, noPhotos, currency, idx);
-        });
-      }
-
-      html += '</div>';
-    });
-    html += '</div>';
-
-    // Footer
-    html += `
-      <div class="footer">
-        <div class="footer-text">Developed by Improsoft</div>
-      </div>`;
-
-    app.innerHTML = html;
-
-    // Tab switching
-    const tabs = document.getElementById('tabs');
-    tabs.addEventListener('click', function(e) {
-      const btn = e.target.closest('.tab');
-      if (!btn) return;
-      const idx = btn.dataset.index;
-
-      // Update tabs
-      tabs.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-      btn.classList.add('active');
-
-      // Update content
-      document.querySelectorAll('.category-section').forEach(s => s.classList.remove('active'));
-      const section = document.querySelector('.category-section[data-cat="' + idx + '"]');
-      if (section) {
-        section.classList.add('active');
-        // Reset animations
-        section.querySelectorAll('.dish-card').forEach((card, i) => {
-          card.style.animation = 'none';
-          card.offsetHeight; // reflow
-          card.style.animation = '';
-          card.style.animationDelay = (i * 0.04) + 's';
-        });
-      }
-
-      // Scroll tab into view
-      btn.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
-
-      // Scroll content to top
-      window.scrollTo({ top: document.querySelector('.tabs-wrapper').offsetTop, behavior: 'smooth' });
-    });
-
-    // Handle broken images
-    document.querySelectorAll('.dish-image-wrap img').forEach(img => {
-      img.addEventListener('error', function() {
-        this.parentElement.style.display = 'none';
-      });
-    });
-  }
-
-  function renderDish(item, noPhotos, currency, idx) {
-    const hasImage = item.image && item.image !== 'images-webp/placeholder.webp' && !noPhotos;
-    const hasVariants = item.variants && item.variants.length > 0;
-    const hasDescription = item.description && item.description.trim();
-    const delay = idx * 0.04;
-
-   let imgSrc = '';
-    if (hasImage) {
-      const cleanImg = item.image.startsWith('/') ? item.image.slice(1) : item.image;
-      imgSrc = slug + '/' + cleanImg;
-    }
-
-    let badges = '';
-    if (item.badges && item.badges.length) {
-      badges = '<div class="dish-badges">';
-      item.badges.forEach(b => {
-        if (b === 'new') badges += '<span class="badge badge-new">New</span>';
-        else if (b === 'hit') badges += '<span class="badge badge-hit">Хит</span>';
-        else badges += '<span class="badge badge-new">' + esc(b) + '</span>';
-      });
-      badges += '</div>';
-    }
-
-    let priceText = '';
-    if (hasVariants) {
-      // Show price range or "от X"
-      const prices = item.variants.map(v => v.price).filter(p => p > 0);
-      if (prices.length) {
-        priceText = 'от ' + formatPrice(Math.min(...prices), currency);
-      }
-    } else if (item.price) {
-      priceText = formatPrice(item.price, currency);
-      if (item.pricePerKg) priceText += '/кг';
-    }
-
-    let weightNote = '';
-    if (item.pricePerKg && item.minWeight) {
-      weightNote = `<div class="dish-weight-note">от ${item.minWeight}г</div>`;
-    }
-
-    let variantsHtml = '';
-    if (hasVariants) {
-      variantsHtml = '<div class="variants">';
-      item.variants.forEach(v => {
-        variantsHtml += `<span class="variant-pill">${esc(v.label)}<span class="variant-price">${formatPrice(v.price, currency)}</span></span>`;
-      });
-      variantsHtml += '</div>';
-    }
-
-    let card = `<div class="dish-card fade-in${!hasImage ? ' no-photo' : ''}" style="animation-delay:${delay}s">`;
-
-    if (hasImage) {
-      card += `<div class="dish-image-wrap">
-        <img src="${imgSrc}" alt="${esc(item.title)}" loading="lazy">
-        ${badges}
-      </div>`;
-    }
-
-    card += `<div class="dish-info">
-      <div class="dish-top-row">
-        <div class="dish-name">${!hasImage ? badges : ''}${esc(item.title)}</div>
-        ${priceText ? `<div class="dish-price">${priceText}</div>` : ''}
+  return items.map(item => {
+    const price = item.variants && item.variants.length
+      ? 'от ' + Math.min(...item.variants.map(v => v.price)).toLocaleString('ru-RU')
+      : (item.price ? Number(item.price).toLocaleString('ru-RU') : '');
+    const badge = item.badges && item.badges[0] ? `<span class="cbadge">${esc(item.badges[0])}</span>` : '';
+    const imgEl = item.image
+      ? `<img src="${esc(item.image)}" alt="${esc(item.title)}" loading="lazy">`
+      : `<span class="cimg-ph">🍽</span>`;
+    return `<div class="card">
+      <div class="cimg">${imgEl}</div>
+      <div class="cb">
+        <div>
+          <p class="cn">${esc(item.title)}</p>
+          <p class="cd">${esc(item.description || '')}</p>
+        </div>
+        <div class="cf">
+          <span class="cp">${esc(price)} сум</span>
+          ${badge}
+        </div>
       </div>
-      ${hasDescription ? `<div class="dish-description">${esc(item.description)}</div>` : ''}
-      ${weightNote}
-      ${variantsHtml}
     </div>`;
+  }).join('');
+}
 
-    card += '</div>';
-    return card;
-  }
+function renderCatTabs() {
+  const tabs = [`<button class="cat on" onclick="fc(this,'all')">Все</button>`];
+  allCategories.forEach(c => {
+    tabs.push(`<button class="cat" onclick="fc(this,${JSON.stringify(c.name)})">${esc(c.name)}</button>`);
+  });
+  return tabs.join('');
+}
 
-  function esc(str) {
-    if (!str) return '';
-    const d = document.createElement('div');
-    d.textContent = str;
-    return d.innerHTML;
-  }
-})();
+function fc(btn, cat) {
+  document.querySelectorAll('.cat').forEach(b => b.classList.remove('on'));
+  btn.classList.add('on');
+  activeCat = cat;
+  document.getElementById('grid').innerHTML = renderCards(cat);
+}
+
+function toggle() {
+  const ms = document.getElementById('ms');
+  const mb = document.getElementById('mb');
+  const mbt = document.getElementById('mbt');
+  const open = ms.classList.toggle('on');
+  mb.classList.toggle('open');
+  mbt.textContent = open ? 'Скрыть меню' : 'Посмотреть меню';
+}
+
+function buildApp(data) {
+  const r = data.restaurant || {};
+  allCategories = (data.categories || []).filter(c => !c.hidden);
+
+  const name = r.name || 'Rest One';
+  const nameParts = name.split(' ');
+  const nameHtml = nameParts.length > 1
+    ? `${esc(nameParts[0])} <em>${esc(nameParts.slice(1).join(' '))}</em>`
+    : esc(name);
+
+  const desc = r.description || '';
+  const hours = r.hours || '';
+  const phone = r.phone || '';
+  const address = r.address || '';
+  const instagram = r.instagram || '';
+  const telegram = r.telegram || '';
+  const year = new Date().getFullYear();
+
+  const btns = [];
+  if (instagram) btns.push(`<a class="btn btn-ig" href="${esc(instagram)}" target="_blank" rel="noopener">◈ Instagram</a>`);
+  if (telegram) btns.push(`<a class="btn btn-tg" href="${esc(telegram)}" target="_blank" rel="noopener">✈ Telegram</a>`);
+  if (phone) btns.push(`<a class="btn btn-ph btn-full" href="tel:${esc(phone.replace(/\s/g,''))}">${esc(phone)}</a>`);
+  if (address) btns.push(`<button class="btn btn-map btn-full" onclick="navigator.clipboard&&navigator.clipboard.writeText(${JSON.stringify(address)})"">◎ ${esc(address)}</button>`);
+
+  document.getElementById('app').innerHTML = `
+    <div class="hero">
+      <span class="tag">Ресторан</span>
+      <h1 class="rname">${nameHtml}</h1>
+      ${desc ? `<p class="rdesc">${esc(desc)}</p>` : ''}
+      ${hours ? `<div class="hours"><span class="dot"></span> Открыто · ${esc(hours)}</div>` : ''}
+      ${btns.length ? `<div class="btns">${btns.join('')}</div>` : ''}
+    </div>
+
+    <div class="mw">
+      <button class="btn-open" id="mb" onclick="toggle()">
+        <span id="mbt">Посмотреть меню</span>
+        <em class="arr">↓</em>
+      </button>
+    </div>
+
+    <div class="ms" id="ms">
+      <div class="mi">
+        <h2 class="mh">Наше <em>меню</em></h2>
+        <div class="cats">${renderCatTabs()}</div>
+        <div class="grid" id="grid">${renderCards('all')}</div>
+      </div>
+    </div>
+
+    <div class="foot">© ${year} ${esc(name)}</div>
+  `;
+}
+
+fetch(MENU_URL)
+  .then(r => r.json())
+  .then(buildApp)
+  .catch(() => {
+    document.getElementById('app').innerHTML = '<div class="loading">Не удалось загрузить меню</div>';
+  });
 </script>
 </body>
 </html>
