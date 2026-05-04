@@ -127,7 +127,7 @@ function renderCards(catName) {
       : (item.price ? Number(item.price).toLocaleString('ru-RU') : '');
     const badge = item.badges && item.badges[0] ? `<span class="cbadge">${esc(item.badges[0])}</span>` : '';
     const imgEl = item.image
-      ? `<img src="${esc(item.image)}" alt="${esc(item.title)}" loading="lazy">`
+      ? `<img src="rest-one/${esc(item.image)}" alt="${esc(item.title)}" loading="lazy">`
       : `<span class="cimg-ph">🍽</span>`;
     return `<div class="card">
       <div class="cimg">${imgEl}</div>
