@@ -148,7 +148,7 @@ function renderCards(catName) {
 function renderCatTabs() {
   const tabs = [`<button class="cat on" onclick="fc(this,'all')">Все</button>`];
   allCategories.forEach(c => {
-    tabs.push(`<button class="cat" onclick="fc(this,${JSON.stringify(c.name)})">${esc(c.name)}</button>`);
+    tabs.push(`<button class="cat" onclick="fc(this,this.dataset.cat)" data-cat="${esc(c.name)}">${esc(c.name)}</button>`);
   });
   return tabs.join('');
 }
