@@ -42,7 +42,7 @@ body{background:#DDD8CE;font-family:'Inter',sans-serif;color:var(--dark)}
 .lang-btn.active{background:var(--gold);border-color:var(--gold);color:#fff}
 
 /* ─── PAGE WRAPPER ─── */
-.page{max-width:480px;margin:0 auto;background:var(--cream);min-height:100vh}
+.page{max-width:520px;margin:0 auto;background:var(--cream);min-height:100vh;box-shadow:0 0 60px rgba(0,0,0,.08)}
 
 /* ─── HERO ─── */
 .hero-section{padding:32px 20px 0}
@@ -188,15 +188,21 @@ body{background:#DDD8CE;font-family:'Inter',sans-serif;color:var(--dark)}
 .divider::before,.divider::after{content:'';flex:1;height:1px;background:var(--border)}
 .divider-text{font-size:10px;color:var(--muted);letter-spacing:2px;text-transform:uppercase;white-space:nowrap}
 .show-menu-btn{
-  display:inline-block;background:var(--gold);color:#fff;
-  border:none;border-radius:30px;padding:14px 40px;
+  display:inline-flex;align-items:center;gap:10px;
+  background:var(--dark);color:#fff;
+  border:none;border-radius:30px;padding:15px 36px;
   font-family:'Playfair Display',serif;font-size:16px;font-weight:700;
-  cursor:pointer;text-decoration:none;transition:opacity .15s;
+  cursor:pointer;text-decoration:none;
+  transition:background .2s, transform .15s, box-shadow .2s;
+  box-shadow:0 4px 18px rgba(26,26,26,.18);
 }
-.show-menu-btn:hover{opacity:.88}
+.show-menu-btn:hover{background:var(--gold);box-shadow:0 6px 24px rgba(201,169,97,.35);transform:translateY(-1px)}
+.show-menu-btn .smb-arrow{font-size:18px;transition:transform .25s}
+.show-menu-btn.open .smb-arrow{transform:rotate(180deg)}
 
 /* ─── MENU SECTION ─── */
-#menu{background:var(--cream);padding:0 20px 40px}
+#menu{background:var(--cream);padding:0 20px 40px;display:none}
+#menu.visible{display:block}
 .menu-section-title{
   font-family:'Playfair Display',serif;font-size:24px;font-weight:700;
   color:var(--dark);padding:28px 0 18px;
@@ -208,18 +214,18 @@ body{background:#DDD8CE;font-family:'Inter',sans-serif;color:var(--dark)}
   padding:8px 17px;border-radius:30px;font-size:13px;font-weight:600;
   cursor:pointer;white-space:nowrap;border:1.5px solid var(--border);
   color:var(--muted);background:transparent;
-  font-family:'Inter',sans-serif;min-height:38px;flex-shrink:0;transition:all .15s;
+  font-family:'Inter',sans-serif;min-height:44px;flex-shrink:0;transition:all .15s;
 }
 .cat.on{background:var(--dark);color:#FAF8F4;border-color:var(--dark)}
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .card{background:#fff;border:1px solid var(--border);border-radius:16px;overflow:hidden}
-.cimg{width:100%;height:130px;display:flex;align-items:center;justify-content:center;overflow:hidden;background:#F5F2EC}
+.cimg{width:100%;aspect-ratio:4/3;height:auto;display:flex;align-items:center;justify-content:center;overflow:hidden;background:#F5F2EC}
 .cimg img{width:100%;height:100%;object-fit:cover}
 .cimg-ph{font-size:40px}
-.cb{padding:11px;display:flex;flex-direction:column;gap:5px}
-.cn{font-size:14px;font-weight:700;color:var(--dark)}
-.cd{font-size:11px;color:#A09585;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.cf{display:flex;align-items:center;justify-content:space-between;margin-top:2px}
+.cb{padding:12px;display:flex;flex-direction:column;gap:6px}
+.cn{font-size:14px;font-weight:700;color:var(--dark);display:-webkit-box;-webkit-line-clamp:2;line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.cd{font-size:12px;color:#A09585;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.cf{display:flex;align-items:center;justify-content:space-between;margin-top:4px}
 .cp{font-family:'Playfair Display',serif;font-size:16px;font-weight:700;color:var(--dark)}
 .cbadge{font-size:10px;color:#A07810;background:#FDF5E0;padding:3px 7px;border-radius:20px;font-weight:700}
 .menu-loading{padding:40px;text-align:center;color:var(--muted);font-size:14px}
@@ -250,6 +256,35 @@ body{background:#DDD8CE;font-family:'Inter',sans-serif;color:var(--dark)}
 .footer-social svg{width:18px;height:18px;stroke:#fff;fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
 .footer-copy{margin-top:16px;font-size:11px;color:rgba(255,255,255,.35)}
 
+/* ─── HERO IMAGE elegance ─── */
+.hero-img-wrap{
+  box-shadow:0 12px 40px rgba(0,0,0,.18);
+}
+.contact-card{
+  transition:transform .2s,box-shadow .2s,opacity .15s;
+}
+.contact-card:hover{
+  opacity:1;
+  transform:translateY(-2px);
+  box-shadow:0 6px 20px rgba(0,0,0,.09);
+}
+.booking-btn{
+  box-shadow:0 4px 20px rgba(201,169,97,.28);
+  transition:opacity .15s,transform .15s,box-shadow .2s;
+}
+.booking-btn:hover{
+  opacity:1;
+  transform:translateY(-2px);
+  box-shadow:0 8px 28px rgba(201,169,97,.38);
+}
+.feat-card{
+  transition:transform .2s,box-shadow .2s;
+}
+.feat-card:hover{
+  transform:translateY(-3px);
+  box-shadow:0 6px 18px rgba(0,0,0,.08);
+}
+
 /* ─── RESPONSIVE ─── */
 @media(max-width:440px){
   .hero-inner{grid-template-columns:1fr}
@@ -261,6 +296,10 @@ body{background:#DDD8CE;font-family:'Inter',sans-serif;color:var(--dark)}
   .stat-cell{display:flex;align-items:center;gap:14px;text-align:left}
   .stat-icon{margin:0;flex-shrink:0}
   .stat-value{margin-bottom:2px}
+}
+@media(max-width:360px){
+  .grid{grid-template-columns:1fr}
+  .cimg{aspect-ratio:16/9}
 }
 </style>
 </head>
@@ -331,7 +370,9 @@ body{background:#DDD8CE;font-family:'Inter',sans-serif;color:var(--dark)}
 <!-- [C] MENU CTA DIVIDER -->
 <div class="menu-cta-section">
   <div class="divider"><span class="divider-text">· · ·</span></div>
-  <a href="#menu" class="show-menu-btn" id="l-show-menu"></a>
+  <button class="show-menu-btn" id="l-show-menu" onclick="toggleMenu()">
+    <span id="l-show-menu-text"></span><span class="smb-arrow">↓</span>
+  </button>
 </div>
 
 <!-- [D] MENU SECTION -->
@@ -469,6 +510,7 @@ const I18N = {
   open_status:  { ru: "Открыто",  uz_lat: "Ochiq",  uz_cyr: "Очиқ"  },
   closed_status:{ ru: "Закрыто", uz_lat: "Yopiq",  uz_cyr: "Ёпиқ"  },
   show_menu:    { ru: "Показать меню", uz_lat: "Menyuni ko'rsatish", uz_cyr: "Менюни кўрсатиш" },
+  hide_menu:    { ru: "Скрыть меню",  uz_lat: "Menyuni yashirish",  uz_cyr: "Менюни яшириш"  },
   our_menu:     { ru: "Наше <em>меню</em>", uz_lat: "Bizning <em>menyumiz</em>", uz_cyr: "Бизнинг <em>менюмиз</em>" },
   all_cats:     { ru: "Все",  uz_lat: "Barchasi", uz_cyr: "Барчаси" },
   price_from:   { ru: "от ",  uz_lat: "dan ",    uz_cyr: "дан "    },
@@ -641,7 +683,9 @@ function renderLanding() {
     </div>`).join('');
 
   // show menu btn
-  document.getElementById('l-show-menu').textContent = lang(I18N.show_menu);
+  const menuEl = document.getElementById('menu');
+  const isMenuOpen = menuEl && menuEl.classList.contains('visible');
+  document.getElementById('l-show-menu-text').textContent = isMenuOpen ? lang(I18N.hide_menu) : lang(I18N.show_menu);
 
   // menu heading
   document.getElementById('l-menu-heading').innerHTML = lang(I18N.our_menu);
@@ -715,6 +759,19 @@ function buildMenu(data) {
   allCategories = (data.categories || []).filter(c => !c.hidden);
   document.getElementById('cats').innerHTML = renderCatTabs();
   document.getElementById('grid').innerHTML = renderCards('all');
+}
+
+// ─── MENU TOGGLE ─────────────────────────────────────────────────────────────
+function toggleMenu() {
+  const menuEl = document.getElementById('menu');
+  const btn = document.getElementById('l-show-menu');
+  const textEl = document.getElementById('l-show-menu-text');
+  const isOpen = menuEl.classList.toggle('visible');
+  btn.classList.toggle('open', isOpen);
+  textEl.textContent = isOpen ? lang(I18N.hide_menu) : lang(I18N.show_menu);
+  if (isOpen) {
+    setTimeout(() => menuEl.scrollIntoView({ behavior: 'smooth', block: 'start' }), 50);
+  }
 }
 
 // ─── INIT ────────────────────────────────────────────────────────────────────
