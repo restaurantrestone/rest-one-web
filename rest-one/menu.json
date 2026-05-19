@@ -2749,79 +2749,79 @@
   "landing": {
     "name": "Rest One",
     "eyebrow": {
-      "uz_lat": "RESTORAN",
       "ru": "РЕСТОРАН",
+      "uz_lat": "RESTORAN",
       "uz_cyr": "РЕСТОРАН"
     },
     "tagline": {
-      "uz_lat": "Lazzat va shinamlik!",
       "ru": "Вкус и уют!",
+      "uz_lat": "Lazzat va shinamlik!",
       "uz_cyr": "Лаззат ва шинамлик!"
     },
-    "hero_image": "images-webp/landing/hero.jpg",
+    "hero_image": "",
     "hero_caption": {
-      "uz_lat": "Bijrlab turadigan ta'm!",
       "ru": "Вкус, который остаётся!",
+      "uz_lat": "Bijrlab turadigan ta'm!",
       "uz_cyr": "Бижирлаб турадиган таъм!"
     },
     "badge": {
       "line1": {
-        "uz_lat": "Navoiyda",
         "ru": "В Навои",
+        "uz_lat": "Navoiyda",
         "uz_cyr": "Навоийда"
       },
       "line2": {
-        "uz_lat": "Bijir Bijir",
         "ru": "Особое",
+        "uz_lat": "Bijir Bijir",
         "uz_cyr": "Бижир Бижир"
       },
       "line3": {
-        "uz_lat": "TAOMI",
         "ru": "БЛЮДО",
+        "uz_lat": "TAOMI",
         "uz_cyr": "ТАОМИ"
       }
     },
     "hours": {
-      "open": "10:00",
+      "open": "09:00",
       "close": "23:00"
     },
     "features_top": [
       {
         "icon": "chef",
         "title": {
-          "uz_lat": "Mualliflik taomlari",
           "ru": "Авторская кухня",
+          "uz_lat": "Mualliflik taomlari",
           "uz_cyr": "Муаллифлик таомлари"
         },
         "subtitle": {
-          "uz_lat": "Unutilmas ta'mlar",
           "ru": "Незабываемые вкусы",
+          "uz_lat": "Unutilmas ta'mlar",
           "uz_cyr": "Унутилмас таъмлар"
         }
       },
       {
         "icon": "heart",
         "title": {
-          "uz_lat": "Romantik muhit",
           "ru": "Романтическая атмосфера",
+          "uz_lat": "Romantik muhit",
           "uz_cyr": "Романтик муҳит"
         },
         "subtitle": {
-          "uz_lat": "Shinam va iliq atmosfera",
           "ru": "Уютно и тепло",
+          "uz_lat": "Shinam va iliq atmosfera",
           "uz_cyr": "Шинам ва илиқ атмосфера"
         }
       },
       {
         "icon": "music",
         "title": {
-          "uz_lat": "Jonli musiqa",
           "ru": "Живая музыка",
+          "uz_lat": "Jonli musiqa",
           "uz_cyr": "Жонли мусиқа"
         },
         "subtitle": {
-          "uz_lat": "Har kuni jonli ijro",
           "ru": "Каждый день",
+          "uz_lat": "Har kuni jonli ijro",
           "uz_cyr": "Ҳар куни жонли ижро"
         }
       }
@@ -2830,32 +2830,32 @@
       {
         "icon": "users",
         "value": "500+",
-        "stars": true,
         "label": {
-          "uz_lat": "mamnun mijozlar",
           "ru": "довольных гостей",
+          "uz_lat": "mamnun mijozlar",
           "uz_cyr": "мамнун мижозлар"
-        }
+        },
+        "stars": true
       },
       {
         "icon": "cake",
         "value": "10+",
-        "stars": false,
         "label": {
-          "uz_lat": "Har kuni\nbayramlar",
           "ru": "Каждый день\nпраздников",
+          "uz_lat": "Har kuni\nbayramlar",
           "uz_cyr": "Ҳар куни\nбайрамлар"
-        }
+        },
+        "stars": false
       },
       {
         "icon": "cheers",
         "value": "",
-        "stars": false,
         "label": {
-          "uz_lat": "Unutilmas\nlahzalar faqat Rest One'da",
           "ru": "Незабываемые\nмоменты только в Rest One",
+          "uz_lat": "Unutilmas\nlahzalar faqat Rest One'da",
           "uz_cyr": "Унутилмас\nлаҳзалар фақат Rest One'да"
-        }
+        },
+        "stars": false
       }
     ],
     "contacts": {
@@ -2864,36 +2864,36 @@
       "instagram_url": "https://instagram.com/restone",
       "telegram_url": "https://t.me/restone",
       "instagram_label": {
-        "uz_lat": "Instagram'da bizni kuzating",
         "ru": "Подпишитесь на Instagram",
+        "uz_lat": "Instagram'da bizni kuzating",
         "uz_cyr": "Instagram'да бизни кузатинг"
       },
       "phone_label": {
-        "uz_lat": "Qo'ng'iroq qilish",
         "ru": "Позвонить",
+        "uz_lat": "Qo'ng'iroq qilish",
         "uz_cyr": "Қўнғироқ қилиш"
       },
       "address": {
-        "uz_lat": "Navoiy, Uzbekistan street, 247",
         "ru": "Навои, Узбекистан, улица 247",
+        "uz_lat": "Navoiy, Uzbekistan street, 247",
         "uz_cyr": "Навоий, Ўзбекистон, кўча 247"
       }
     },
     "booking_cta": {
       "title": {
-        "uz_lat": "Stol band qilish",
         "ru": "Забронировать стол",
+        "uz_lat": "Stol band qilish",
         "uz_cyr": "Стол банд қилиш"
       },
       "subtitle": {
-        "uz_lat": "Tez va oson bron qiling",
         "ru": "Быстро и просто",
+        "uz_lat": "Tez va oson bron qiling",
         "uz_cyr": "Тез ва осон брон қилинг"
       }
     },
     "gallery_title": {
-      "uz_lat": "Bizning muhitimiz",
       "ru": "Наша атмосфера",
+      "uz_lat": "Bizning muhitimiz",
       "uz_cyr": "Бизнинг муҳитимиз"
     },
     "gallery": [
@@ -2906,67 +2906,67 @@
       {
         "icon": "tray",
         "title": {
-          "uz_lat": "To'fresh mahsulotlar",
           "ru": "Свежие продукты",
+          "uz_lat": "To'fresh mahsulotlar",
           "uz_cyr": "Тоза маҳсулотлар"
         },
         "subtitle": {
-          "uz_lat": "Sifat kafolati",
           "ru": "Гарантия качества",
+          "uz_lat": "Sifat kafolati",
           "uz_cyr": "Сифат кафолати"
         }
       },
       {
         "icon": "chef-hat",
         "title": {
-          "uz_lat": "Professional oshpazlar",
           "ru": "Профессиональные повара",
+          "uz_lat": "Professional oshpazlar",
           "uz_cyr": "Профессионал ошпазлар"
         },
         "subtitle": {
-          "uz_lat": "Yuksak mahorat",
           "ru": "Высокое мастерство",
+          "uz_lat": "Yuksak mahorat",
           "uz_cyr": "Юксак маҳорат"
         }
       },
       {
         "icon": "shield",
         "title": {
-          "uz_lat": "Xavfsiz va sifatli",
           "ru": "Безопасно и качественно",
+          "uz_lat": "Xavfsiz va sifatli",
           "uz_cyr": "Хавфсиз ва сифатли"
         },
         "subtitle": {
-          "uz_lat": "Siz uchun muhim",
           "ru": "Важно для вас",
+          "uz_lat": "Siz uchun muhim",
           "uz_cyr": "Сиз учун муҳим"
         }
       },
       {
         "icon": "heart",
         "title": {
-          "uz_lat": "Mehmonlarga mehr",
           "ru": "Забота о гостях",
+          "uz_lat": "Mehmonlarga mehr",
           "uz_cyr": "Меҳмонларга меҳр"
         },
         "subtitle": {
-          "uz_lat": "Bizning qadriyatimiz",
           "ru": "Наша ценность",
+          "uz_lat": "Bizning qadriyatimiz",
           "uz_cyr": "Бизнинг қадриятимиз"
         }
       }
     ],
     "footer_tagline": {
-      "uz_lat": "Lazzat, shinamlik va unutilmas lahzalar maskani!",
       "ru": "Вкус, уют и незабываемые моменты!",
+      "uz_lat": "Lazzat, shinamlik va unutilmas lahzalar maskani!",
       "uz_cyr": "Лаззат, шинамлик ва унутилмас лаҳзалар маскани!"
     },
     "hide_features_top": false,
     "hide_stats": false,
     "hide_contacts": false,
     "hide_booking": false,
-    "hide_gallery": true,
-    "hide_features_bottom": true
+    "hide_gallery": false,
+    "hide_features_bottom": false
   },
   "restaurant": {
     "name": "Rest One",
