@@ -349,7 +349,7 @@ body{background:#DDD8CE;font-family:'Inter',sans-serif;color:var(--dark)}
   <div class="contacts-section" id="l-contacts"></div>
 
   <!-- 4. BOOKING CTA -->
-  <div class="booking-section">
+  <div class="booking-section" id="l-booking-wrap">
     <a id="l-booking" href="#" class="booking-btn">
       <span class="booking-title" id="l-booking-title"></span>
       <span class="booking-sub" id="l-booking-sub"></span>
@@ -357,7 +357,7 @@ body{background:#DDD8CE;font-family:'Inter',sans-serif;color:var(--dark)}
   </div>
 
   <!-- 5. GALLERY -->
-  <div class="gallery-section">
+  <div class="gallery-section" id="l-gallery-wrap">
     <div class="section-title" id="l-gallery-title"></div>
     <div class="gallery-grid" id="l-gallery"></div>
   </div>
@@ -578,6 +578,12 @@ function icon(name) {
   return '<svg viewBox="0 0 24 24">' + (icons[name] || icons.tray) + '</svg>';
 }
 
+// ─── SECTION VISIBILITY HELPER ───────────────────────────────────────────────
+function setVisible(id, show) {
+  const el = document.getElementById(id);
+  if (el) el.style.display = show ? '' : 'none';
+}
+
 // ─── RENDER LANDING ───────────────────────────────────────────────────────────
 function renderLanding() {
   const d = LANDING_DATA;
@@ -591,7 +597,9 @@ function renderLanding() {
   document.getElementById('l-tagline').textContent = lang(d.tagline);
 
   // features top
-  document.getElementById('l-features').innerHTML = d.features_top.map(f => `
+  const featsEl = document.getElementById('l-features');
+  setVisible('l-features', !d.hide_features_top);
+  featsEl.innerHTML = d.features_top.map(f => `
     <div class="hf">
       <div class="hf-ico">${icon(f.icon)}</div>
       <div>
@@ -622,6 +630,7 @@ function renderLanding() {
   document.getElementById('l-sticker').textContent = lang(d.hero_caption);
 
   // stats
+  setVisible('l-stats', !d.hide_stats);
   document.getElementById('l-stats').innerHTML = d.stats.map(s => `
     <div class="stat-cell">
       <div class="stat-icon">${icon(s.icon)}</div>
@@ -631,6 +640,7 @@ function renderLanding() {
     </div>`).join('');
 
   // contacts
+  setVisible('l-contacts', !d.hide_contacts);
   document.getElementById('l-contacts').innerHTML = `
     <a class="contact-card" href="${esc(c.instagram_url)}" target="_blank" rel="noopener">
       <div class="cc-icon">${icon('instagram')}</div>
@@ -657,12 +667,14 @@ function renderLanding() {
     </div>`;
 
   // booking
+  setVisible('l-booking-wrap', !d.hide_booking);
   const bookTel = 'tel:' + c.phone;
   document.getElementById('l-booking').href = bookTel;
   document.getElementById('l-booking-title').textContent = lang(d.booking_cta.title);
   document.getElementById('l-booking-sub').textContent = lang(d.booking_cta.subtitle);
 
-  // gallery title
+  // gallery
+  setVisible('l-gallery-wrap', !d.hide_gallery);
   const gt = lang(d.gallery_title);
   const [gt1, ...gt2] = gt.split(' ');
   document.getElementById('l-gallery-title').innerHTML = `${esc(gt1)} <em>${esc(gt2.join(' '))}</em>`;
@@ -675,6 +687,7 @@ function renderLanding() {
     </div>`).join('');
 
   // features bottom
+  setVisible('l-feats-bottom', !d.hide_features_bottom);
   document.getElementById('l-feats-bottom').innerHTML = d.features_bottom.map(f => `
     <div class="feat-card">
       <div class="feat-icon">${icon(f.icon)}</div>
@@ -776,13 +789,20 @@ function toggleMenu() {
 
 // ─── INIT ────────────────────────────────────────────────────────────────────
 initLangBar();
-renderLanding();
+renderLanding(); // render with defaults immediately (no blank page)
 
 document.getElementById('menuLoading').textContent = lang(I18N.loading);
 
 fetch(MENU_URL)
   .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
-  .then(buildMenu)
+  .then(data => {
+    // merge server-side landing (including hide_* flags) into LANDING_DATA
+    if (data.landing && typeof data.landing === 'object') {
+      Object.assign(LANDING_DATA, data.landing);
+      renderLanding(); // re-render with actual visibility settings
+    }
+    buildMenu(data);
+  })
   .catch(() => {
     document.getElementById('menuLoading').innerHTML =
       '<div class="menu-error">' + esc(lang(I18N.load_fail)) + '</div>';
