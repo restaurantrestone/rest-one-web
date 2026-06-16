@@ -8,6 +8,10 @@
       "logoText": "Rest One",
       "slug": "rest-one",
       "vendor": ""
+    },
+    "service": {
+      "enabled": true,
+      "percent": 10
     }
   },
   "categories": [
