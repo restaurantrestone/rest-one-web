@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rest One</title>
+<title>Menu</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Inter:wght@400;500;600&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
@@ -334,7 +334,7 @@ body{background:#DDD8CE;font-family:'Inter',sans-serif;color:var(--dark)}
       </div>
       <div class="hero-right">
         <div class="hero-img-wrap">
-          <img id="l-hero-img" src="" alt="Rest One">
+          <img id="l-hero-img" src="" alt="">
           <div class="hero-badge" id="l-badge"></div>
           <div class="hero-sticker" id="l-sticker"></div>
         </div>
@@ -386,8 +386,8 @@ body{background:#DDD8CE;font-family:'Inter',sans-serif;color:var(--dark)}
 
 <!-- [E] FOOTER -->
 <footer class="site-footer">
-  <div class="footer-logo">R</div>
-  <div class="footer-name">Rest One</div>
+  <div class="footer-logo" id="l-footer-logo">M</div>
+  <div class="footer-name" id="l-footer-name"></div>
   <div class="footer-tagline" id="l-footer-tagline"></div>
   <div class="footer-socials" id="l-footer-socials"></div>
   <div class="footer-copy" id="l-footer-copy"></div>
@@ -399,7 +399,7 @@ body{background:#DDD8CE;font-family:'Inter',sans-serif;color:var(--dark)}
 // ─── DATA ───────────────────────────────────────────────────────────────────
 
 const LANDING_DATA = {
-  name: "Rest One",
+  name: "",
   eyebrow: { ru: "РЕСТОРАН", uz_lat: "RESTORAN", uz_cyr: "РЕСТОРАН" },
   tagline: {
     ru: "Вкус и уют!",
@@ -407,15 +407,11 @@ const LANDING_DATA = {
     uz_cyr: "Лаззат ва шинамлик!"
   },
   hero_image: "assets/landing/hero.jpg",
-  hero_caption: {
-    ru: "Вкус, который остаётся!",
-    uz_lat: "Bijrlab turadigan ta'm!",
-    uz_cyr: "Бижирлаб турадиган таъм!"
-  },
+  hero_caption: { ru: "", uz_lat: "", uz_cyr: "" },
   badge: {
-    line1: { ru: "В Навои", uz_lat: "Navoiyda", uz_cyr: "Навоийда" },
-    line2: { ru: "Особое", uz_lat: "Bijir Bijir", uz_cyr: "Бижир Бижир" },
-    line3: { ru: "БЛЮДО", uz_lat: "TAOMI", uz_cyr: "ТАОМИ" }
+    line1: { ru: "", uz_lat: "", uz_cyr: "" },
+    line2: { ru: "", uz_lat: "", uz_cyr: "" },
+    line3: { ru: "", uz_lat: "", uz_cyr: "" }
   },
   hours: { open: "09:00", close: "23:00" },
   features_top: [
@@ -451,20 +447,20 @@ const LANDING_DATA = {
       icon: "cheers",
       value: "",
       label: {
-        ru: "Незабываемые\nмоменты только в Rest One",
-        uz_lat: "Unutilmas\nlahzalar faqat Rest One'da",
-        uz_cyr: "Унутилмас\nлаҳзалар фақат Rest One'да"
+        ru: "Незабываемые\nмоменты",
+        uz_lat: "Unutilmas\nlahzalar",
+        uz_cyr: "Унутилмас\nлаҳзалар"
       }
     }
   ],
   contacts: {
-    phone: "+998970542222",
-    phone_display: "+998 97 054 2222",
-    instagram_url: "https://instagram.com/restone",
-    telegram_url: "https://t.me/restone",
+    phone: "",
+    phone_display: "",
+    instagram_url: "",
+    telegram_url: "",
     instagram_label: { ru: "Подпишитесь на Instagram", uz_lat: "Instagram'da bizni kuzating", uz_cyr: "Instagram'да бизни кузатинг" },
     phone_label: { ru: "Позвонить", uz_lat: "Qo'ng'iroq qilish", uz_cyr: "Қўнғироқ қилиш" },
-    address: { ru: "Навои, Узбекистан, улица 247", uz_lat: "Navoiy, Uzbekistan street, 247", uz_cyr: "Навоий, Ўзбекистон, кўча 247" }
+    address: { ru: "", uz_lat: "", uz_cyr: "" }
   },
   booking_cta: {
     title: { ru: "Забронировать стол", uz_lat: "Stol band qilish", uz_cyr: "Стол банд қилиш" },
@@ -526,9 +522,12 @@ const MENU_URL = (function () {
   const r = new URLSearchParams(location.search).get('r');
   return r ? r + '/menu.json' : 'menu.json';
 })();
+// Images live next to menu.json in the same GitHub Pages folder — derive the prefix
+// from MENU_URL instead of hardcoding the restaurant slug.
+const IMG_PREFIX = MENU_URL.replace(/menu\.json$/, '');
 
 // ─── LANGUAGE ────────────────────────────────────────────────────────────────
-let currentLang = localStorage.getItem('restone_lang') || 'uz_lat';
+let currentLang = localStorage.getItem('emenu_lang') || 'uz_lat';
 
 function lang(field) {
   return (field && (field[currentLang] || field.uz_lat)) || '';
@@ -536,8 +535,9 @@ function lang(field) {
 
 function setLang(l) {
   currentLang = l;
-  localStorage.setItem('restone_lang', l);
+  localStorage.setItem('emenu_lang', l);
   renderLanding();
+  if (menuRaw) buildMenu(menuRaw);   // dishes follow the language too
   document.querySelectorAll('.lang-btn').forEach(b => {
     b.classList.toggle('active', b.dataset.lang === l);
   });
@@ -593,7 +593,10 @@ function renderLanding() {
 
   // eyebrow + title + tagline
   document.getElementById('l-eyebrow').textContent = lang(d.eyebrow);
-  document.getElementById('l-title').textContent = d.name;
+  document.getElementById('l-title').textContent = d.name || 'Menu';
+  document.title = d.name || 'Menu';
+  const _fn = document.getElementById('l-footer-name'); if (_fn) _fn.textContent = d.name || '';
+  const _fl = document.getElementById('l-footer-logo'); if (_fl) _fl.textContent = (d.name || 'M').charAt(0).toUpperCase();
   document.getElementById('l-tagline').textContent = lang(d.tagline);
 
   // features top
@@ -620,7 +623,7 @@ function renderLanding() {
   // hero image
   const img = document.getElementById('l-hero-img');
   img.src = d.hero_image;
-  img.onerror = function() { this.src = 'https://picsum.photos/seed/restone-hero/400/530'; this.onerror=null; };
+  img.onerror = function() { this.src = 'https://picsum.photos/seed/emenu-hero/400/530'; this.onerror=null; };
 
   // badge
   document.getElementById('l-badge').innerHTML =
@@ -642,7 +645,7 @@ function renderLanding() {
   // contacts
   setVisible('l-contacts', !d.hide_contacts);
   document.getElementById('l-contacts').innerHTML = `
-    <a class="contact-card" href="${esc(c.instagram_url)}" target="_blank" rel="noopener">
+    <a class="contact-card" href="${safeUrl(c.instagram_url)}" target="_blank" rel="noopener">
       <div class="cc-icon">${icon('instagram')}</div>
       <div class="cc-text">
         <div class="cc-label">Instagram</div>
@@ -683,7 +686,7 @@ function renderLanding() {
   document.getElementById('l-gallery').innerHTML = d.gallery.map((src, i) => `
     <div class="gallery-item">
       <img src="${esc(src)}" alt="" loading="lazy"
-           onerror="this.src='https://picsum.photos/seed/restone-g${i+1}/300/300';this.onerror=null">
+           onerror="this.src='https://picsum.photos/seed/emenu-g${i+1}/300/300';this.onerror=null">
     </div>`).join('');
 
   // features bottom
@@ -706,8 +709,8 @@ function renderLanding() {
   // footer
   document.getElementById('l-footer-tagline').textContent = lang(d.footer_tagline);
   document.getElementById('l-footer-socials').innerHTML = `
-    <a class="footer-social" href="${esc(c.instagram_url)}" target="_blank" rel="noopener">${icon('instagram')}</a>
-    <a class="footer-social" href="${esc(c.telegram_url)}" target="_blank" rel="noopener">${icon('telegram')}</a>
+    <a class="footer-social" href="${safeUrl(c.instagram_url)}" target="_blank" rel="noopener">${icon('instagram')}</a>
+    <a class="footer-social" href="${safeUrl(c.telegram_url)}" target="_blank" rel="noopener">${icon('telegram')}</a>
     <a class="footer-social" href="tel:${esc(c.phone)}">${icon('phone')}</a>`;
   document.getElementById('l-footer-copy').textContent = '© ' + new Date().getFullYear() + ' ' + d.name;
 }
@@ -716,10 +719,36 @@ function renderLanding() {
 function esc(s) {
   return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
+// Block scripting URL schemes (javascript:/data:/vbscript:) before a value goes
+// into an href. Browsers ignore control chars/whitespace inside a scheme, so
+// normalize those out before testing. Safe URLs are HTML-escaped as usual.
+function safeUrl(u) {
+  const probe = String(u || '').replace(/[\x00-\x20]+/g, '').toLowerCase();
+  if (/^(javascript:|data:|vbscript:)/.test(probe)) return '#';
+  return esc(u);
+}
 
 // ─── MENU ────────────────────────────────────────────────────────────────────
 let allCategories = [];
 let activeCat = 'all';
+let menuRaw = null;   // menu as fetched; re-localized when the language changes
+
+// Dish/category text may be multilingual {ru, uz_lat, uz_cyr} since Phase 8;
+// plain strings (old menus) pass through untouched.
+function mlText(v) {
+  if (v == null) return '';
+  if (typeof v !== 'object' || Array.isArray(v)) return String(v);
+  return v[currentLang] || v.ru || v.uz_lat || v.uz_cyr || '';
+}
+function localizeCats(cats) {
+  return (cats || []).map(c => Object.assign({}, c, {
+    name: mlText(c.name),
+    items: (c.items || []).map(it => Object.assign({}, it, {
+      title: mlText(it.title),
+      description: mlText(it.description),
+    })),
+  }));
+}
 
 function renderCards(catName) {
   let items = [];
@@ -738,7 +767,7 @@ function renderCards(catName) {
       ? (item.variants && item.variants.length ? lang(I18N.price_from) : '') + minPrice.toLocaleString('ru-RU') + lang(I18N.price_unit)
       : '';
     const badge = item.badges && item.badges[0] ? `<span class="cbadge">${esc(item.badges[0])}</span>` : '';
-    const imgSrc = item.image ? (item.image.startsWith('http') ? item.image : ('rest-one/' + item.image)) : '';
+    const imgSrc = item.image ? (item.image.startsWith('http') ? item.image : (IMG_PREFIX + item.image)) : '';
     const imgEl = imgSrc
       ? `<img src="${esc(imgSrc)}" alt="${esc(item.title)}" loading="lazy">`
       : `<span class="cimg-ph">🍽</span>`;
@@ -769,7 +798,8 @@ function fc(btn, cat) {
 }
 
 function buildMenu(data) {
-  allCategories = (data.categories || []).filter(c => !c.hidden);
+  menuRaw = data;
+  allCategories = localizeCats((data.categories || []).filter(c => !c.hidden));
   document.getElementById('cats').innerHTML = renderCatTabs();
   document.getElementById('grid').innerHTML = renderCards('all');
 }
