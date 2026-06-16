@@ -2805,37 +2805,37 @@
     }
   ],
   "landing": {
-    "name": "",
+    "name": "Rest One",
     "eyebrow": {
-      "ru": "РЕСТОРАН",
       "uz_lat": "RESTORAN",
+      "ru": "РЕСТОРАН",
       "uz_cyr": "РЕСТОРАН"
     },
     "tagline": {
-      "ru": "Вкус и уют!",
       "uz_lat": "Lazzat va shinamlik!",
+      "ru": "Вкус и уют!",
       "uz_cyr": "Лаззат ва шинамлик!"
     },
-    "hero_image": "",
+    "hero_image": "images-webp/landing/hero.jpg",
     "hero_caption": {
-      "ru": "",
       "uz_lat": "",
+      "ru": "",
       "uz_cyr": ""
     },
     "badge": {
       "line1": {
-        "ru": "",
         "uz_lat": "",
+        "ru": "",
         "uz_cyr": ""
       },
       "line2": {
-        "ru": "",
         "uz_lat": "",
+        "ru": "",
         "uz_cyr": ""
       },
       "line3": {
-        "ru": "",
         "uz_lat": "",
+        "ru": "",
         "uz_cyr": ""
       }
     },
@@ -2847,39 +2847,39 @@
       {
         "icon": "chef",
         "title": {
-          "ru": "Авторская кухня",
           "uz_lat": "Mualliflik taomlari",
+          "ru": "Авторская кухня",
           "uz_cyr": "Муаллифлик таомлари"
         },
         "subtitle": {
-          "ru": "Незабываемые вкусы",
           "uz_lat": "Unutilmas ta'mlar",
+          "ru": "Незабываемые вкусы",
           "uz_cyr": "Унутилмас таъмлар"
         }
       },
       {
         "icon": "heart",
         "title": {
-          "ru": "Романтическая атмосфера",
           "uz_lat": "Romantik muhit",
+          "ru": "Романтическая атмосфера",
           "uz_cyr": "Романтик муҳит"
         },
         "subtitle": {
-          "ru": "Уютно и тепло",
           "uz_lat": "Shinam va iliq atmosfera",
+          "ru": "Уютно и тепло",
           "uz_cyr": "Шинам ва илиқ атмосфера"
         }
       },
       {
         "icon": "music",
         "title": {
-          "ru": "Живая музыка",
           "uz_lat": "Jonli musiqa",
+          "ru": "Живая музыка",
           "uz_cyr": "Жонли мусиқа"
         },
         "subtitle": {
-          "ru": "Каждый день",
           "uz_lat": "Har kuni jonli ijro",
+          "ru": "Каждый день",
           "uz_cyr": "Ҳар куни жонли ижро"
         }
       }
@@ -2888,70 +2888,70 @@
       {
         "icon": "users",
         "value": "500+",
+        "stars": true,
         "label": {
-          "ru": "довольных гостей",
           "uz_lat": "mamnun mijozlar",
+          "ru": "довольных гостей",
           "uz_cyr": "мамнун мижозлар"
-        },
-        "stars": true
+        }
       },
       {
         "icon": "cake",
         "value": "10+",
+        "stars": false,
         "label": {
-          "ru": "Каждый день\nпраздников",
           "uz_lat": "Har kuni\nbayramlar",
+          "ru": "Каждый день\nпраздников",
           "uz_cyr": "Ҳар куни\nбайрамлар"
-        },
-        "stars": false
+        }
       },
       {
         "icon": "cheers",
         "value": "",
+        "stars": false,
         "label": {
-          "ru": "Незабываемые\nмоменты",
           "uz_lat": "Unutilmas\nlahzalar",
+          "ru": "Незабываемые\nмоменты",
           "uz_cyr": "Унутилмас\nлаҳзалар"
-        },
-        "stars": false
+        }
       }
     ],
     "contacts": {
-      "phone": "",
-      "phone_display": "",
-      "instagram_url": "",
+      "phone": "+998970542222",
+      "phone_display": "+998970542222",
+      "instagram_url": "https://www.instagram.com/restone_navoiy?igsh=MXQ0NmoyM2UzbDYwZw==",
       "telegram_url": "",
       "instagram_label": {
-        "ru": "Подпишитесь на Instagram",
         "uz_lat": "Instagram'da bizni kuzating",
+        "ru": "Подпишитесь на Instagram",
         "uz_cyr": "Instagram'да бизни кузатинг"
       },
       "phone_label": {
-        "ru": "Позвонить",
         "uz_lat": "Qo'ng'iroq qilish",
+        "ru": "Позвонить",
         "uz_cyr": "Қўнғироқ қилиш"
       },
       "address": {
-        "ru": "",
         "uz_lat": "",
+        "ru": "",
         "uz_cyr": ""
       }
     },
     "booking_cta": {
       "title": {
-        "ru": "Забронировать стол",
         "uz_lat": "Stol band qilish",
+        "ru": "Забронировать стол",
         "uz_cyr": "Стол банд қилиш"
       },
       "subtitle": {
-        "ru": "Быстро и просто",
         "uz_lat": "Tez va oson bron qiling",
+        "ru": "Быстро и просто",
         "uz_cyr": "Тез ва осон брон қилинг"
       }
     },
     "gallery_title": {
-      "ru": "Наша атмосфера",
       "uz_lat": "Bizning muhitimiz",
+      "ru": "Наша атмосфера",
       "uz_cyr": "Бизнинг муҳитимиз"
     },
     "gallery": [
@@ -2964,67 +2964,67 @@
       {
         "icon": "tray",
         "title": {
-          "ru": "Свежие продукты",
           "uz_lat": "To'fresh mahsulotlar",
+          "ru": "Свежие продукты",
           "uz_cyr": "Тоза маҳсулотлар"
         },
         "subtitle": {
-          "ru": "Гарантия качества",
           "uz_lat": "Sifat kafolati",
+          "ru": "Гарантия качества",
           "uz_cyr": "Сифат кафолати"
         }
       },
       {
         "icon": "chef-hat",
         "title": {
-          "ru": "Профессиональные повара",
           "uz_lat": "Professional oshpazlar",
+          "ru": "Профессиональные повара",
           "uz_cyr": "Профессионал ошпазлар"
         },
         "subtitle": {
-          "ru": "Высокое мастерство",
           "uz_lat": "Yuksak mahorat",
+          "ru": "Высокое мастерство",
           "uz_cyr": "Юксак маҳорат"
         }
       },
       {
         "icon": "shield",
         "title": {
-          "ru": "Безопасно и качественно",
           "uz_lat": "Xavfsiz va sifatli",
+          "ru": "Безопасно и качественно",
           "uz_cyr": "Хавфсиз ва сифатли"
         },
         "subtitle": {
-          "ru": "Важно для вас",
           "uz_lat": "Siz uchun muhim",
+          "ru": "Важно для вас",
           "uz_cyr": "Сиз учун муҳим"
         }
       },
       {
         "icon": "heart",
         "title": {
-          "ru": "Забота о гостях",
           "uz_lat": "Mehmonlarga mehr",
+          "ru": "Забота о гостях",
           "uz_cyr": "Меҳмонларга меҳр"
         },
         "subtitle": {
-          "ru": "Наша ценность",
           "uz_lat": "Bizning qadriyatimiz",
+          "ru": "Наша ценность",
           "uz_cyr": "Бизнинг қадриятимиз"
         }
       }
     ],
     "footer_tagline": {
-      "ru": "Вкус, уют и незабываемые моменты!",
       "uz_lat": "Lazzat, shinamlik va unutilmas lahzalar maskani!",
+      "ru": "Вкус, уют и незабываемые моменты!",
       "uz_cyr": "Лаззат, шинамлик ва унутилмас лаҳзалар маскани!"
     },
-    "hide_features_top": false,
+    "hide_features_top": true,
     "hide_stats": false,
     "hide_contacts": false,
     "hide_booking": false,
-    "hide_gallery": false,
-    "hide_features_bottom": false
+    "hide_gallery": true,
+    "hide_features_bottom": true
   },
   "restaurant": {
     "name": "",
