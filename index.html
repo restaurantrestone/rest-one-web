@@ -517,7 +517,7 @@ const I18N = {
 
 // ─── MENU URL ────────────────────────────────────────────────────────────────
 const MENU_URL = (function () {
-  const tmpl = 'rest-one/menu.json';
+  const tmpl = '11/menu.json';
   if (!tmpl.startsWith('{{')) return tmpl;
   const r = new URLSearchParams(location.search).get('r');
   return r ? r + '/menu.json' : 'menu.json';
