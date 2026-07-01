@@ -776,7 +776,7 @@ function renderCards(catName) {
       ? (item.variants && item.variants.length ? lang(I18N.price_from) : '') + minPrice.toLocaleString('ru-RU') + lang(I18N.price_unit)
       : '';
     const badge = item.badges && item.badges[0] ? `<span class="cbadge">${esc(item.badges[0])}</span>` : '';
-    const imgSrc = item.image ? (item.image.startsWith('http') ? item.image : (IMG_PREFIX + item.image)) : '';
+    const imgSrc = item.image ? (item.image.startsWith('http') ? item.image : (IMG_PREFIX + item.image.replace(/^\/+/, ''))) : '';
     const imgEl = imgSrc
       ? `<img src="${esc(imgSrc)}" alt="${esc(item.title)}" loading="lazy">`
       : `<span class="cimg-ph">🍽</span>`;
