@@ -47,6 +47,7 @@ body{background:#DDD8CE;font-family:'Inter',sans-serif;color:var(--dark)}
 /* ─── HERO ─── */
 .hero-section{padding:32px 20px 0}
 .hero-inner{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:start}
+.hero-inner.hero-noimg{grid-template-columns:1fr}   /* hero photo disabled/empty → single column */
 .hero-eyebrow{
   font-size:10px;letter-spacing:3px;text-transform:uppercase;
   color:var(--gold);font-weight:700;display:block;margin-bottom:10px;
@@ -332,7 +333,7 @@ body{background:#DDD8CE;font-family:'Inter',sans-serif;color:var(--dark)}
           <span id="l-status-text"></span>
         </div>
       </div>
-      <div class="hero-right">
+      <div class="hero-right" id="l-hero-right">
         <div class="hero-img-wrap">
           <img id="l-hero-img" src="" alt="">
           <div class="hero-badge" id="l-badge"></div>
@@ -620,10 +621,18 @@ function renderLanding() {
     : `${lang(I18N.open_status).replace('Открыто','открывается').replace('Ochiq','ochiladi').replace('Очиқ','очилади')} ${h.open}`;
   document.getElementById('l-status-text').textContent = statusLabel + ' · ' + (open ? h.open + ' – ' + h.close : h.open + ' da');
 
-  // hero image
+  // hero image — hideable, and NO random stock-photo fallback. A disabled or
+  // empty hero collapses the layout to a single column instead of showing an
+  // unrelated picsum photo (which made the hero impossible to truly turn off).
   const img = document.getElementById('l-hero-img');
-  img.src = d.hero_image;
-  img.onerror = function() { this.src = 'https://picsum.photos/seed/emenu-hero/400/530'; this.onerror=null; };
+  const heroInner = document.querySelector('.hero-inner');
+  const wantHero = !d.hide_hero_image && !!d.hero_image;
+  setVisible('l-hero-right', wantHero);
+  if (heroInner) heroInner.classList.toggle('hero-noimg', !wantHero);
+  if (wantHero) {
+    img.src = d.hero_image;
+    img.onerror = function() { this.onerror = null; setVisible('l-hero-right', false); if (heroInner) heroInner.classList.add('hero-noimg'); };
+  }
 
   // badge
   document.getElementById('l-badge').innerHTML =
@@ -823,7 +832,10 @@ renderLanding(); // render with defaults immediately (no blank page)
 
 document.getElementById('menuLoading').textContent = lang(I18N.loading);
 
-fetch(MENU_URL)
+// Cache-bust: GitHub Pages + the browser cache menu.json, so without a unique URL
+// the owner's edits (menu items AND the hide_* toggles) wouldn't appear on the
+// published site until the cache expired — which read as "the toggles don't work".
+fetch(MENU_URL + (MENU_URL.indexOf('?') >= 0 ? '&' : '?') + 'v=' + Date.now(), { cache: 'no-store' })
   .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
   .then(data => {
     // merge server-side landing (including hide_* flags) into LANDING_DATA
