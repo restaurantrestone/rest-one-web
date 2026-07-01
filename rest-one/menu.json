@@ -2821,36 +2821,35 @@
   "landing": {
     "name": "Rest One",
     "eyebrow": {
-      "uz_lat": "RESTORAN",
       "ru": "РЕСТОРАН",
+      "uz_lat": "RESTORAN",
       "uz_cyr": "РЕСТОРАН"
     },
     "tagline": {
-      "uz_lat": "Lazzat va shinamlik!",
       "ru": "Вкус и уют!",
+      "uz_lat": "Lazzat va shinamlik!",
       "uz_cyr": "Лаззат ва шинамлик!"
     },
     "hero_image": "images-webp/landing/hero.jpg",
-    "hide_hero_image": true,
     "hero_caption": {
-      "uz_lat": "",
       "ru": "",
+      "uz_lat": "",
       "uz_cyr": ""
     },
     "badge": {
       "line1": {
-        "uz_lat": "",
         "ru": "",
+        "uz_lat": "",
         "uz_cyr": ""
       },
       "line2": {
-        "uz_lat": "",
         "ru": "",
+        "uz_lat": "",
         "uz_cyr": ""
       },
       "line3": {
-        "uz_lat": "",
         "ru": "",
+        "uz_lat": "",
         "uz_cyr": ""
       }
     },
@@ -2937,36 +2936,36 @@
       "instagram_url": "https://www.instagram.com/restone_navoiy?igsh=MXQ0NmoyM2UzbDYwZw==",
       "telegram_url": "",
       "instagram_label": {
-        "uz_lat": "Instagram'da bizni kuzating",
         "ru": "Подпишитесь на Instagram",
+        "uz_lat": "Instagram'da bizni kuzating",
         "uz_cyr": "Instagram'да бизни кузатинг"
       },
       "phone_label": {
-        "uz_lat": "Qo'ng'iroq qilish",
         "ru": "Позвонить",
+        "uz_lat": "Qo'ng'iroq qilish",
         "uz_cyr": "Қўнғироқ қилиш"
       },
       "address": {
-        "uz_lat": "",
         "ru": "",
+        "uz_lat": "",
         "uz_cyr": ""
       }
     },
     "booking_cta": {
       "title": {
-        "uz_lat": "Stol band qilish",
         "ru": "Забронировать стол",
+        "uz_lat": "Stol band qilish",
         "uz_cyr": "Стол банд қилиш"
       },
       "subtitle": {
-        "uz_lat": "Tez va oson bron qiling",
         "ru": "Быстро и просто",
+        "uz_lat": "Tez va oson bron qiling",
         "uz_cyr": "Тез ва осон брон қилинг"
       }
     },
     "gallery_title": {
-      "uz_lat": "Bizning muhitimiz",
       "ru": "Наша атмосфера",
+      "uz_lat": "Bizning muhitimiz",
       "uz_cyr": "Бизнинг муҳитимиз"
     },
     "gallery": [
@@ -3030,8 +3029,8 @@
       }
     ],
     "footer_tagline": {
-      "uz_lat": "Lazzat, shinamlik va unutilmas lahzalar maskani!",
       "ru": "Вкус, уют и незабываемые моменты!",
+      "uz_lat": "Lazzat, shinamlik va unutilmas lahzalar maskani!",
       "uz_cyr": "Лаззат, шинамлик ва унутилмас лаҳзалар маскани!"
     },
     "hide_features_top": true,
@@ -3039,7 +3038,8 @@
     "hide_contacts": false,
     "hide_booking": false,
     "hide_gallery": true,
-    "hide_features_bottom": true
+    "hide_features_bottom": true,
+    "hide_hero_image": true
   },
   "restaurant": {
     "name": "",
