@@ -709,7 +709,7 @@
           "title": "перепёлка в сливичнах соусе",
           "description": "75000",
           "price": 0,
-          "image": "",
+          "image": "images-webp/1783064943278.jpg",
           "available": true,
           "hidden": false,
           "badges": []
@@ -963,6 +963,16 @@
           "description": "",
           "price": 20000,
           "image": "images-webp/1782909523139.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "66815a26-4b3a-4a3d-ad9f-b38ffffb6c68",
+          "title": "Mexician Kesadilya",
+          "description": "",
+          "price": 18000,
+          "image": "images-webp/1783065268781.jpg",
           "available": true,
           "hidden": false,
           "badges": []
