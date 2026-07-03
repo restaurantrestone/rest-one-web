@@ -703,6 +703,16 @@
           "available": true,
           "hidden": false,
           "badges": []
+        },
+        {
+          "id": "bb33e697-6f40-4550-8153-987335b1ff03",
+          "title": "перепёлка в сливичнах соусе",
+          "description": "75000",
+          "price": 0,
+          "image": "",
+          "available": true,
+          "hidden": false,
+          "badges": []
         }
       ],
       "categoryImage": "images-webp/cat_4.webp"
