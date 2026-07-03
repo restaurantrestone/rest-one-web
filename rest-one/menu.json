@@ -713,6 +713,16 @@
           "available": true,
           "hidden": false,
           "badges": []
+        },
+        {
+          "id": "781cf090-4ff2-42cb-95ba-d9e2701d4ead",
+          "title": "Rest one mega set 1",
+          "description": "",
+          "price": 380000,
+          "image": "images-webp/1783068677800.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
         }
       ],
       "categoryImage": "images-webp/cat_4.webp"
