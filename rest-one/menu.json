@@ -226,6 +226,16 @@
           "available": true,
           "hidden": false,
           "badges": []
+        },
+        {
+          "id": "5adcc780-404e-4a1c-bf2d-17ecb5476dda",
+          "title": "Harmony",
+          "description": "",
+          "price": 75000,
+          "image": "images-webp/1783059767819.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
         }
       ],
       "sections": []
