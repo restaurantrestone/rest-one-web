@@ -683,6 +683,26 @@
           "available": true,
           "hidden": false,
           "badges": []
+        },
+        {
+          "id": "cced4f85-be6e-4e11-aa5f-a3bb9aa12825",
+          "title": "Садж из ягненка",
+          "description": "",
+          "price": 185000,
+          "image": "images-webp/1783064082872.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "5164a5d6-f481-4b43-ae27-a46255cc5e25",
+          "title": "",
+          "description": "",
+          "price": 0,
+          "image": "",
+          "available": true,
+          "hidden": false,
+          "badges": []
         }
       ],
       "categoryImage": "images-webp/cat_4.webp"
