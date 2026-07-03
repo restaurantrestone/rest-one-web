@@ -696,10 +696,10 @@
         },
         {
           "id": "5164a5d6-f481-4b43-ae27-a46255cc5e25",
-          "title": "",
+          "title": "мясо по домашнему",
           "description": "",
-          "price": 0,
-          "image": "",
+          "price": 120000,
+          "image": "images-webp/1783064836447.jpg",
           "available": true,
           "hidden": false,
           "badges": []
