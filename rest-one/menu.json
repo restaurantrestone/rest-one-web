@@ -1530,6 +1530,16 @@
           "available": true,
           "hidden": false,
           "badges": []
+        },
+        {
+          "id": "eca6f0f0-6713-4823-b0d2-c61fa6a0b8b4",
+          "title": "Дорадо  на  углях",
+          "description": "",
+          "price": 145000,
+          "image": "images-webp/1783072659359.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
         }
       ],
       "categoryImage": "images-webp/cat_10.webp"
