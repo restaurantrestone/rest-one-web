@@ -733,6 +733,16 @@
           "available": true,
           "hidden": false,
           "badges": []
+        },
+        {
+          "id": "0b156022-9825-4158-a48d-b35cd69ae485",
+          "title": "Дорадо фламбе",
+          "description": "",
+          "price": 160000,
+          "image": "images-webp/1783073398551.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
         }
       ],
       "categoryImage": "images-webp/cat_4.webp"
@@ -1644,16 +1654,6 @@
           "description": "",
           "price": 219000,
           "image": "/images/1773312345363.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "0b156022-9825-4158-a48d-b35cd69ae485",
-          "title": "Дорадо фламбе",
-          "description": "",
-          "price": 145000,
-          "image": "images-webp/1783073398551.jpg",
           "available": true,
           "hidden": false,
           "badges": []
