@@ -20,14 +20,41 @@
       "image": "images-webp/rest-one.webp",
       "items": [
         {
-          "id": "salad_crispy_eggplant",
-          "title": "Хрустящие баклажаны",
-          "description": "Баклажаны приобретают хрустящую корочку, которая гармонично сочетается с сочностью розового помидора. Кисло-сладкий соус добавляет яркий вкус, а свежая кинза — аромат. Кунжут придаёт блюду лёгкую хрусткость и завершает вкусовую композицию.",
+          "id": "f5841110-4ee2-40d9-b6ca-14aeb0ce3c8c",
+          "title": "Fresh Marinaad",
+          "description": "",
           "price": 50000,
-          "image": "images-webp/crispy-eggplant.webp",
+          "image": "images-webp/1783059292943.jpg",
           "available": true,
           "hidden": false,
-          "badges": []
+          "badges": [
+            "new",
+            "hit"
+          ]
+        },
+        {
+          "id": "ca80dafc-3e88-44da-9def-0734a98fd902",
+          "title": "Rostbeaf salad",
+          "description": "",
+          "price": 85000,
+          "image": "images-webp/1783060291493.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": [
+            "new"
+          ]
+        },
+        {
+          "id": "5adcc780-404e-4a1c-bf2d-17ecb5476dda",
+          "title": "Harmony",
+          "description": "",
+          "price": 75000,
+          "image": "images-webp/1783059767819.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": [
+            "new"
+          ]
         },
         {
           "id": "salad_caesar",
@@ -52,11 +79,11 @@
           ]
         },
         {
-          "id": "salad_mens_caprice",
-          "title": "Мужской каприз",
-          "description": "Нежный язык и индейка гармонично сочетаются с отварным мясом. Огурцы добавляют свежесть, а сыр придаёт блюду сливочность. Картофель делает блюдо сытным, а майонез объединяет все вкусы",
-          "price": 79000,
-          "image": "images-webp/mens-caprice.webp",
+          "id": "salad_exotic",
+          "title": "Салат Экзотик",
+          "description": "В салате «Экзотика» ананас придаёт яркую тропическую нотку, а орехи добавляют хрустящую текстуру. Куриное филе вносит нежность, кукуруза — сладковатый вкус, шампиньоны придают насыщенный аромат, а майонез объединяет все ингредиенты, создавая гармоничный вкус.",
+          "price": 60000,
+          "image": "images-webp/exotic-salad.webp",
           "available": true,
           "hidden": false,
           "badges": []
@@ -72,11 +99,21 @@
           "badges": []
         },
         {
-          "id": "salad_exotic",
-          "title": "Салат Экзотик",
-          "description": "В салате «Экзотика» ананас придаёт яркую тропическую нотку, а орехи добавляют хрустящую текстуру. Куриное филе вносит нежность, кукуруза — сладковатый вкус, шампиньоны придают насыщенный аромат, а майонез объединяет все ингредиенты, создавая гармоничный вкус.",
-          "price": 60000,
-          "image": "images-webp/exotic-salad.webp",
+          "id": "salad_mens_caprice",
+          "title": "Мужской каприз",
+          "description": "Нежный язык и индейка гармонично сочетаются с отварным мясом. Огурцы добавляют свежесть, а сыр придаёт блюду сливочность. Картофель делает блюдо сытным, а майонез объединяет все вкусы",
+          "price": 79000,
+          "image": "images-webp/mens-caprice.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "salad_crispy_eggplant",
+          "title": "Хрустящие баклажаны",
+          "description": "Баклажаны приобретают хрустящую корочку, которая гармонично сочетается с сочностью розового помидора. Кисло-сладкий соус добавляет яркий вкус, а свежая кинза — аромат. Кунжут придаёт блюду лёгкую хрусткость и завершает вкусовую композицию.",
+          "price": 50000,
+          "image": "images-webp/crispy-eggplant.webp",
           "available": true,
           "hidden": false,
           "badges": []
@@ -114,6 +151,18 @@
           "badges": []
         },
         {
+          "id": "salad_smoky",
+          "title": "Салат Smoky",
+          "description": "",
+          "price": 60000,
+          "image": "images-webp/salad-smoky.webp",
+          "available": true,
+          "hidden": false,
+          "badges": [
+            "new"
+          ]
+        },
+        {
           "id": "salad_pekin",
           "title": "Пекин острый",
           "description": "В салате «По-пекински» нежные кусочки бон филе гармонично сочетаются с овощами: сочными помидорами, хрустящими огурцами, кабачками и баклажанами. Перец «светофор» добавляет яркости и лёгкую сладость. Кунжут придаёт лёгкую хрусткость, а кинза — свежий аромат. Соевый соус объединяет все вкусы, создавая гармоничное блюдо.",
@@ -131,6 +180,16 @@
           "description": "",
           "price": 40000,
           "image": "/images/1773302077482.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "salad_rukola_shrimp",
+          "title": "Салат рукола с креветками",
+          "description": "Креветки придают блюду насыщенный морской вкус, а помидоры черри добавляют сочность. Руккола вносит свежесть, пармезан — сливочность, кисло-сладкий соус объединяет вкусы, кедровый орех придаёт лёгкую хрусткость, а перепелиные яйца обогащают блюдо нежной текстурой.",
+          "price": 100000,
+          "image": "images-webp/rukola-shrimp.webp",
           "available": true,
           "hidden": false,
           "badges": []
@@ -176,16 +235,6 @@
           "badges": []
         },
         {
-          "id": "salad_rukola_shrimp",
-          "title": "Салат рукола с креветками",
-          "description": "Креветки придают блюду насыщенный морской вкус, а помидоры черри добавляют сочность. Руккола вносит свежесть, пармезан — сливочность, кисло-сладкий соус объединяет вкусы, кедровый орех придаёт лёгкую хрусткость, а перепелиные яйца обогащают блюдо нежной текстурой.",
-          "price": 100000,
-          "image": "images-webp/rukola-shrimp.webp",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
           "id": "salad_rukola_pear",
           "title": "Салат из руколы с грушами",
           "description": "Руккола придаёт свежесть, а груша вносит сладковатые нотки. Орехи добавляют хрустящую текстуру, гранат — лёгкую кислинку, сыр дор блю обогащает вкус, а карамельный соус придаёт блюду изысканный сладкий оттенок.",
@@ -201,48 +250,6 @@
           "description": "Нежная буратто гармонично сочетается с соусом песто. Розовый помидор добавляет сочность, а руккола придаёт свежесть и лёгкость вкусу.",
           "price": 90000,
           "image": "images-webp/burrata.webp",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "salad_smoky",
-          "title": "Салат Smoky",
-          "description": "",
-          "price": 60000,
-          "image": "images-webp/salad-smoky.webp",
-          "available": true,
-          "hidden": false,
-          "badges": [
-            "new"
-          ]
-        },
-        {
-          "id": "f5841110-4ee2-40d9-b6ca-14aeb0ce3c8c",
-          "title": "Fresh Marinaad",
-          "description": "",
-          "price": 50000,
-          "image": "images-webp/1783059292943.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "5adcc780-404e-4a1c-bf2d-17ecb5476dda",
-          "title": "Harmony",
-          "description": "",
-          "price": 75000,
-          "image": "images-webp/1783059767819.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "ca80dafc-3e88-44da-9def-0734a98fd902",
-          "title": "Rostbeaf salad",
-          "description": "",
-          "price": 85000,
-          "image": "images-webp/1783060291493.jpg",
           "available": true,
           "hidden": false,
           "badges": []
