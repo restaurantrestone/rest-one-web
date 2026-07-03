@@ -1520,6 +1520,16 @@
           "available": true,
           "hidden": false,
           "badges": []
+        },
+        {
+          "id": "cdffd7a7-d0fb-47b9-9162-f294b953cb43",
+          "title": "Изгара Канот",
+          "description": "",
+          "price": 55000,
+          "image": "",
+          "available": true,
+          "hidden": false,
+          "badges": []
         }
       ],
       "categoryImage": "images-webp/cat_10.webp"
