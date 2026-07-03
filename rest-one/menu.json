@@ -1500,6 +1500,16 @@
           "available": true,
           "hidden": false,
           "badges": []
+        },
+        {
+          "id": "0abee762-c884-4e02-9a08-71cca9637105",
+          "title": "Туркиш роль",
+          "description": "",
+          "price": 65000,
+          "image": "images-webp/1783069319354.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
         }
       ],
       "categoryImage": "images-webp/cat_10.webp"
