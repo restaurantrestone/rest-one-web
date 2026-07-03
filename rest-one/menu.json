@@ -1510,6 +1510,16 @@
           "available": true,
           "hidden": false,
           "badges": []
+        },
+        {
+          "id": "0a4c2fd0-a04f-4d27-acfc-1831d53018f1",
+          "title": "Lo'la laxmadjun ",
+          "description": "",
+          "price": 70000,
+          "image": "images-webp/1783070933892.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
         }
       ],
       "categoryImage": "images-webp/cat_10.webp"
