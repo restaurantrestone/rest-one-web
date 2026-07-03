@@ -236,6 +236,16 @@
           "available": true,
           "hidden": false,
           "badges": []
+        },
+        {
+          "id": "ca80dafc-3e88-44da-9def-0734a98fd902",
+          "title": "Rostbeaf salad",
+          "description": "",
+          "price": 85000,
+          "image": "images-webp/1783060291493.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
         }
       ],
       "sections": []
