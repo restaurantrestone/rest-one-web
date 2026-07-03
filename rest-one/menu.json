@@ -554,6 +554,79 @@
       "image": "images-webp/franch.webp",
       "items": [
         {
+          "id": "781cf090-4ff2-42cb-95ba-d9e2701d4ead",
+          "title": "Rest one mega set 1",
+          "description": "",
+          "price": 380000,
+          "image": "images-webp/1783068677800.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": [
+            "new"
+          ]
+        },
+        {
+          "id": "ae43abe9-b543-49b0-9e5f-1f17bbc73727",
+          "title": "Rest one mega set 2",
+          "description": "",
+          "price": 780000,
+          "image": "images-webp/1783068774964.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": [
+            "hit",
+            "new"
+          ]
+        },
+        {
+          "id": "cced4f85-be6e-4e11-aa5f-a3bb9aa12825",
+          "title": "Садж из ягненка",
+          "description": "",
+          "price": 185000,
+          "image": "images-webp/1783064082872.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": [
+            "new"
+          ]
+        },
+        {
+          "id": "0b156022-9825-4158-a48d-b35cd69ae485",
+          "title": "Дорадо фламбе",
+          "description": "",
+          "price": 160000,
+          "image": "images-webp/1783073398551.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": [
+            "hit"
+          ]
+        },
+        {
+          "id": "5164a5d6-f481-4b43-ae27-a46255cc5e25",
+          "title": "мясо по домашнему",
+          "description": "",
+          "price": 120000,
+          "image": "images-webp/1783064836447.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": [
+            "new"
+          ]
+        },
+        {
+          "id": "bb33e697-6f40-4550-8153-987335b1ff03",
+          "title": "перепёлка в сливичнах соусе",
+          "description": "75000",
+          "price": 0,
+          "image": "images-webp/1783064943278.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": [
+            "new"
+          ]
+        },
+        {
           "id": "449656eb-35f6-49be-997b-3f8179352741",
           "title": "Куриная грудка в сливочном соусе",
           "description": "Куриная грудка в сливочном соусе отличается нежным вкусом. Филе курицы, приготовленное в сливочном соусе, приобретает мягкость и кремовость. Картошка и шампиньоны добавляют блюду насыщенность и аромат.",
@@ -569,6 +642,16 @@
           "description": "Сочное мясо говядины гармонично сочетается с овощами. Болгарский перец добавляет яркость и сладость, шампиньоны — нежный аромат, а лук и чеснок обогащают вкус. Помидоры придают лёгкую кислинку, а зелень завершает вкусовую композицию.",
           "price": 120000,
           "image": "/images/1773231082938.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "2b20c925-32cf-46d9-9d0e-80f96e9ee073",
+          "title": "Golden Chicken",
+          "description": "",
+          "price": 79000,
+          "image": "logo.png",
           "available": true,
           "hidden": false,
           "badges": []
@@ -642,16 +725,6 @@
           "badges": []
         },
         {
-          "id": "1157f292-55fc-4edc-a2d5-fe317c42ec8e",
-          "title": "Лосось со спаржей",
-          "description": "Форель со спаржей — это сочетание нежной рыбы и хрустящей спаржи. Винный соус придаёт блюду лёгкую кислинку, а зелёная фасоль добавляет свежесть.",
-          "price": 149000,
-          "image": "/images/1773241795919.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
           "id": "77439839-dc2b-4b13-9f1c-d208ae00161d",
           "title": "Джиз вырезки ",
           "description": "Традиционное блюдо, представляющее собой нежную, молодую говяжью мякоть, обжаренную на сильном огне в казане до хрустящей корочки, подаваемый с картофелем фри, луком, зеленью, помидором и лимоном",
@@ -665,11 +738,11 @@
           "maxWeight": 10000
         },
         {
-          "id": "2b20c925-32cf-46d9-9d0e-80f96e9ee073",
-          "title": "Golden Chicken",
-          "description": "",
-          "price": 79000,
-          "image": "logo.png",
+          "id": "1157f292-55fc-4edc-a2d5-fe317c42ec8e",
+          "title": "Лосось со спаржей",
+          "description": "Форель со спаржей — это сочетание нежной рыбы и хрустящей спаржи. Винный соус придаёт блюду лёгкую кислинку, а зелёная фасоль добавляет свежесть.",
+          "price": 149000,
+          "image": "/images/1773241795919.jpg",
           "available": true,
           "hidden": false,
           "badges": []
@@ -680,66 +753,6 @@
           "description": "",
           "price": 340000,
           "image": "/images/1775204675008.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "cced4f85-be6e-4e11-aa5f-a3bb9aa12825",
-          "title": "Садж из ягненка",
-          "description": "",
-          "price": 185000,
-          "image": "images-webp/1783064082872.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "5164a5d6-f481-4b43-ae27-a46255cc5e25",
-          "title": "мясо по домашнему",
-          "description": "",
-          "price": 120000,
-          "image": "images-webp/1783064836447.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "bb33e697-6f40-4550-8153-987335b1ff03",
-          "title": "перепёлка в сливичнах соусе",
-          "description": "75000",
-          "price": 0,
-          "image": "images-webp/1783064943278.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "781cf090-4ff2-42cb-95ba-d9e2701d4ead",
-          "title": "Rest one mega set 1",
-          "description": "",
-          "price": 380000,
-          "image": "images-webp/1783068677800.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "ae43abe9-b543-49b0-9e5f-1f17bbc73727",
-          "title": "Rest one mega set 2",
-          "description": "",
-          "price": 780000,
-          "image": "images-webp/1783068774964.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "0b156022-9825-4158-a48d-b35cd69ae485",
-          "title": "Дорадо фламбе",
-          "description": "",
-          "price": 160000,
-          "image": "images-webp/1783073398551.jpg",
           "available": true,
           "hidden": false,
           "badges": []
