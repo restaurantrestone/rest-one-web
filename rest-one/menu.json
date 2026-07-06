@@ -999,26 +999,6 @@
           "available": true,
           "hidden": false,
           "badges": []
-        },
-        {
-          "id": "416a7fb4-7055-4b08-bdd8-8a58d8df2ef8",
-          "title": "Lahmadjun",
-          "description": "",
-          "price": 20000,
-          "image": "images-webp/1782909523139.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "66815a26-4b3a-4a3d-ad9f-b38ffffb6c68",
-          "title": "Mexician Kesadilya",
-          "description": "",
-          "price": 18000,
-          "image": "images-webp/1783065268781.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
         }
       ]
     },
@@ -1118,6 +1098,26 @@
     {
       "name": "Горячие закуска",
       "items": [
+        {
+          "id": "66815a26-4b3a-4a3d-ad9f-b38ffffb6c68",
+          "title": "Mexician Kesadilya",
+          "description": "",
+          "price": 18000,
+          "image": "images-webp/1783065268781.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "416a7fb4-7055-4b08-bdd8-8a58d8df2ef8",
+          "title": "Lahmadjun",
+          "description": "",
+          "price": 20000,
+          "image": "images-webp/1782909523139.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
         {
           "id": "snack_dolma",
           "title": "Долма (5шт)",
