@@ -2102,7 +2102,9 @@
           "badges": []
         }
       ],
-      "categoryImage": "images-webp/cat_17.webp"
+      "categoryImage": "images-webp/cat_17.webp",
+      "sections": [],
+      "noPhotos": true
     },
     {
       "name": "Mилкшейк",
