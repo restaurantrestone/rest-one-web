@@ -219,7 +219,7 @@
           "price": 30000,
           "image": "images-webp/borsh.webp",
           "available": false,
-          "hidden": false,
+          "hidden": true,
           "badges": []
         },
         {
