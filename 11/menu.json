@@ -366,7 +366,7 @@
           "price": 90000,
           "image": "images-webp/gavayskiy-pitsa.webp",
           "available": false,
-          "hidden": false,
+          "hidden": true,
           "badges": []
         },
         {
