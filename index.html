@@ -223,8 +223,6 @@ body{background:#DDD8CE;font-family:'Inter',sans-serif;color:var(--dark)}
 .cimg{width:100%;aspect-ratio:4/3;height:auto;display:flex;align-items:center;justify-content:center;overflow:hidden;background:#F5F2EC}
 .cimg img{width:100%;height:100%;object-fit:cover}
 .cimg-ph{font-size:40px}
-.cimg.noimg img{display:none}
-.cimg.noimg::after{content:'🍽';font-size:40px}
 .cb{padding:12px;display:flex;flex-direction:column;gap:6px}
 .cn{font-size:14px;font-weight:700;color:var(--dark);display:-webkit-box;-webkit-line-clamp:2;line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .cd{font-size:12px;color:#A09585;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
@@ -520,7 +518,7 @@ const I18N = {
 
 // ─── MENU URL ────────────────────────────────────────────────────────────────
 const MENU_URL = (function () {
-  const tmpl = '11/menu.json';
+  const tmpl = 'rest-one/menu.json';
   if (!tmpl.startsWith('{{')) return tmpl;
   const r = new URLSearchParams(location.search).get('r');
   return r ? r + '/menu.json' : 'menu.json';
@@ -528,13 +526,6 @@ const MENU_URL = (function () {
 // Images live next to menu.json in the same GitHub Pages folder — derive the prefix
 // from MENU_URL instead of hardcoding the restaurant slug.
 const IMG_PREFIX = MENU_URL.replace(/menu\.json$/, '');
-// The sync uploads every image under the same slug dir as menu.json, so any
-// non-absolute path must be resolved against IMG_PREFIX (not the site root).
-function imgUrl(p) {
-  if (!p) return '';
-  p = String(p);
-  return /^(https?:|data:)/i.test(p) ? p : IMG_PREFIX + p.replace(/^\/+/, '');
-}
 
 // ─── LANGUAGE ────────────────────────────────────────────────────────────────
 let currentLang = localStorage.getItem('emenu_lang') || 'uz_lat';
@@ -639,7 +630,7 @@ function renderLanding() {
   setVisible('l-hero-right', wantHero);
   if (heroInner) heroInner.classList.toggle('hero-noimg', !wantHero);
   if (wantHero) {
-    img.src = imgUrl(d.hero_image);
+    img.src = d.hero_image;
     img.onerror = function() { this.onerror = null; setVisible('l-hero-right', false); if (heroInner) heroInner.classList.add('hero-noimg'); };
   }
 
@@ -694,19 +685,17 @@ function renderLanding() {
   document.getElementById('l-booking-title').textContent = lang(d.booking_cta.title);
   document.getElementById('l-booking-sub').textContent = lang(d.booking_cta.subtitle);
 
-  // gallery — only tiles with a real image; a broken one hides itself instead
-  // of falling back to a stock photo that isn't this restaurant's.
-  const gimgs = (d.gallery || []).filter(s => s && String(s).trim());
-  setVisible('l-gallery-wrap', !d.hide_gallery && gimgs.length > 0);
+  // gallery
+  setVisible('l-gallery-wrap', !d.hide_gallery);
   const gt = lang(d.gallery_title);
   const [gt1, ...gt2] = gt.split(' ');
   document.getElementById('l-gallery-title').innerHTML = `${esc(gt1)} <em>${esc(gt2.join(' '))}</em>`;
 
   // gallery images
-  document.getElementById('l-gallery').innerHTML = gimgs.map(src => `
+  document.getElementById('l-gallery').innerHTML = d.gallery.map((src, i) => `
     <div class="gallery-item">
-      <img src="${esc(imgUrl(src))}" alt="" loading="lazy"
-           onerror="this.onerror=null;this.parentNode.style.display='none'">
+      <img src="${esc(src)}" alt="" loading="lazy"
+           onerror="this.src='https://picsum.photos/seed/emenu-g${i+1}/300/300';this.onerror=null">
     </div>`).join('');
 
   // features bottom
@@ -787,9 +776,9 @@ function renderCards(catName) {
       ? (item.variants && item.variants.length ? lang(I18N.price_from) : '') + minPrice.toLocaleString('ru-RU') + lang(I18N.price_unit)
       : '';
     const badge = item.badges && item.badges[0] ? `<span class="cbadge">${esc(item.badges[0])}</span>` : '';
-    const imgSrc = imgUrl(item.image);
+    const imgSrc = item.image ? (item.image.startsWith('http') ? item.image : (IMG_PREFIX + item.image.replace(/^\/+/, ''))) : '';
     const imgEl = imgSrc
-      ? `<img src="${esc(imgSrc)}" alt="${esc(item.title)}" loading="lazy" onerror="this.onerror=null;this.parentNode.classList.add('noimg')">`
+      ? `<img src="${esc(imgSrc)}" alt="${esc(item.title)}" loading="lazy">`
       : `<span class="cimg-ph">🍽</span>`;
     return `<div class="card">
       <div class="cimg">${imgEl}</div>
