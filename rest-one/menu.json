@@ -413,6 +413,16 @@
           "available": true,
           "hidden": false,
           "badges": []
+        },
+        {
+          "id": "8a83b358-4d75-4cd2-bc6d-0061acf17c0f",
+          "title": "кук-си",
+          "description": "",
+          "price": 45000,
+          "image": "images-webp/1784024020593.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
         }
       ],
       "categoryImage": "images-webp/cat_1.webp"
