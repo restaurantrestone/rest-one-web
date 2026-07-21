@@ -2560,6 +2560,26 @@
           "available": true,
           "hidden": false,
           "badges": []
+        },
+        {
+          "id": "ce9c78e4-16a3-4f30-a67b-d2853f7b78fb",
+          "title": "Limonade Barry",
+          "description": "",
+          "price": 35000,
+          "image": "images-webp/1784633274485.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "f2f8bc59-34cf-4476-855a-7805e9e60768",
+          "title": "Limonade Pinacalada",
+          "description": "",
+          "price": 35000,
+          "image": "images-webp/1784633295297.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
         }
       ]
     },
