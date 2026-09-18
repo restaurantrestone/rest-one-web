@@ -891,6 +891,16 @@
           "available": true,
           "hidden": false,
           "badges": []
+        },
+        {
+          "id": "8d6a1648-dc7e-47a5-86eb-ed08204a2712",
+          "title": "Красная икра",
+          "description": "",
+          "price": 55000,
+          "image": "",
+          "available": true,
+          "hidden": false,
+          "badges": []
         }
       ]
     },
