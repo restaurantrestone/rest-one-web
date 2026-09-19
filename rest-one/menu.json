@@ -248,7 +248,7 @@
           "id": "salad_burrata",
           "title": "Буратта",
           "description": "Нежная буратто гармонично сочетается с соусом песто. Розовый помидор добавляет сочность, а руккола придаёт свежесть и лёгкость вкусу.",
-          "price": 140000,
+          "price": 100000,
           "image": "images-webp/burrata.webp",
           "available": true,
           "hidden": false,
