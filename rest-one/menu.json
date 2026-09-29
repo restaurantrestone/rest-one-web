@@ -2597,16 +2597,6 @@
       "name": "Вино",
       "items": [
         {
-          "id": "a711aee2-19df-4933-924b-5596dabfb134",
-          "title": "Тектура  ",
-          "description": "",
-          "price": 95000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
           "id": "5cba8e80-1718-4a57-9323-2027379a7a0e",
           "title": "Tektura pinot noir ",
           "description": "",
@@ -2919,7 +2909,18 @@
     },
     {
       "name": "Алкогольный  напитка",
-      "items": []
+      "items": [
+        {
+          "id": "a711aee2-19df-4933-924b-5596dabfb134",
+          "title": "Тектура  ",
+          "description": "",
+          "price": 95000,
+          "image": "images-webp/1790694397740.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        }
+      ]
     }
   ],
   "landing": {
