@@ -2254,7 +2254,7 @@
           "description": "",
           "price": 185000,
           "image": "images-webp/1793016793453.jpg",
-          "available": true,
+          "available": false,
           "hidden": false,
           "badges": []
         },
