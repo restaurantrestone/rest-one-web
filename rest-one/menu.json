@@ -2568,6 +2568,36 @@
           "available": true,
           "hidden": false,
           "badges": []
+        },
+        {
+          "id": "c121fdaa-9738-4d04-848f-01ebb181b5c9",
+          "title": "GREY GOOSE 1l ",
+          "description": "",
+          "price": 945000,
+          "image": "images-webp/1793017847728.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "899ad83a-4404-42eb-9bce-c4162d731744",
+          "title": "ОНЕГИН 0,5ml",
+          "description": "",
+          "price": 350000,
+          "image": "images-webp/1793017855205.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "bff2319a-a1aa-4c24-8e9e-7a59a86eb536",
+          "title": "FINLANDIA",
+          "description": "",
+          "price": 250000,
+          "image": "images-webp/1793017862669.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
         }
       ],
       "sections": []
