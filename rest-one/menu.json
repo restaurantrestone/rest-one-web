@@ -2475,20 +2475,20 @@
       "items": [
         {
           "id": "5cba8e80-1718-4a57-9323-2027379a7a0e",
-          "title": "Tektura pinot noir ",
+          "title": "Tektura белое полусладкое ",
           "description": "",
           "price": 110000,
-          "image": "logo.png",
+          "image": "images-webp/1793020563216.jpg",
           "available": true,
           "hidden": false,
           "badges": []
         },
         {
           "id": "fa5ee359-097e-4d18-a01c-f86c31ddef2a",
-          "title": "         Peri",
+          "title": " PERI ",
           "description": "",
           "price": 150000,
-          "image": "logo.png",
+          "image": "images-webp/1793020943288.jpg",
           "available": true,
           "hidden": false,
           "badges": []
@@ -2498,7 +2498,7 @@
           "title": "Bagizagan ",
           "description": "",
           "price": 90000,
-          "image": "logo.png",
+          "image": "images-webp/1793021056532.jpg",
           "available": true,
           "hidden": false,
           "badges": []
@@ -2508,17 +2508,17 @@
           "title": "Matua к/с",
           "description": "",
           "price": 380000,
-          "image": "logo.png",
+          "image": "images-webp/1793021201730.jpg",
           "available": true,
           "hidden": false,
           "badges": []
         },
         {
           "id": "b98b4ff8-9404-4860-88e8-8df460df36b2",
-          "title": "Teliani valley ",
+          "title": "MARANI",
           "description": "",
-          "price": 200000,
-          "image": "logo.png",
+          "price": 220000,
+          "image": "images-webp/1793021890336.jpg",
           "available": true,
           "hidden": false,
           "badges": []
@@ -2562,10 +2562,29 @@
           "available": true,
           "hidden": false,
           "badges": []
+        },
+        {
+          "id": "00b658e6-6391-4454-8b0d-a86ab23a24af",
+          "title": "LINDEMANS 0.75 ml",
+          "description": "",
+          "price": 320000,
+          "image": "images-webp/1793021482680.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "a7ede492-90c3-49e5-9e75-4bdae5b2980f",
+          "title": "ШАМПАНСКОЕ ",
+          "description": "",
+          "price": 90000,
+          "image": "images-webp/1793021518268.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
         }
       ],
-      "sections": [],
-      "noPhotos": true
+      "sections": []
     },
     {
       "name": "Водки",
