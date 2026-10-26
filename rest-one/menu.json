@@ -1839,7 +1839,7 @@
       ]
     },
     {
-      "name": "Чай",
+      "name": "Чай и Кофе",
       "items": [
         {
           "id": "cdca84a9-a010-47ac-bd3a-47958a8fa6eb",
@@ -1940,13 +1940,7 @@
           "available": true,
           "hidden": false,
           "badges": []
-        }
-      ],
-      "categoryImage": "images-webp/cat_15.webp"
-    },
-    {
-      "name": "Кофе",
-      "items": [
+        },
         {
           "id": "f9d45900-6923-47b4-94f6-40478cc957e0",
           "title": "Espresso",
@@ -2048,7 +2042,7 @@
           "badges": []
         }
       ],
-      "categoryImage": "images-webp/cat_16.webp"
+      "categoryImage": "images-webp/cat_15.webp"
     },
     {
       "name": "Напитки & Соки (в ассортименте)",
@@ -2477,6 +2471,103 @@
       ]
     },
     {
+      "name": "Вино",
+      "items": [
+        {
+          "id": "5cba8e80-1718-4a57-9323-2027379a7a0e",
+          "title": "Tektura pinot noir ",
+          "description": "",
+          "price": 110000,
+          "image": "logo.png",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "fa5ee359-097e-4d18-a01c-f86c31ddef2a",
+          "title": "         Peri",
+          "description": "",
+          "price": 150000,
+          "image": "logo.png",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "5167cf75-77b4-43d8-80c9-4324d89603fb",
+          "title": "Bagizagan ",
+          "description": "",
+          "price": 90000,
+          "image": "logo.png",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "d428edfb-d6ba-41a5-b8f0-e44654ad41f6",
+          "title": "Matua к/с",
+          "description": "",
+          "price": 380000,
+          "image": "logo.png",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "b98b4ff8-9404-4860-88e8-8df460df36b2",
+          "title": "Teliani valley ",
+          "description": "",
+          "price": 200000,
+          "image": "logo.png",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "32223c85-8107-4122-a356-505ae252ad7c",
+          "title": "lindemans б/с",
+          "description": "",
+          "price": 320000,
+          "image": "logo.png",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "a851cc63-1666-42ca-8de3-336ebda6afb9",
+          "title": "Fronterra  к/с",
+          "description": "",
+          "price": 250000,
+          "image": "logo.png",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "50cdcbac-17d5-49c6-be73-d8aaea3524cd",
+          "title": "Casillero del diablo к/с",
+          "description": "",
+          "price": 350000,
+          "image": "logo.png",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "02886cc1-227e-40d5-ac52-cc52dd97aea7",
+          "title": "Di  caspico б/п",
+          "description": "",
+          "price": 220000,
+          "image": "logo.png",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        }
+      ],
+      "sections": [],
+      "noPhotos": true
+    },
+    {
       "name": "Водки",
       "items": [
         {
@@ -2613,103 +2704,6 @@
       "sections": []
     },
     {
-      "name": "Вино",
-      "items": [
-        {
-          "id": "5cba8e80-1718-4a57-9323-2027379a7a0e",
-          "title": "Tektura pinot noir ",
-          "description": "",
-          "price": 110000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "fa5ee359-097e-4d18-a01c-f86c31ddef2a",
-          "title": "         Peri",
-          "description": "",
-          "price": 150000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "5167cf75-77b4-43d8-80c9-4324d89603fb",
-          "title": "Bagizagan ",
-          "description": "",
-          "price": 90000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "d428edfb-d6ba-41a5-b8f0-e44654ad41f6",
-          "title": "Matua к/с",
-          "description": "",
-          "price": 380000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "b98b4ff8-9404-4860-88e8-8df460df36b2",
-          "title": "Teliani valley ",
-          "description": "",
-          "price": 200000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "32223c85-8107-4122-a356-505ae252ad7c",
-          "title": "lindemans б/с",
-          "description": "",
-          "price": 320000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "a851cc63-1666-42ca-8de3-336ebda6afb9",
-          "title": "Fronterra  к/с",
-          "description": "",
-          "price": 250000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "50cdcbac-17d5-49c6-be73-d8aaea3524cd",
-          "title": "Casillero del diablo к/с",
-          "description": "",
-          "price": 350000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "02886cc1-227e-40d5-ac52-cc52dd97aea7",
-          "title": "Di  caspico б/п",
-          "description": "",
-          "price": 220000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        }
-      ],
-      "sections": [],
-      "noPhotos": true
-    },
-    {
       "name": "Sparkling wine",
       "items": [
         {
@@ -2762,36 +2756,6 @@
           "title": "Beefeater ",
           "description": "",
           "price": 500000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        }
-      ]
-    },
-    {
-      "name": "Rum",
-      "items": [
-        {
-          "id": "ab48e5e6-d77a-4591-a574-892244a9a7cf",
-          "title": "Captain morgan ",
-          "description": "",
-          "price": 450000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        }
-      ]
-    },
-    {
-      "name": "Tequila",
-      "items": [
-        {
-          "id": "50b7ca5c-66c7-47b5-80ba-081c24fa18f7",
-          "title": "Jose cuervo ",
-          "description": "",
-          "price": 450000,
           "image": "logo.png",
           "available": true,
           "hidden": false,
