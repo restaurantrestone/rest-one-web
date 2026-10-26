@@ -2598,6 +2598,16 @@
           "available": true,
           "hidden": false,
           "badges": []
+        },
+        {
+          "id": "0cbb05f2-a87c-48a7-8b61-2de099afd6fa",
+          "title": "SERYUGA UZBEKISTAN VODKA",
+          "description": "",
+          "price": 110000,
+          "image": "images-webp/1793018034957.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
         }
       ],
       "sections": []
