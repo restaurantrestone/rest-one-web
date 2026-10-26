@@ -2718,6 +2718,66 @@
           "available": true,
           "hidden": false,
           "badges": []
+        },
+        {
+          "id": "3bbb9dc8-969d-4e4a-bf9f-c355bd59165d",
+          "title": "КОНЬЯК TANBOUR 10 Лет 0,5ml",
+          "description": "",
+          "price": 270000,
+          "image": "images-webp/1793022572556.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "6736cdc6-0ab4-4136-95a2-0f4551094371",
+          "title": "КОНЬЯК TOSHKENT  хо 0,5ml",
+          "description": "",
+          "price": 130000,
+          "image": "images-webp/1793022720317.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "ca2f68c5-4816-4c43-b915-02d84779213c",
+          "title": "КОНЬЯК TANBOUR   7Лет 0,7ml",
+          "description": "",
+          "price": 290000,
+          "image": "images-webp/1793022823895.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "5970108a-7630-4db8-8dca-fb4932fbf8fe",
+          "title": "КОНЬЯК УЗБЕКИСТОН 0,5ml",
+          "description": "",
+          "price": 100000,
+          "image": "images-webp/1793023167025.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "ac887202-4cc5-4654-bfae-440cc6d478e7",
+          "title": "БРЕНДИ ARARAT 5 YO 0.5ml",
+          "description": "",
+          "price": 325000,
+          "image": "images-webp/1793023392504.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "0addc71f-5898-44bf-8bc6-235ac8d5efbb",
+          "title": "КОНЬЯК HENNESSY 0.7 ml",
+          "description": "",
+          "price": 750000,
+          "image": "images-webp/1793023504540.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
         }
       ],
       "sections": []
