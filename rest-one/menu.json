@@ -1734,121 +1734,6 @@
       "categoryImage": "images-webp/cat_13.webp"
     },
     {
-      "name": "алкогольный коктейль",
-      "items": [
-        {
-          "id": "87c629da-463c-4658-88fa-a4fbd204375a",
-          "title": "Hugo Spritz",
-          "description": "",
-          "price": 75000,
-          "image": "/images/1773574298716.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "9509a6c4-8edb-4aa4-a4cf-bd7835c192b5",
-          "title": "Pino colada ",
-          "description": "",
-          "price": 65000,
-          "image": "/images/1773487398884.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "10766e89-612a-4dfd-aec6-167ab941acb7",
-          "title": "Long island ice tea",
-          "description": "",
-          "price": 70000,
-          "image": "/images/1773488091687.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "19e81fa6-5021-4ec7-a05d-4c63dd67b614",
-          "title": "Passion Mojito",
-          "description": "",
-          "price": 70000,
-          "image": "/images/1773488116115.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "d55a8cf4-8e4c-485c-87f7-c65921d3bc02",
-          "title": "Whiskey sour",
-          "description": "",
-          "price": 65000,
-          "image": "/images/1773488251572.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "d84b8f98-bedd-47a7-903b-e05c8f1abef8",
-          "title": "Margarita",
-          "description": "",
-          "price": 70000,
-          "image": "/images/1773488261073.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "8b42d2de-d157-4a28-bd73-98e721cce5a3",
-          "title": "Salted caramel martini ",
-          "description": "",
-          "price": 65000,
-          "image": "/images/1773574285363.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "31b26fda-ee90-4e7d-81ae-f5ae928eac5d",
-          "title": "Daiquiri ",
-          "description": "",
-          "price": 65000,
-          "image": "/images/1773488379115.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "4c51007c-1e92-4667-913a-56af40374b24",
-          "title": "Boulevardier",
-          "description": "",
-          "price": 65000,
-          "image": "/images/1773574444612.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "0bedc870-b876-4b78-bbbf-0137b89afd8a",
-          "title": "b 52 ",
-          "description": "",
-          "price": 55000,
-          "image": "/images/1773488581541.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "7d0b2c8f-b509-45d3-88d4-a5a506633e53",
-          "title": "b 53",
-          "description": "",
-          "price": 55000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        }
-      ]
-    },
-    {
       "name": "Чай и Кофе",
       "items": [
         {
@@ -2251,241 +2136,6 @@
       "categoryImage": "images-webp/cat_17.webp"
     },
     {
-      "name": "Mилкшейк",
-      "items": [
-        {
-          "id": "f072ac93-06e3-40d5-81a3-10fd759a341b",
-          "title": "Клубника ",
-          "description": "",
-          "price": 30000,
-          "image": "/images/1773472000261.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "4d2b3774-8c46-4332-b639-884b2a88469c",
-          "title": "Банан",
-          "description": "",
-          "price": 30000,
-          "image": "/images/1773472011869.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "fdc612d9-6a2d-44fa-9a63-19f64130f24e",
-          "title": "Орео",
-          "description": "",
-          "price": 25000,
-          "image": "/images/1773472023301.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "de43c5a3-b281-4448-bf20-f0ad385b2e78",
-          "title": "Шоколад",
-          "description": "",
-          "price": 25000,
-          "image": "/images/1773472026713.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "56b98acd-1721-4efb-b3aa-878c78b07aef",
-          "title": "Классический",
-          "description": "",
-          "price": 25000,
-          "image": "/images/1773472036212.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        }
-      ]
-    },
-    {
-      "name": "Lemonades",
-      "items": [
-        {
-          "id": "1043966d-d42d-4b74-ba63-97258c85a452",
-          "title": "Классический 0.5л",
-          "description": "",
-          "price": 20000,
-          "image": "/images/1773472633604.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "efa0644d-552d-4ac6-a112-17ee73d5ab6c",
-          "title": "Мохито 0.5л",
-          "description": "",
-          "price": 20000,
-          "image": "/images/1773472640653.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "22f5e2dd-8934-4768-af76-0b5b2288b1aa",
-          "title": "Клубника-Малина 0.5л",
-          "description": "",
-          "price": 20000,
-          "image": "/images/1773472644321.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "fd632f6b-90a7-4e79-8cef-b4c449f85867",
-          "title": "Тархун-яблока 0.5л",
-          "description": "",
-          "price": 20000,
-          "image": "/images/1773472648884.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "11a8d3e3-54fd-42a1-a187-b019fcd445c8",
-          "title": "Манго-маракуя   0.5л",
-          "description": "",
-          "price": 20000,
-          "image": "/images/1773472653680.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "567f8b14-f51f-49d4-a2b8-9b10a48cf50e",
-          "title": "Киви-апельсин 0.5л",
-          "description": "",
-          "price": 20000,
-          "image": "/images/1773472719643.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "4a1dc0ea-487f-4edd-ac94-1769f229cfab",
-          "title": "Ice tea малина- персик 0.75л",
-          "description": "",
-          "price": 25000,
-          "image": "/images/1773484027471.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "34cc5e55-a00a-4363-b6e7-b0b863871b02",
-          "title": "Ice tea манго - апельсин 0.75л",
-          "description": "",
-          "price": 25000,
-          "image": "/images/1773484030753.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "73e3513d-188d-47cf-8b89-7441fb56183c",
-          "title": "Классический 1л",
-          "description": "",
-          "price": 35000,
-          "image": "/images/1773484428299.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "8daaf77c-7039-43e0-8efd-2304bccbd2ac",
-          "title": "Клубника-Малина 1л",
-          "description": "",
-          "price": 35000,
-          "image": "/images/1773484397136.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "c9bfc48f-315b-47c9-8975-0076dd5878bb",
-          "title": "Тархун-яблока 1л",
-          "description": "",
-          "price": 35000,
-          "image": "/images/1773484855940.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "475c63ad-49b5-4ec6-b8b1-a2f06db77909",
-          "title": "Мохито 1л",
-          "description": "",
-          "price": 35000,
-          "image": "/images/1773484822462.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "7daf6c72-dd57-4d1d-a6ad-37abf0a13795",
-          "title": "Манго-маракуя   1л",
-          "description": "",
-          "price": 35000,
-          "image": "/images/1773484577085.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "032a3353-5053-42c4-ae8e-027047ca1db8",
-          "title": "Киви-апельсин 1л",
-          "description": "",
-          "price": 35000,
-          "image": "/images/1773484600934.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "d7a79fdf-d820-47ba-935b-ee9557bfea34",
-          "title": "Айрон без газ",
-          "description": "",
-          "price": 22000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "ce9c78e4-16a3-4f30-a67b-d2853f7b78fb",
-          "title": "Limonade Barry",
-          "description": "",
-          "price": 35000,
-          "image": "images-webp/1784633274485.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "f2f8bc59-34cf-4476-855a-7805e9e60768",
-          "title": "Limonade Pinacalada",
-          "description": "",
-          "price": 35000,
-          "image": "images-webp/1784633295297.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        }
-      ]
-    },
-    {
-      "name": "Вино",
-      "items": [],
-      "sections": []
-    },
-    {
       "name": "Вино & Водки",
       "items": [
         {
@@ -2751,6 +2401,356 @@
       ],
       "sections": [],
       "categoryImage": "images-webp/cat_20.jpg"
+    },
+    {
+      "name": "Mилкшейк",
+      "items": [
+        {
+          "id": "f072ac93-06e3-40d5-81a3-10fd759a341b",
+          "title": "Клубника ",
+          "description": "",
+          "price": 30000,
+          "image": "/images/1773472000261.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "4d2b3774-8c46-4332-b639-884b2a88469c",
+          "title": "Банан",
+          "description": "",
+          "price": 30000,
+          "image": "/images/1773472011869.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "fdc612d9-6a2d-44fa-9a63-19f64130f24e",
+          "title": "Орео",
+          "description": "",
+          "price": 25000,
+          "image": "/images/1773472023301.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "de43c5a3-b281-4448-bf20-f0ad385b2e78",
+          "title": "Шоколад",
+          "description": "",
+          "price": 25000,
+          "image": "/images/1773472026713.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "56b98acd-1721-4efb-b3aa-878c78b07aef",
+          "title": "Классический",
+          "description": "",
+          "price": 25000,
+          "image": "/images/1773472036212.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        }
+      ]
+    },
+    {
+      "name": "Lemonades",
+      "items": [
+        {
+          "id": "1043966d-d42d-4b74-ba63-97258c85a452",
+          "title": "Классический 0.5л",
+          "description": "",
+          "price": 20000,
+          "image": "/images/1773472633604.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "efa0644d-552d-4ac6-a112-17ee73d5ab6c",
+          "title": "Мохито 0.5л",
+          "description": "",
+          "price": 20000,
+          "image": "/images/1773472640653.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "22f5e2dd-8934-4768-af76-0b5b2288b1aa",
+          "title": "Клубника-Малина 0.5л",
+          "description": "",
+          "price": 20000,
+          "image": "/images/1773472644321.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "fd632f6b-90a7-4e79-8cef-b4c449f85867",
+          "title": "Тархун-яблока 0.5л",
+          "description": "",
+          "price": 20000,
+          "image": "/images/1773472648884.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "11a8d3e3-54fd-42a1-a187-b019fcd445c8",
+          "title": "Манго-маракуя   0.5л",
+          "description": "",
+          "price": 20000,
+          "image": "/images/1773472653680.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "567f8b14-f51f-49d4-a2b8-9b10a48cf50e",
+          "title": "Киви-апельсин 0.5л",
+          "description": "",
+          "price": 20000,
+          "image": "/images/1773472719643.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "4a1dc0ea-487f-4edd-ac94-1769f229cfab",
+          "title": "Ice tea малина- персик 0.75л",
+          "description": "",
+          "price": 25000,
+          "image": "/images/1773484027471.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "34cc5e55-a00a-4363-b6e7-b0b863871b02",
+          "title": "Ice tea манго - апельсин 0.75л",
+          "description": "",
+          "price": 25000,
+          "image": "/images/1773484030753.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "73e3513d-188d-47cf-8b89-7441fb56183c",
+          "title": "Классический 1л",
+          "description": "",
+          "price": 35000,
+          "image": "/images/1773484428299.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "8daaf77c-7039-43e0-8efd-2304bccbd2ac",
+          "title": "Клубника-Малина 1л",
+          "description": "",
+          "price": 35000,
+          "image": "/images/1773484397136.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "c9bfc48f-315b-47c9-8975-0076dd5878bb",
+          "title": "Тархун-яблока 1л",
+          "description": "",
+          "price": 35000,
+          "image": "/images/1773484855940.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "475c63ad-49b5-4ec6-b8b1-a2f06db77909",
+          "title": "Мохито 1л",
+          "description": "",
+          "price": 35000,
+          "image": "/images/1773484822462.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "7daf6c72-dd57-4d1d-a6ad-37abf0a13795",
+          "title": "Манго-маракуя   1л",
+          "description": "",
+          "price": 35000,
+          "image": "/images/1773484577085.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "032a3353-5053-42c4-ae8e-027047ca1db8",
+          "title": "Киви-апельсин 1л",
+          "description": "",
+          "price": 35000,
+          "image": "/images/1773484600934.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "d7a79fdf-d820-47ba-935b-ee9557bfea34",
+          "title": "Айрон без газ",
+          "description": "",
+          "price": 22000,
+          "image": "logo.png",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "ce9c78e4-16a3-4f30-a67b-d2853f7b78fb",
+          "title": "Limonade Barry",
+          "description": "",
+          "price": 35000,
+          "image": "images-webp/1784633274485.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "f2f8bc59-34cf-4476-855a-7805e9e60768",
+          "title": "Limonade Pinacalada",
+          "description": "",
+          "price": 35000,
+          "image": "images-webp/1784633295297.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        }
+      ]
+    },
+    {
+      "name": "Вино",
+      "items": [],
+      "sections": []
+    },
+    {
+      "name": "алкогольный коктейль",
+      "items": [
+        {
+          "id": "87c629da-463c-4658-88fa-a4fbd204375a",
+          "title": "Hugo Spritz",
+          "description": "",
+          "price": 75000,
+          "image": "/images/1773574298716.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "9509a6c4-8edb-4aa4-a4cf-bd7835c192b5",
+          "title": "Pino colada ",
+          "description": "",
+          "price": 65000,
+          "image": "/images/1773487398884.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "10766e89-612a-4dfd-aec6-167ab941acb7",
+          "title": "Long island ice tea",
+          "description": "",
+          "price": 70000,
+          "image": "/images/1773488091687.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "19e81fa6-5021-4ec7-a05d-4c63dd67b614",
+          "title": "Passion Mojito",
+          "description": "",
+          "price": 70000,
+          "image": "/images/1773488116115.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "d55a8cf4-8e4c-485c-87f7-c65921d3bc02",
+          "title": "Whiskey sour",
+          "description": "",
+          "price": 65000,
+          "image": "/images/1773488251572.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "d84b8f98-bedd-47a7-903b-e05c8f1abef8",
+          "title": "Margarita",
+          "description": "",
+          "price": 70000,
+          "image": "/images/1773488261073.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "8b42d2de-d157-4a28-bd73-98e721cce5a3",
+          "title": "Salted caramel martini ",
+          "description": "",
+          "price": 65000,
+          "image": "/images/1773574285363.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "31b26fda-ee90-4e7d-81ae-f5ae928eac5d",
+          "title": "Daiquiri ",
+          "description": "",
+          "price": 65000,
+          "image": "/images/1773488379115.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "4c51007c-1e92-4667-913a-56af40374b24",
+          "title": "Boulevardier",
+          "description": "",
+          "price": 65000,
+          "image": "/images/1773574444612.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "0bedc870-b876-4b78-bbbf-0137b89afd8a",
+          "title": "b 52 ",
+          "description": "",
+          "price": 55000,
+          "image": "/images/1773488581541.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "7d0b2c8f-b509-45d3-88d4-a5a506633e53",
+          "title": "b 53",
+          "description": "",
+          "price": 55000,
+          "image": "logo.png",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        }
+      ]
     },
     {
       "name": "Sparkling wine",
