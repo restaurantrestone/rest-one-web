@@ -2483,8 +2483,8 @@
           "id": "bb09a82b-8ab3-425c-8a25-862204452874",
           "title": "Humo",
           "description": "",
-          "price": 180000,
-          "image": "logo.png",
+          "price": 200000,
+          "image": "images-webp/1793014240287.jpg",
           "available": true,
           "hidden": false,
           "badges": []
@@ -2590,7 +2590,6 @@
           "badges": []
         }
       ],
-      "noPhotos": true,
       "sections": []
     },
     {
