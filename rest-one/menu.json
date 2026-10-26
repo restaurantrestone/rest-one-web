@@ -121,6 +121,16 @@
           "badges": []
         },
         {
+          "id": "752054e3-8552-499c-879d-2317dbc66a18",
+          "title": "Хрустящие баклажаны со страчателлой",
+          "description": "",
+          "price": 65000,
+          "image": "images-webp/1793033473081.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
           "id": "salad_mens_caprice",
           "title": "Мужской каприз",
           "description": "Нежный язык и индейка гармонично сочетаются с отварным мясом. Огурцы добавляют свежесть, а сыр придаёт блюду сливочность. Картофель делает блюдо сытным, а майонез объединяет все вкусы",
@@ -260,16 +270,6 @@
           "description": "",
           "price": 45000,
           "image": "images-webp/1789747535351.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "752054e3-8552-499c-879d-2317dbc66a18",
-          "title": "Хрустящие баклажаны со страчателлой",
-          "description": "",
-          "price": 65000,
-          "image": "images-webp/1793033473081.jpg",
           "available": true,
           "hidden": false,
           "badges": []
@@ -2403,61 +2403,6 @@
       "categoryImage": "images-webp/cat_20.jpg"
     },
     {
-      "name": "Mилкшейк",
-      "items": [
-        {
-          "id": "f072ac93-06e3-40d5-81a3-10fd759a341b",
-          "title": "Клубника ",
-          "description": "",
-          "price": 30000,
-          "image": "/images/1773472000261.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "4d2b3774-8c46-4332-b639-884b2a88469c",
-          "title": "Банан",
-          "description": "",
-          "price": 30000,
-          "image": "/images/1773472011869.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "fdc612d9-6a2d-44fa-9a63-19f64130f24e",
-          "title": "Орео",
-          "description": "",
-          "price": 25000,
-          "image": "/images/1773472023301.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "de43c5a3-b281-4448-bf20-f0ad385b2e78",
-          "title": "Шоколад",
-          "description": "",
-          "price": 25000,
-          "image": "/images/1773472026713.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "56b98acd-1721-4efb-b3aa-878c78b07aef",
-          "title": "Классический",
-          "description": "",
-          "price": 25000,
-          "image": "/images/1773472036212.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        }
-      ]
-    },
-    {
       "name": "Lemonades",
       "items": [
         {
@@ -2605,7 +2550,7 @@
           "title": "Айрон без газ",
           "description": "",
           "price": 22000,
-          "image": "logo.png",
+          "image": "images-webp/1793033645739.jpg",
           "available": true,
           "hidden": false,
           "badges": []
@@ -2629,13 +2574,58 @@
           "available": true,
           "hidden": false,
           "badges": []
+        },
+        {
+          "id": "f072ac93-06e3-40d5-81a3-10fd759a341b",
+          "title": "Клубника ",
+          "description": "",
+          "price": 30000,
+          "image": "/images/1773472000261.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "4d2b3774-8c46-4332-b639-884b2a88469c",
+          "title": "Банан",
+          "description": "",
+          "price": 30000,
+          "image": "/images/1773472011869.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "fdc612d9-6a2d-44fa-9a63-19f64130f24e",
+          "title": "Орео",
+          "description": "",
+          "price": 25000,
+          "image": "/images/1773472023301.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "de43c5a3-b281-4448-bf20-f0ad385b2e78",
+          "title": "Шоколад",
+          "description": "",
+          "price": 25000,
+          "image": "/images/1773472026713.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "56b98acd-1721-4efb-b3aa-878c78b07aef",
+          "title": "Классический",
+          "description": "",
+          "price": 25000,
+          "image": "/images/1773472036212.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
         }
       ]
-    },
-    {
-      "name": "Вино",
-      "items": [],
-      "sections": []
     },
     {
       "name": "алкогольный коктейль",
