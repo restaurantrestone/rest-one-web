@@ -2519,6 +2519,16 @@
           "badges": []
         },
         {
+          "id": "b98b4ff8-9404-4860-88e8-8df460df36b2",
+          "title": "MARANI",
+          "description": "",
+          "price": 220000,
+          "image": "images-webp/1793021890336.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
           "id": "00b658e6-6391-4454-8b0d-a86ab23a24af",
           "title": "LINDEMANS 0.75 ml",
           "description": "",
@@ -2704,16 +2714,6 @@
           "description": "",
           "price": 100000,
           "image": "images-webp/1793023167025.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "b98b4ff8-9404-4860-88e8-8df460df36b2",
-          "title": "MARANI",
-          "description": "",
-          "price": 220000,
-          "image": "images-webp/1793021890336.jpg",
           "available": true,
           "hidden": false,
           "badges": []
