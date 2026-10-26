@@ -263,6 +263,16 @@
           "available": true,
           "hidden": false,
           "badges": []
+        },
+        {
+          "id": "752054e3-8552-499c-879d-2317dbc66a18",
+          "title": "Хрустящие баклажаны со страчателлой",
+          "description": "",
+          "price": 65000,
+          "image": "",
+          "available": true,
+          "hidden": false,
+          "badges": []
         }
       ],
       "sections": []
