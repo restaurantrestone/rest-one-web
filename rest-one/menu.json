@@ -2159,21 +2159,21 @@
           "badges": []
         },
         {
-          "id": "5167cf75-77b4-43d8-80c9-4324d89603fb",
-          "title": "Bagizagan ",
-          "description": "",
-          "price": 90000,
-          "image": "images-webp/1793021056532.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
           "id": "d428edfb-d6ba-41a5-b8f0-e44654ad41f6",
           "title": "Matua к/с",
           "description": "",
           "price": 380000,
           "image": "images-webp/1793021201730.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "5167cf75-77b4-43d8-80c9-4324d89603fb",
+          "title": "Bagizagan ",
+          "description": "",
+          "price": 90000,
+          "image": "images-webp/1793021056532.jpg",
           "available": true,
           "hidden": false,
           "badges": []
