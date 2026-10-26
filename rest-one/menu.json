@@ -2906,21 +2906,6 @@
       ],
       "noPhotos": true,
       "sections": []
-    },
-    {
-      "name": "Алкогольный  напитка",
-      "items": [
-        {
-          "id": "a711aee2-19df-4933-924b-5596dabfb134",
-          "title": "Тектура  ",
-          "description": "",
-          "price": 95000,
-          "image": "images-webp/1790694397740.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        }
-      ]
     }
   ],
   "landing": {
