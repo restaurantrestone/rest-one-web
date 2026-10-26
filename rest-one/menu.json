@@ -2481,7 +2481,7 @@
       "items": [
         {
           "id": "bb09a82b-8ab3-425c-8a25-862204452874",
-          "title": "Humo",
+          "title": "Humo 0.7 ml",
           "description": "",
           "price": 200000,
           "image": "images-webp/1793014240287.jpg",
@@ -2490,30 +2490,10 @@
           "badges": []
         },
         {
-          "id": "55081037-e308-4d74-9aeb-ae95411dd9f2",
-          "title": "Амбарная особая",
-          "description": "",
-          "price": 90000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "717b122a-a8cc-4487-a5b2-717f8aa61779",
-          "title": "Амбарная sky",
-          "description": "",
-          "price": 100000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
           "id": "6b62d803-c236-44e3-81ba-06caebc3432f",
-          "title": "New Uzbekistan ",
+          "title": "New Uzbekistan 0.7 ml",
           "description": "",
-          "price": 115000,
+          "price": 120000,
           "image": "logo.png",
           "available": true,
           "hidden": false,
@@ -2521,19 +2501,9 @@
         },
         {
           "id": "e97c220f-1b44-462e-94e8-2250a2aa6741",
-          "title": "Gold Uzbekistan ",
+          "title": "Gold Uzbekistan 0.7 ml",
           "description": "",
-          "price": 300000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "217cfcaf-b619-4f74-afdc-6c233bf250b1",
-          "title": "Медовая",
-          "description": "",
-          "price": 90000,
+          "price": 350000,
           "image": "logo.png",
           "available": true,
           "hidden": false,
@@ -2541,9 +2511,9 @@
         },
         {
           "id": "c3cd0254-8f21-4fca-a90e-4f85329e5489",
-          "title": "Царская оригиналная",
+          "title": "Царская  Ледяная 0,7 ml",
           "description": "",
-          "price": 200000,
+          "price": 210000,
           "image": "logo.png",
           "available": true,
           "hidden": false,
@@ -2551,7 +2521,7 @@
         },
         {
           "id": "30dc6487-a27e-4f06-a8df-67446e5b002d",
-          "title": "Царская ледяная",
+          "title": "Царская ледяная 0.5ml",
           "description": "",
           "price": 185000,
           "image": "logo.png",
@@ -2561,7 +2531,7 @@
         },
         {
           "id": "cdd2908c-e511-4586-ac9b-a86255e9cdad",
-          "title": "Архангельская",
+          "title": "Архангельская 0.7ml",
           "description": "",
           "price": 200000,
           "image": "logo.png",
@@ -2570,21 +2540,31 @@
           "badges": []
         },
         {
-          "id": "06104da2-9842-4839-8c0b-5fcabcae0a23",
-          "title": "Аbsalut",
+          "id": "31ef8183-2b4b-48a9-a892-19a7fbefbc29",
+          "title": "Белуга 0.7ml",
           "description": "",
-          "price": 350000,
+          "price": 1020000,
           "image": "logo.png",
           "available": true,
           "hidden": false,
           "badges": []
         },
         {
-          "id": "31ef8183-2b4b-48a9-a892-19a7fbefbc29",
-          "title": "Белуга",
+          "id": "217cfcaf-b619-4f74-afdc-6c233bf250b1",
+          "title": "Медовая 0.7ml",
           "description": "",
-          "price": 920000,
+          "price": 100000,
           "image": "logo.png",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "0f178cd7-4d56-45a7-8415-c34b3f4edc2a",
+          "title": "Медовая 0.5ml",
+          "description": "",
+          "price": 75000,
+          "image": "",
           "available": true,
           "hidden": false,
           "badges": []
