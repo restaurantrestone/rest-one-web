@@ -2149,16 +2149,6 @@
           "badges": []
         },
         {
-          "id": "fa5ee359-097e-4d18-a01c-f86c31ddef2a",
-          "title": " PERI ",
-          "description": "",
-          "price": 150000,
-          "image": "images-webp/1793020943288.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
           "id": "d428edfb-d6ba-41a5-b8f0-e44654ad41f6",
           "title": "Matua к/с",
           "description": "",
@@ -2174,6 +2164,16 @@
           "description": "",
           "price": 90000,
           "image": "images-webp/1793021056532.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "fa5ee359-097e-4d18-a01c-f86c31ddef2a",
+          "title": " PERI ",
+          "description": "",
+          "price": 150000,
+          "image": "images-webp/1793020943288.jpg",
           "available": true,
           "hidden": false,
           "badges": []
@@ -2394,6 +2394,16 @@
           "description": "",
           "price": 750000,
           "image": "images-webp/1793023504540.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "274f256d-8675-4e40-bf32-7ea9fb8c113d",
+          "title": "",
+          "description": "",
+          "price": 0,
+          "image": "",
           "available": true,
           "hidden": false,
           "badges": []
