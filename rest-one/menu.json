@@ -1485,6 +1485,53 @@
       "categoryImage": "images-webp/cat_12.webp"
     },
     {
+      "name": "Соусы / Дополнительно",
+      "image": "images-webp/chakka.webp",
+      "items": [
+        {
+          "id": "c759924e-24d3-4e02-b939-e93e374df5ec",
+          "title": "Соус тар-тар",
+          "description": "",
+          "price": 10000,
+          "image": "/images/1773310570600.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "54ce9f50-baa5-44b8-8b28-2c128aaaf305",
+          "title": "Соус томатный",
+          "description": "",
+          "price": 10000,
+          "image": "/images/1773310608626.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "df96cff6-7f14-4d92-bf51-04dd44b79af3",
+          "title": "Соус чили",
+          "description": "",
+          "price": 10000,
+          "image": "/images/1773310604453.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "3e3a79f8-d4e5-427d-aed5-911fb560119b",
+          "title": "Соус сырный",
+          "description": "",
+          "price": 10000,
+          "image": "/images/1773310614117.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        }
+      ],
+      "categoryImage": "images-webp/cat_8.webp"
+    },
+    {
       "name": "Хлеб / Выпечка",
       "image": "images-webp/xachapuri-adjarskiy.webp",
       "items": [
@@ -1579,53 +1626,6 @@
           "badges": []
         }
       ]
-    },
-    {
-      "name": "Соусы / Дополнительно",
-      "image": "images-webp/chakka.webp",
-      "items": [
-        {
-          "id": "c759924e-24d3-4e02-b939-e93e374df5ec",
-          "title": "Соус тар-тар",
-          "description": "",
-          "price": 10000,
-          "image": "/images/1773310570600.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "54ce9f50-baa5-44b8-8b28-2c128aaaf305",
-          "title": "Соус томатный",
-          "description": "",
-          "price": 10000,
-          "image": "/images/1773310608626.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "df96cff6-7f14-4d92-bf51-04dd44b79af3",
-          "title": "Соус чили",
-          "description": "",
-          "price": 10000,
-          "image": "/images/1773310604453.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "3e3a79f8-d4e5-427d-aed5-911fb560119b",
-          "title": "Соус сырный",
-          "description": "",
-          "price": 10000,
-          "image": "/images/1773310614117.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        }
-      ],
-      "categoryImage": "images-webp/cat_8.webp"
     },
     {
       "name": "Десерты",
