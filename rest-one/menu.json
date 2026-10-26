@@ -11,7 +11,7 @@
     },
     "service": {
       "enabled": true,
-      "percent": 10
+      "percent": 12
     }
   },
   "categories": [
