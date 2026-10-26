@@ -278,6 +278,248 @@
       "sections": []
     },
     {
+      "name": "Закуски",
+      "image": "images-webp/myasnoy-assorti.webp",
+      "items": [
+        {
+          "id": "snack_pickled_assorted",
+          "title": "Маринованное ассорти",
+          "description": "Помидоры черри и томаты придают солёному ассорти насыщенный вкус. Дунганский перец добавляет пикантности, а чеснок — остроты. Огурцы вносят свежесть, анзур обогащает блюдо оригинальным вкусом, а квашеная капуста придаёт приятную кислинку.",
+          "price": 60000,
+          "image": "images-webp/marinovani-assorti.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "09cd471e-2e78-4273-800d-56a1b880e5e5",
+          "title": " Казы с луком",
+          "description": "Казы с луком — это сочетание пикантного вкуса казы и лёгкой остроты лука, создающее насыщенное и ароматное блюдо",
+          "price": 109000,
+          "image": "/images/1773242824849.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "snack_meat_assorted",
+          "title": "Мясное ассорти",
+          "description": "Казы, копчёная говядина и индейка гармонично сочетаются в мясном ассорти. Горчичный соус добавляет пикантности и подчёркивает вкус мясных деликатесов",
+          "price": 260000,
+          "image": "images-webp/myasnoy-assorti.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "snack_veggie_assorted",
+          "title": "Овощное ассорти",
+          "description": "Огурцы и помидоры создают сочную основу овощного ассорти. Редиска и морковь добавляют лёгкую хрусткость, а сельдерей и болгарский перец — насыщенный вкус. Сузьма придаёт блюду пикантность, а зелень завершает вкусовую гармонию.",
+          "price": 55000,
+          "image": "images-webp/ovoshnoy-assorti.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "snack_herring",
+          "title": "Селедка по-русски",
+          "description": "Селёдка по-русски сочетает в себе солоноватый вкус селёдки и мягкость отварного картофеля. Маринованная свёкла добавляет сладость и яркость, а лук придаёт лёгкую остроту и аромат",
+          "price": 40000,
+          "image": "images-webp/seledka-po-russki.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "snack_cheese_assorted",
+          "title": "Сырное ассорти",
+          "description": "Беби (3 шт.), гурман (5 шт.), дор блю (4 шт.), мраморный сыр (6 шт.), гауда (10 шт.), печенье (3 шт.) \n",
+          "price": 199000,
+          "image": "images-webp/sirniy-assorty.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "hot_fruit_large",
+          "title": "Фруктовый большой",
+          "description": "Яблоко и банан создают основу фруктового ассорти, добавляя сладость и нежность. Киви придаёт лёгкую кислинку, ананас — тропическую нотку, манго — сочность, а маракуйя вносит яркий фруктовый аромат",
+          "price": 215000,
+          "image": "/images/1773230217267.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "sauce_chakka",
+          "title": "Чакка",
+          "description": "Кисломолочный продукт, который отличается лёгкой кислинкой и приятной текстурой",
+          "price": 17000,
+          "image": "images-webp/chakka.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "sauce_lemon",
+          "title": "Лимон",
+          "description": "Лимон – это свежие и ароматные дольки, которые идеально подходят для добавления в напитки или блюда, придавая им яркий цитрусовый вкус",
+          "price": 17000,
+          "image": "images-webp/limon.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "69d611aa-067c-4e5a-b1b4-d577894c1db2",
+          "title": "Пивной сет .",
+          "description": "",
+          "price": 150000,
+          "image": "/images/1773242652221.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "a5a7b7ba-71a5-46d7-91bc-f20dcf0459c0",
+          "title": "Грузинская закуска",
+          "description": "Баклажаны придают рулетам нежность, а чеснок — пикантный вкус. Орехи добавляют хрустящую текстуру, сливочный сыр — кремовость, а зелень вносит свежесть и аромат.",
+          "price": 52000,
+          "image": "/images/1773242758878.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "66055873-31eb-4e37-82e5-7e0cb3e36ea3",
+          "title": "Зелен ассорти",
+          "description": "",
+          "price": 40000,
+          "image": "logo.png",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "c713b602-46d4-4579-a920-d727428fd745",
+          "title": "Ковун-Тарвуз",
+          "description": "",
+          "price": 42000,
+          "image": "images-webp/1784046627782.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "8d6a1648-dc7e-47a5-86eb-ed08204a2712",
+          "title": "Красная икра",
+          "description": "",
+          "price": 55000,
+          "image": "",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        }
+      ]
+    },
+    {
+      "name": "Горячие закуска",
+      "items": [
+        {
+          "id": "66815a26-4b3a-4a3d-ad9f-b38ffffb6c68",
+          "title": "Mexician Kesadilya",
+          "description": "",
+          "price": 25000,
+          "image": "images-webp/1783065268781.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "d1f96d51-e872-4839-9994-3b90048434f8",
+          "title": "Грибная шапочка",
+          "description": "Ароматная «грибная шапочка» — тёплое и сытное блюдо с мясом, грибами и сыром, приготовленное с заботой и любовью",
+          "price": 59000,
+          "image": "/images/1773242489027.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "416a7fb4-7055-4b08-bdd8-8a58d8df2ef8",
+          "title": "Lahmadjun",
+          "description": "",
+          "price": 25000,
+          "image": "images-webp/1782909523139.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "snack_dolma",
+          "title": "Долма (5шт)",
+          "description": "Долма с мясом говядины представляет собой блюдо с нежной текстурой и насыщенным вкусом, где мясо придаёт сочность и богатый аромат.",
+          "price": 49000,
+          "image": "images-webp/dolma.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "snack_bindjak",
+          "title": "Бинджак",
+          "description": "Куриное филе придаёт блюду нежность и насыщенный вкус, а лаваш обеспечивает лёгкость. Сыр фета вносит солоноватость, шампиньоны — аромат, укроп добавляет свежесть, кунжут — лёгкую хрусткость, а чеснок — пикантные нотки.",
+          "price": 45000,
+          "image": "images-webp/bindjak.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "snack_grenki",
+          "title": "Гренки",
+          "description": "Гренки готовят из чёрного хлеба, который придаёт им плотную текстуру. Чеснок добавляет пикантность, сыр пармезан — солоноватый вкус и лёгкую хрусткость, а соус Тартар объединяет вкусы и делает блюдо более насыщенным.",
+          "price": 34000,
+          "image": "images-webp/grenki.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "snack_fried_mozzarella",
+          "title": "Жареная моцарелла",
+          "description": "Моцарелла приобретает золотистую корочку при жарке, а внутри остаётся нежной и тягучей. Карамель добавляет сладость, а ягоды вносят свежую кислинку.",
+          "price": 55000,
+          "image": "images-webp/jarenniy-motsarella.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "snack_tongue_cream",
+          "title": "Язык в сливочном соусе",
+          "description": "Язык в сливочном соусе отличается нежной текстурой и мягким вкусом. Шампиньоны добавляют аромат, лук — лёгкую сладость, орехи вносят хрустящую нотку, а сливочный соус делает блюдо насыщенным и бархатистым.",
+          "price": 60000,
+          "image": "images-webp/yazik-v-slichochnom-souse.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "b04ae8f1-e94f-4d5a-adc2-d9f31314a089",
+          "title": " Крылышки баффало",
+          "description": "Крылышки баффало — это сочная курица, покрытая смесью унаги и барбекю соусов, что создаёт уникальное сочетание сладковатого и пикантного вкусов.",
+          "price": 55000,
+          "image": "/images/1773243150890.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        }
+      ],
+      "categoryImage": "images-webp/cat_9.webp"
+    },
+    {
       "name": "Супы",
       "image": "images-webp/borsh.webp",
       "items": [
@@ -403,128 +645,6 @@
         }
       ],
       "categoryImage": "images-webp/cat_1.webp"
-    },
-    {
-      "name": "Пицца",
-      "image": "images-webp/margarita.webp",
-      "items": [
-        {
-          "id": "pizza_hawaiian",
-          "title": "Гавайская пицца",
-          "description": "это популярная разновидность пиццы, в которой на тесто выкладываются кусочки курицы, ананасы и моцарелла. Сочетание сладкого ананаса и нежного куриного мяса создаёт уникальный и приятный вкус, который нравится многим (30 см)",
-          "price": 85000,
-          "image": "images-webp/gavayskiy-pitsa.webp",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "pizza_margarita",
-          "title": "Маргарита",
-          "description": "Это воплощение классической итальянской кухни, которая покоряет своей простотой и безупречным вкусом. Золотистое, слегка хрустящее тесто служит основой для этого кулинарного шедевра. На нём равномерно распределён ароматный слой спелых помидоров, придающих пицце сочность и лёгкую кислинку (30 см)",
-          "price": 59000,
-          "image": "images-webp/margarita.webp",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "pizza_pepperoni",
-          "title": "Пепперони",
-          "description": "Это воплощение яркого и насыщенного вкуса, которое сразу же привлекает внимание своим аппетитным видом. Основа пиццы — тонкое, ароматное тесто, которое при выпечке становится золотистым и хрустящим  (30 см)",
-          "price": 85000,
-          "image": "images-webp/peperoni.webp",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "pizza_caesar",
-          "title": "Пицца Цезарь",
-          "description": "это гармоничное сочетание ингредиентов, вдохновлённое знаменитым салатом. Основа пиццы — тонкое тесто, которое придаёт блюду лёгкость. Моцарелла, расплавленная и тягучая, добавляет сочность. Нежная курица и пикантный бекон создают насыщенный вкус, а свежий айсберг придаёт хрусткость и лёгкость. Томаты черри добавляют сладость и яркий цвет, а пармезан — насыщенный аромат (30 см)",
-          "price": 99000,
-          "image": "images-webp/pitsa-sezar.webp",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "pizza_restone",
-          "title": "Пицца Rest-One",
-          "description": "Фирменная мясная пицца с рукколой — сочная пицца с ароматным томатным соусом, нежной моцареллой и ассорти отборного мяса. Свежая руккола добавляет лёгкую пикантную горчинку и свежесть вкусу",
-          "price": 110000,
-          "image": "images-webp/restone-pitsa.webp",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "dc227f07-fb9b-4326-ab6f-5316fe8b33b9",
-          "title": "Пицца 4 сезона",
-          "description": "Тонкое неаполитанское тесто, томатный соус, моцарелла, колбаса , шампиньоны, сочная томат, мраморный фарш 30см",
-          "price": 95000,
-          "image": "/images/1773229295618.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "74aeaf49-f094-4b05-9fa6-76c8ead5b2c7",
-          "title": "Пицца 4 сыра",
-          "description": "Неаполитанская пицца «4 сыра» — пицца на тонком воздушном тесте по итальянскому рецепту с нежной моцареллой и насыщенным сочетанием четырёх видов сыра: дорблю, чеддер, пармезан и моцарелла",
-          "price": 89000,
-          "image": "/images/1773229387529.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "cff13da0-890e-4da4-baf4-4e55dd5e0206",
-          "title": "Пицца страчателла",
-          "description": "это воплощение итальянской кулинарной традиции, где каждый ингредиент играет свою роль, создавая неповторимое вкусовое сочетание. Золотистое, слегка хрустящее тесто служит надёжной основой для этого шедевра (30 см)",
-          "price": 79000,
-          "image": "/images/1773229696660.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        }
-      ]
-    },
-    {
-      "name": "Паста / Итальянское",
-      "image": "images-webp/baloneze.webp",
-      "items": [
-        {
-          "id": "pasta_bolognese",
-          "title": "Болоньезе",
-          "description": "Болоньезе — это паста с насыщенным вкусом. Фарш придаёт блюду сытность и глубину, а морковь, сельдерей и лук добавляют сладковатые нотки и аромат. Томатный соус объединяет все вкусы и придаёт соусу характерный цвет.",
-          "price": 60000,
-          "image": "images-webp/baloneze.webp",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "pasta_fettuccini",
-          "title": "Феттучини Альфредо",
-          "description": "Феттучини альфредо — это паста с нежным сливочным соусом. Куриное филе придаёт блюду лёгкость и мягкость, шампиньоны добавляют аромат, а лук — сладковатые нотки. Пармезан обогащает вкус, делая его более насыщенным и пикантным.",
-          "price": 65000,
-          "image": "images-webp/fettuchini(alfredo).webp",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "343361c9-da50-43c9-9c96-10433c5a9102",
-          "title": "Паста Салмони",
-          "description": "Сальмони — это блюдо с нежным вкусом форели, которая гармонично сочетается со сливками, придающими кремовость. Брокколи добавляет лёгкую хрусткость и свежесть, а пармезан обогащает вкус, делая его более насыщенным и ароматным",
-          "price": 95000,
-          "image": "/images/1773229783997.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        }
-      ]
     },
     {
       "name": "Горячие блюда",
@@ -712,437 +832,6 @@
         }
       ],
       "categoryImage": "images-webp/cat_4.webp"
-    },
-    {
-      "name": "Закуски",
-      "image": "images-webp/myasnoy-assorti.webp",
-      "items": [
-        {
-          "id": "snack_pickled_assorted",
-          "title": "Маринованное ассорти",
-          "description": "Помидоры черри и томаты придают солёному ассорти насыщенный вкус. Дунганский перец добавляет пикантности, а чеснок — остроты. Огурцы вносят свежесть, анзур обогащает блюдо оригинальным вкусом, а квашеная капуста придаёт приятную кислинку.",
-          "price": 60000,
-          "image": "images-webp/marinovani-assorti.webp",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "09cd471e-2e78-4273-800d-56a1b880e5e5",
-          "title": " Казы с луком",
-          "description": "Казы с луком — это сочетание пикантного вкуса казы и лёгкой остроты лука, создающее насыщенное и ароматное блюдо",
-          "price": 109000,
-          "image": "/images/1773242824849.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "snack_meat_assorted",
-          "title": "Мясное ассорти",
-          "description": "Казы, копчёная говядина и индейка гармонично сочетаются в мясном ассорти. Горчичный соус добавляет пикантности и подчёркивает вкус мясных деликатесов",
-          "price": 260000,
-          "image": "images-webp/myasnoy-assorti.webp",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "snack_veggie_assorted",
-          "title": "Овощное ассорти",
-          "description": "Огурцы и помидоры создают сочную основу овощного ассорти. Редиска и морковь добавляют лёгкую хрусткость, а сельдерей и болгарский перец — насыщенный вкус. Сузьма придаёт блюду пикантность, а зелень завершает вкусовую гармонию.",
-          "price": 55000,
-          "image": "images-webp/ovoshnoy-assorti.webp",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "snack_herring",
-          "title": "Селедка по-русски",
-          "description": "Селёдка по-русски сочетает в себе солоноватый вкус селёдки и мягкость отварного картофеля. Маринованная свёкла добавляет сладость и яркость, а лук придаёт лёгкую остроту и аромат",
-          "price": 40000,
-          "image": "images-webp/seledka-po-russki.webp",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "snack_cheese_assorted",
-          "title": "Сырное ассорти",
-          "description": "Беби (3 шт.), гурман (5 шт.), дор блю (4 шт.), мраморный сыр (6 шт.), гауда (10 шт.), печенье (3 шт.) \n",
-          "price": 199000,
-          "image": "images-webp/sirniy-assorty.webp",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "hot_fruit_large",
-          "title": "Фруктовый большой",
-          "description": "Яблоко и банан создают основу фруктового ассорти, добавляя сладость и нежность. Киви придаёт лёгкую кислинку, ананас — тропическую нотку, манго — сочность, а маракуйя вносит яркий фруктовый аромат",
-          "price": 215000,
-          "image": "/images/1773230217267.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "sauce_chakka",
-          "title": "Чакка",
-          "description": "Кисломолочный продукт, который отличается лёгкой кислинкой и приятной текстурой",
-          "price": 17000,
-          "image": "images-webp/chakka.webp",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "sauce_lemon",
-          "title": "Лимон",
-          "description": "Лимон – это свежие и ароматные дольки, которые идеально подходят для добавления в напитки или блюда, придавая им яркий цитрусовый вкус",
-          "price": 17000,
-          "image": "images-webp/limon.webp",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "69d611aa-067c-4e5a-b1b4-d577894c1db2",
-          "title": "Пивной сет .",
-          "description": "",
-          "price": 150000,
-          "image": "/images/1773242652221.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "a5a7b7ba-71a5-46d7-91bc-f20dcf0459c0",
-          "title": "Грузинская закуска",
-          "description": "Баклажаны придают рулетам нежность, а чеснок — пикантный вкус. Орехи добавляют хрустящую текстуру, сливочный сыр — кремовость, а зелень вносит свежесть и аромат.",
-          "price": 52000,
-          "image": "/images/1773242758878.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "66055873-31eb-4e37-82e5-7e0cb3e36ea3",
-          "title": "Зелен ассорти",
-          "description": "",
-          "price": 40000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "c713b602-46d4-4579-a920-d727428fd745",
-          "title": "Ковун-Тарвуз",
-          "description": "",
-          "price": 42000,
-          "image": "images-webp/1784046627782.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "8d6a1648-dc7e-47a5-86eb-ed08204a2712",
-          "title": "Красная икра",
-          "description": "",
-          "price": 55000,
-          "image": "",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        }
-      ]
-    },
-    {
-      "name": "Хлеб / Выпечка",
-      "image": "images-webp/xachapuri-adjarskiy.webp",
-      "items": [
-        {
-          "id": "bread_khachapuri_adjarian",
-          "title": "Хачапури по-аджарски",
-          "description": "Золотистый и хрустящий хачапури аджарский готовится из слоёного теста. Внутри — тягучий сыр и яйца, которые придают блюду насыщенность и нежность.",
-          "price": 60000,
-          "image": "images-webp/xachapuri-adjarskiy.webp",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "bread_khachapuri_megrelian",
-          "title": "Хачапури по-мегрельски",
-          "description": "Мягкий и сытный хачапури по-мегрельскому с тягучим сыром внутри. Сверху — яйцо, придающее блюду насыщенность, и сметана с чесноком, которые добавляют пикантные нотки.",
-          "price": 55000,
-          "image": "images-webp/xachapuri-megrelskiy.webp",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "5a02c347-7d78-4525-b14d-b61c193ff044",
-          "title": "Пиде с сыром",
-          "description": "Пиде с сыром — это тонкая лепёшка из теста, наполненная тягучим сыром. Хрустящая корочка гармонично сочетается с нежной и расплавленной сырной начинкой.",
-          "price": 50000,
-          "image": "/images/1773304837557.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "ec175f53-9453-497e-ad44-13e86877f471",
-          "title": "Пиде с мясом",
-          "description": "Пиде с мясом — это аппетитная лепёшка из теста с начинкой из сочной говядины. Хрустящая корочка сочетается с нежной текстурой мяса.",
-          "price": 59000,
-          "image": "/images/1773304893624.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "de447371-41aa-4229-a630-51b34def305a",
-          "title": " Хлеб ассорти",
-          "description": "Хлеб ассорти включает в себя разнообразие выпечки: мягкие мини-хлебы, хрустящие гриссини, насыщенный чёрный хлеб и характерный турецкий хлеб. Каждый вид хлеба предлагает уникальный вкус и текстуру.",
-          "price": 23000,
-          "image": "/images/1773304947984.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "7c46f650-8d77-4679-bdb1-8119f2ef89ba",
-          "title": "Кулча нон",
-          "description": "",
-          "price": 6000,
-          "image": "images-webp/1789904510860.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "131551c7-d479-4d29-b8fe-d382b9521fe3",
-          "title": "Турецкий  патир",
-          "description": "",
-          "price": 6000,
-          "image": "images-webp/1789904524150.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "474aebee-bf86-4b18-a331-534073b2ac38",
-          "title": "Хлеб чёрный 2 шт",
-          "description": "",
-          "price": 6000,
-          "image": "images-webp/1789904556899.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "b9b86841-765e-437e-8405-01f2f9be1030",
-          "title": "Гриссини ",
-          "description": "",
-          "price": 6000,
-          "image": "images-webp/1789904570014.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        }
-      ]
-    },
-    {
-      "name": "Гарниры",
-      "image": "images-webp/derevensky.webp",
-      "items": [
-        {
-          "id": "side_village_potatoes",
-          "title": "Картошка по-деревенски",
-          "description": "Картофель по-деревенски — это румяные дольки картошки, запечённые до хрустящей корочки. Они сохраняют мягкость внутри и обладают насыщенным вкусом",
-          "price": 32000,
-          "image": "images-webp/derevensky.webp",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "side_mashed_potatoes",
-          "title": "Картошка пюре",
-          "description": "Картофельное пюре — это нежное и воздушное блюдо с мягким вкусом, которое легко тает во рту",
-          "price": 22000,
-          "image": "images-webp/kartoshka-pyure.webp",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "hot_rice_veggies",
-          "title": "Рис с овощами",
-          "description": "Рис с овощами — это гармоничное сочетание нежного риса и сочных овощей, которое отличается лёгкостью и сбалансированным вкусом",
-          "price": 25000,
-          "image": "images-webp/ris-s-ovoshami.webp",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "snack_buffalo_wings",
-          "title": "Картошка фри",
-          "description": "Крылышки баффало — это сочная курица, покрытая смесью унаги и барбекю соусов, что создаёт уникальное сочетание сладковатого и пикантного вкусов.",
-          "price": 35000,
-          "image": "/images/1773219723341.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        }
-      ]
-    },
-    {
-      "name": "Соусы / Дополнительно",
-      "image": "images-webp/chakka.webp",
-      "items": [
-        {
-          "id": "c759924e-24d3-4e02-b939-e93e374df5ec",
-          "title": "Соус тар-тар",
-          "description": "",
-          "price": 10000,
-          "image": "/images/1773310570600.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "54ce9f50-baa5-44b8-8b28-2c128aaaf305",
-          "title": "Соус томатный",
-          "description": "",
-          "price": 10000,
-          "image": "/images/1773310608626.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "df96cff6-7f14-4d92-bf51-04dd44b79af3",
-          "title": "Соус чили",
-          "description": "",
-          "price": 10000,
-          "image": "/images/1773310604453.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "3e3a79f8-d4e5-427d-aed5-911fb560119b",
-          "title": "Соус сырный",
-          "description": "",
-          "price": 10000,
-          "image": "/images/1773310614117.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        }
-      ],
-      "categoryImage": "images-webp/cat_8.webp"
-    },
-    {
-      "name": "Горячие закуска",
-      "items": [
-        {
-          "id": "66815a26-4b3a-4a3d-ad9f-b38ffffb6c68",
-          "title": "Mexician Kesadilya",
-          "description": "",
-          "price": 25000,
-          "image": "images-webp/1783065268781.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "d1f96d51-e872-4839-9994-3b90048434f8",
-          "title": "Грибная шапочка",
-          "description": "Ароматная «грибная шапочка» — тёплое и сытное блюдо с мясом, грибами и сыром, приготовленное с заботой и любовью",
-          "price": 59000,
-          "image": "/images/1773242489027.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "416a7fb4-7055-4b08-bdd8-8a58d8df2ef8",
-          "title": "Lahmadjun",
-          "description": "",
-          "price": 25000,
-          "image": "images-webp/1782909523139.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "snack_dolma",
-          "title": "Долма (5шт)",
-          "description": "Долма с мясом говядины представляет собой блюдо с нежной текстурой и насыщенным вкусом, где мясо придаёт сочность и богатый аромат.",
-          "price": 49000,
-          "image": "images-webp/dolma.webp",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "snack_bindjak",
-          "title": "Бинджак",
-          "description": "Куриное филе придаёт блюду нежность и насыщенный вкус, а лаваш обеспечивает лёгкость. Сыр фета вносит солоноватость, шампиньоны — аромат, укроп добавляет свежесть, кунжут — лёгкую хрусткость, а чеснок — пикантные нотки.",
-          "price": 45000,
-          "image": "images-webp/bindjak.webp",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "snack_grenki",
-          "title": "Гренки",
-          "description": "Гренки готовят из чёрного хлеба, который придаёт им плотную текстуру. Чеснок добавляет пикантность, сыр пармезан — солоноватый вкус и лёгкую хрусткость, а соус Тартар объединяет вкусы и делает блюдо более насыщенным.",
-          "price": 34000,
-          "image": "images-webp/grenki.webp",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "snack_fried_mozzarella",
-          "title": "Жареная моцарелла",
-          "description": "Моцарелла приобретает золотистую корочку при жарке, а внутри остаётся нежной и тягучей. Карамель добавляет сладость, а ягоды вносят свежую кислинку.",
-          "price": 55000,
-          "image": "images-webp/jarenniy-motsarella.webp",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "snack_tongue_cream",
-          "title": "Язык в сливочном соусе",
-          "description": "Язык в сливочном соусе отличается нежной текстурой и мягким вкусом. Шампиньоны добавляют аромат, лук — лёгкую сладость, орехи вносят хрустящую нотку, а сливочный соус делает блюдо насыщенным и бархатистым.",
-          "price": 60000,
-          "image": "images-webp/yazik-v-slichochnom-souse.webp",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "b04ae8f1-e94f-4d5a-adc2-d9f31314a089",
-          "title": " Крылышки баффало",
-          "description": "Крылышки баффало — это сочная курица, покрытая смесью унаги и барбекю соусов, что создаёт уникальное сочетание сладковатого и пикантного вкусов.",
-          "price": 55000,
-          "image": "/images/1773243150890.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        }
-      ],
-      "categoryImage": "images-webp/cat_9.webp"
     },
     {
       "name": "Шашлыки",
@@ -1505,6 +1194,174 @@
       "categoryImage": "images-webp/cat_10.webp"
     },
     {
+      "name": "Пицца",
+      "image": "images-webp/margarita.webp",
+      "items": [
+        {
+          "id": "pizza_hawaiian",
+          "title": "Гавайская пицца",
+          "description": "это популярная разновидность пиццы, в которой на тесто выкладываются кусочки курицы, ананасы и моцарелла. Сочетание сладкого ананаса и нежного куриного мяса создаёт уникальный и приятный вкус, который нравится многим (30 см)",
+          "price": 85000,
+          "image": "images-webp/gavayskiy-pitsa.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "pizza_margarita",
+          "title": "Маргарита",
+          "description": "Это воплощение классической итальянской кухни, которая покоряет своей простотой и безупречным вкусом. Золотистое, слегка хрустящее тесто служит основой для этого кулинарного шедевра. На нём равномерно распределён ароматный слой спелых помидоров, придающих пицце сочность и лёгкую кислинку (30 см)",
+          "price": 59000,
+          "image": "images-webp/margarita.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "pizza_pepperoni",
+          "title": "Пепперони",
+          "description": "Это воплощение яркого и насыщенного вкуса, которое сразу же привлекает внимание своим аппетитным видом. Основа пиццы — тонкое, ароматное тесто, которое при выпечке становится золотистым и хрустящим  (30 см)",
+          "price": 85000,
+          "image": "images-webp/peperoni.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "pizza_caesar",
+          "title": "Пицца Цезарь",
+          "description": "это гармоничное сочетание ингредиентов, вдохновлённое знаменитым салатом. Основа пиццы — тонкое тесто, которое придаёт блюду лёгкость. Моцарелла, расплавленная и тягучая, добавляет сочность. Нежная курица и пикантный бекон создают насыщенный вкус, а свежий айсберг придаёт хрусткость и лёгкость. Томаты черри добавляют сладость и яркий цвет, а пармезан — насыщенный аромат (30 см)",
+          "price": 99000,
+          "image": "images-webp/pitsa-sezar.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "pizza_restone",
+          "title": "Пицца Rest-One",
+          "description": "Фирменная мясная пицца с рукколой — сочная пицца с ароматным томатным соусом, нежной моцареллой и ассорти отборного мяса. Свежая руккола добавляет лёгкую пикантную горчинку и свежесть вкусу",
+          "price": 110000,
+          "image": "images-webp/restone-pitsa.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "dc227f07-fb9b-4326-ab6f-5316fe8b33b9",
+          "title": "Пицца 4 сезона",
+          "description": "Тонкое неаполитанское тесто, томатный соус, моцарелла, колбаса , шампиньоны, сочная томат, мраморный фарш 30см",
+          "price": 95000,
+          "image": "/images/1773229295618.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "74aeaf49-f094-4b05-9fa6-76c8ead5b2c7",
+          "title": "Пицца 4 сыра",
+          "description": "Неаполитанская пицца «4 сыра» — пицца на тонком воздушном тесте по итальянскому рецепту с нежной моцареллой и насыщенным сочетанием четырёх видов сыра: дорблю, чеддер, пармезан и моцарелла",
+          "price": 89000,
+          "image": "/images/1773229387529.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "cff13da0-890e-4da4-baf4-4e55dd5e0206",
+          "title": "Пицца страчателла",
+          "description": "это воплощение итальянской кулинарной традиции, где каждый ингредиент играет свою роль, создавая неповторимое вкусовое сочетание. Золотистое, слегка хрустящее тесто служит надёжной основой для этого шедевра (30 см)",
+          "price": 79000,
+          "image": "/images/1773229696660.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        }
+      ]
+    },
+    {
+      "name": "Паста / Итальянское",
+      "image": "images-webp/baloneze.webp",
+      "items": [
+        {
+          "id": "pasta_bolognese",
+          "title": "Болоньезе",
+          "description": "Болоньезе — это паста с насыщенным вкусом. Фарш придаёт блюду сытность и глубину, а морковь, сельдерей и лук добавляют сладковатые нотки и аромат. Томатный соус объединяет все вкусы и придаёт соусу характерный цвет.",
+          "price": 60000,
+          "image": "images-webp/baloneze.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "pasta_fettuccini",
+          "title": "Феттучини Альфредо",
+          "description": "Феттучини альфредо — это паста с нежным сливочным соусом. Куриное филе придаёт блюду лёгкость и мягкость, шампиньоны добавляют аромат, а лук — сладковатые нотки. Пармезан обогащает вкус, делая его более насыщенным и пикантным.",
+          "price": 65000,
+          "image": "images-webp/fettuchini(alfredo).webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "343361c9-da50-43c9-9c96-10433c5a9102",
+          "title": "Паста Салмони",
+          "description": "Сальмони — это блюдо с нежным вкусом форели, которая гармонично сочетается со сливками, придающими кремовость. Брокколи добавляет лёгкую хрусткость и свежесть, а пармезан обогащает вкус, делая его более насыщенным и ароматным",
+          "price": 95000,
+          "image": "/images/1773229783997.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        }
+      ]
+    },
+    {
+      "name": "Гарниры",
+      "image": "images-webp/derevensky.webp",
+      "items": [
+        {
+          "id": "side_village_potatoes",
+          "title": "Картошка по-деревенски",
+          "description": "Картофель по-деревенски — это румяные дольки картошки, запечённые до хрустящей корочки. Они сохраняют мягкость внутри и обладают насыщенным вкусом",
+          "price": 32000,
+          "image": "images-webp/derevensky.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "side_mashed_potatoes",
+          "title": "Картошка пюре",
+          "description": "Картофельное пюре — это нежное и воздушное блюдо с мягким вкусом, которое легко тает во рту",
+          "price": 22000,
+          "image": "images-webp/kartoshka-pyure.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "hot_rice_veggies",
+          "title": "Рис с овощами",
+          "description": "Рис с овощами — это гармоничное сочетание нежного риса и сочных овощей, которое отличается лёгкостью и сбалансированным вкусом",
+          "price": 25000,
+          "image": "images-webp/ris-s-ovoshami.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "snack_buffalo_wings",
+          "title": "Картошка фри",
+          "description": "Крылышки баффало — это сочная курица, покрытая смесью унаги и барбекю соусов, что создаёт уникальное сочетание сладковатого и пикантного вкусов.",
+          "price": 35000,
+          "image": "/images/1773219723341.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        }
+      ]
+    },
+    {
       "name": "Стейк",
       "items": [
         {
@@ -1626,6 +1483,149 @@
         }
       ],
       "categoryImage": "images-webp/cat_12.webp"
+    },
+    {
+      "name": "Хлеб / Выпечка",
+      "image": "images-webp/xachapuri-adjarskiy.webp",
+      "items": [
+        {
+          "id": "bread_khachapuri_adjarian",
+          "title": "Хачапури по-аджарски",
+          "description": "Золотистый и хрустящий хачапури аджарский готовится из слоёного теста. Внутри — тягучий сыр и яйца, которые придают блюду насыщенность и нежность.",
+          "price": 60000,
+          "image": "images-webp/xachapuri-adjarskiy.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "bread_khachapuri_megrelian",
+          "title": "Хачапури по-мегрельски",
+          "description": "Мягкий и сытный хачапури по-мегрельскому с тягучим сыром внутри. Сверху — яйцо, придающее блюду насыщенность, и сметана с чесноком, которые добавляют пикантные нотки.",
+          "price": 55000,
+          "image": "images-webp/xachapuri-megrelskiy.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "5a02c347-7d78-4525-b14d-b61c193ff044",
+          "title": "Пиде с сыром",
+          "description": "Пиде с сыром — это тонкая лепёшка из теста, наполненная тягучим сыром. Хрустящая корочка гармонично сочетается с нежной и расплавленной сырной начинкой.",
+          "price": 50000,
+          "image": "/images/1773304837557.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "ec175f53-9453-497e-ad44-13e86877f471",
+          "title": "Пиде с мясом",
+          "description": "Пиде с мясом — это аппетитная лепёшка из теста с начинкой из сочной говядины. Хрустящая корочка сочетается с нежной текстурой мяса.",
+          "price": 59000,
+          "image": "/images/1773304893624.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "de447371-41aa-4229-a630-51b34def305a",
+          "title": " Хлеб ассорти",
+          "description": "Хлеб ассорти включает в себя разнообразие выпечки: мягкие мини-хлебы, хрустящие гриссини, насыщенный чёрный хлеб и характерный турецкий хлеб. Каждый вид хлеба предлагает уникальный вкус и текстуру.",
+          "price": 23000,
+          "image": "/images/1773304947984.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "7c46f650-8d77-4679-bdb1-8119f2ef89ba",
+          "title": "Кулча нон",
+          "description": "",
+          "price": 6000,
+          "image": "images-webp/1789904510860.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "131551c7-d479-4d29-b8fe-d382b9521fe3",
+          "title": "Турецкий  патир",
+          "description": "",
+          "price": 6000,
+          "image": "images-webp/1789904524150.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "474aebee-bf86-4b18-a331-534073b2ac38",
+          "title": "Хлеб чёрный 2 шт",
+          "description": "",
+          "price": 6000,
+          "image": "images-webp/1789904556899.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "b9b86841-765e-437e-8405-01f2f9be1030",
+          "title": "Гриссини ",
+          "description": "",
+          "price": 6000,
+          "image": "images-webp/1789904570014.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        }
+      ]
+    },
+    {
+      "name": "Соусы / Дополнительно",
+      "image": "images-webp/chakka.webp",
+      "items": [
+        {
+          "id": "c759924e-24d3-4e02-b939-e93e374df5ec",
+          "title": "Соус тар-тар",
+          "description": "",
+          "price": 10000,
+          "image": "/images/1773310570600.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "54ce9f50-baa5-44b8-8b28-2c128aaaf305",
+          "title": "Соус томатный",
+          "description": "",
+          "price": 10000,
+          "image": "/images/1773310608626.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "df96cff6-7f14-4d92-bf51-04dd44b79af3",
+          "title": "Соус чили",
+          "description": "",
+          "price": 10000,
+          "image": "/images/1773310604453.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "3e3a79f8-d4e5-427d-aed5-911fb560119b",
+          "title": "Соус сырный",
+          "description": "",
+          "price": 10000,
+          "image": "/images/1773310614117.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        }
+      ],
+      "categoryImage": "images-webp/cat_8.webp"
     },
     {
       "name": "Десерты",
