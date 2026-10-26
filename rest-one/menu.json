@@ -2139,6 +2139,16 @@
       "name": "Вино & Водки",
       "items": [
         {
+          "id": "5167cf75-77b4-43d8-80c9-4324d89603fb",
+          "title": "Bagizagan ",
+          "description": "",
+          "price": 90000,
+          "image": "images-webp/1793021056532.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
           "id": "5cba8e80-1718-4a57-9323-2027379a7a0e",
           "title": "Tektura белое полусладкое ",
           "description": "",
@@ -2154,16 +2164,6 @@
           "description": "",
           "price": 380000,
           "image": "images-webp/1793021201730.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "5167cf75-77b4-43d8-80c9-4324d89603fb",
-          "title": "Bagizagan ",
-          "description": "",
-          "price": 90000,
-          "image": "images-webp/1793021056532.jpg",
           "available": true,
           "hidden": false,
           "badges": []
