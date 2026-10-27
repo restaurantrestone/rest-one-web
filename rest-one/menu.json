@@ -524,21 +524,21 @@
       "image": "images-webp/borsh.webp",
       "items": [
         {
-          "id": "c2f9fbfa-105a-48c2-87bf-8e127da49ddd",
-          "title": "Пити",
-          "description": "Ароматный суп, который согреет и насытит. Нежная баранина, картофель, лук и нут в сочетании с курдюком создают неповторимый вкус",
-          "price": 65000,
-          "image": "/images/1773228951427.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
           "id": "soup_borsh",
           "title": "Борщ",
           "description": "Борщ отличается насыщенным вкусом благодаря говядине, которая придаёт ему глубину. Капуста вносит лёгкую хрусткость и свежесть, а картошка и лук делают суп более мягким и густым.",
           "price": 35000,
           "image": "images-webp/borsh.webp",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "soup_solyanka",
+          "title": "Солянка",
+          "description": "Густая и сытная, по традиционному рецепту русcкой кухни, сдобренная сметаной - прекрасное начало обеда для тех, кто хорошо потрудился с утра. Подается с лимоном и сметаной",
+          "price": 40000,
+          "image": "images-webp/solyanka.webp",
           "available": true,
           "hidden": false,
           "badges": []
@@ -584,6 +584,16 @@
           "badges": []
         },
         {
+          "id": "c2f9fbfa-105a-48c2-87bf-8e127da49ddd",
+          "title": "Пити",
+          "description": "Ароматный суп, который согреет и насытит. Нежная баранина, картофель, лук и нут в сочетании с курдюком создают неповторимый вкус",
+          "price": 65000,
+          "image": "/images/1773228951427.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
           "id": "soup_shi",
           "title": "Щи",
           "description": "Щи отличаются ярким вкусом благодаря щавелю, который придаёт им лёгкую кислинку. Картофель и морковь делают суп более насыщенным и мягким, а лук добавляет аромат.",
@@ -599,16 +609,6 @@
           "description": "Густой и насыщенный суп готовится на основе говяжьего бульона. Картошка и морковь придают шурпе мягкость и лёгкую сладость, а говядина добавляет богатый мясной вкус.",
           "price": 45000,
           "image": "images-webp/shurpa.webp",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "soup_solyanka",
-          "title": "Солянка",
-          "description": "Густая и сытная, по традиционному рецепту русcкой кухни, сдобренная сметаной - прекрасное начало обеда для тех, кто хорошо потрудился с утра. Подается с лимоном и сметаной",
-          "price": 40000,
-          "image": "images-webp/solyanka.webp",
           "available": true,
           "hidden": false,
           "badges": []
@@ -639,6 +639,16 @@
           "description": "Окрошка — это освежающее блюдо с приятной текстурой. Колбаски придают ему насыщенный вкус, а картошка и морковь добавляют сытность и лёгкую сладость.",
           "price": 30000,
           "image": "/images/1773229032785.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "b3c812e7-2348-45b2-8239-1f96ca6b48fe",
+          "title": "Крем суп Тыква",
+          "description": "",
+          "price": 30000,
+          "image": "",
           "available": true,
           "hidden": false,
           "badges": []
@@ -2393,6 +2403,102 @@
       "categoryImage": "images-webp/cat_20.jpg"
     },
     {
+      "name": "Виски-Liqueur",
+      "items": [
+        {
+          "id": "014ff07e-c0ac-4d46-89dc-5098165914f2",
+          "title": "GLEN  MALT 0.5ml",
+          "description": "",
+          "price": 450000,
+          "image": "images-webp/1793108009754.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "bd8abdef-bcc7-413c-b4d3-df7cf893725a",
+          "title": "JAMESON 0.7ml",
+          "description": "",
+          "price": 700000,
+          "image": "images-webp/1793108187961.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "803d736b-0a6c-4c67-9e64-649f72be42f4",
+          "title": "THE-GLENLIVET 0.7ml",
+          "description": "",
+          "price": 980000,
+          "image": "images-webp/1793108406472.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "2688a250-2076-418b-967a-8a740be91ae9",
+          "title": "JACK DANIELS 0 5ml",
+          "description": "",
+          "price": 650000,
+          "image": "images-webp/1793108583805.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "5cc3c7cf-0c64-43b7-8723-fe3bee1a3b7d",
+          "title": "CHIVAS REGAL 12 YEARS 0.5ml",
+          "description": "",
+          "price": 760000,
+          "image": "images-webp/1793108740683.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "a4ae8765-c24d-4f03-9152-9dcc98028902",
+          "title": "JACK DANIELS  HONEYO 0 5ml",
+          "description": "",
+          "price": 650000,
+          "image": "images-webp/1793108884241.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "6d9ff674-1c6b-4389-8734-d124107f5174",
+          "title": "MONKEY SHOULDER 0.5ml",
+          "description": "",
+          "price": 650000,
+          "image": "images-webp/1793109029263.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "cd9bccc7-43eb-43e0-aafd-1e5e2b0b09f4",
+          "title": "BLACK LABEL 0.7 ml",
+          "description": "",
+          "price": 1250000,
+          "image": "images-webp/1793109155171.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "15dab7f1-fb5a-4495-9db3-f0c0f38571c4",
+          "title": "Jagermaister",
+          "description": "",
+          "price": 500000,
+          "image": "images-webp/1793112605155.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        }
+      ],
+      "categoryImage": "images-webp/cat_22.jpg"
+    },
+    {
       "name": "Lemonades",
       "items": [
         {
@@ -2621,26 +2727,6 @@
       "name": "алкогольный коктейль",
       "items": [
         {
-          "id": "87c629da-463c-4658-88fa-a4fbd204375a",
-          "title": "Hugo Spritz",
-          "description": "",
-          "price": 75000,
-          "image": "/images/1773574298716.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "9509a6c4-8edb-4aa4-a4cf-bd7835c192b5",
-          "title": "Pino colada ",
-          "description": "",
-          "price": 65000,
-          "image": "/images/1773487398884.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
           "id": "10766e89-612a-4dfd-aec6-167ab941acb7",
           "title": "Long island ice tea",
           "description": "",
@@ -2681,16 +2767,6 @@
           "badges": []
         },
         {
-          "id": "8b42d2de-d157-4a28-bd73-98e721cce5a3",
-          "title": "Salted caramel martini ",
-          "description": "",
-          "price": 65000,
-          "image": "/images/1773574285363.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
           "id": "31b26fda-ee90-4e7d-81ae-f5ae928eac5d",
           "title": "Daiquiri ",
           "description": "",
@@ -2712,7 +2788,7 @@
         },
         {
           "id": "0bedc870-b876-4b78-bbbf-0137b89afd8a",
-          "title": "b 52 ",
+          "title": "B 52 ",
           "description": "",
           "price": 55000,
           "image": "/images/1773488581541.jpg",
@@ -2722,7 +2798,7 @@
         },
         {
           "id": "7d0b2c8f-b509-45d3-88d4-a5a506633e53",
-          "title": "b 53",
+          "title": "B 53",
           "description": "",
           "price": 55000,
           "image": "logo.png",
@@ -2731,279 +2807,6 @@
           "badges": []
         }
       ]
-    },
-    {
-      "name": "Sparkling wine",
-      "items": [
-        {
-          "id": "5a9887cb-616b-4de9-a8f8-691abb06b9f8",
-          "title": "Teliani valley ",
-          "description": "",
-          "price": 250000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "3c23554a-33be-439b-b80f-f88eebf3e9ba",
-          "title": "Beton brut",
-          "description": "",
-          "price": 150000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "1410a45a-0b04-4571-a0bb-08f31cd67030",
-          "title": "Salute brut ",
-          "description": "",
-          "price": 135000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        }
-      ]
-    },
-    {
-      "name": "Gin",
-      "items": [
-        {
-          "id": "ed0a84bb-175e-42a1-8cfd-f7451e8871bb",
-          "title": "Barrister",
-          "description": "",
-          "price": 240000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "b91b144b-e9d4-4f23-961d-8e44c3fe4831",
-          "title": "Beefeater ",
-          "description": "",
-          "price": 500000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        }
-      ]
-    },
-    {
-      "name": "Liqueur",
-      "items": [
-        {
-          "id": "e3a1b577-b26f-47ee-9dc8-e86c1046dfc3",
-          "title": "Elderflower",
-          "description": "",
-          "price": 450000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "f87df218-fe0f-4d0d-a7b6-439d17e094a3",
-          "title": "Peeachtree",
-          "description": "",
-          "price": 450000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "cb523348-dbdf-4bd1-bbfa-e46e56e38859",
-          "title": "Baileys",
-          "description": "",
-          "price": 550000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "9c75d868-8e3a-4d0a-86bb-d2b06917be5b",
-          "title": "Kahlua",
-          "description": "",
-          "price": 900000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "17fa0cea-3f16-4e30-85a4-81075bc248de",
-          "title": "Malibu ",
-          "description": "",
-          "price": 480000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "bbd51c8e-afe3-4e6c-9f5e-f2790d28e890",
-          "title": "Cointreau",
-          "description": "",
-          "price": 550000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "2580b352-7a78-44f5-9b45-122090c9b456",
-          "title": "Sambuca ",
-          "description": "",
-          "price": 390000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "3c391dcf-5ca9-47c2-99c1-1d74dcab8725",
-          "title": "Grande absenta",
-          "description": "",
-          "price": 1000000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "d576b875-b199-4004-93a1-8c70fa38c557",
-          "title": "Amaro ",
-          "description": "",
-          "price": 480000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "15dab7f1-fb5a-4495-9db3-f0c0f38571c4",
-          "title": "Jagermaister",
-          "description": "",
-          "price": 500000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "1dd5d325-f462-44f6-993c-dffeb3fac48d",
-          "title": "Campari",
-          "description": "",
-          "price": 730000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "9e8d54bd-fae4-4153-924f-c66056f9813c",
-          "title": "Aperol ",
-          "description": "",
-          "price": 850000,
-          "image": "logo.png",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        }
-      ],
-      "noPhotos": true,
-      "sections": []
-    },
-    {
-      "name": "Виски-Liqueur",
-      "items": [
-        {
-          "id": "014ff07e-c0ac-4d46-89dc-5098165914f2",
-          "title": "GLEN  MALT 0.5ml",
-          "description": "",
-          "price": 450000,
-          "image": "images-webp/1793108009754.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "bd8abdef-bcc7-413c-b4d3-df7cf893725a",
-          "title": "JAMESON 0.7ml",
-          "description": "",
-          "price": 700000,
-          "image": "images-webp/1793108187961.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "803d736b-0a6c-4c67-9e64-649f72be42f4",
-          "title": "THE-GLENLIVET 0.7ml",
-          "description": "",
-          "price": 980000,
-          "image": "images-webp/1793108406472.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "2688a250-2076-418b-967a-8a740be91ae9",
-          "title": "JACK DANIELS 0 5ml",
-          "description": "",
-          "price": 650000,
-          "image": "images-webp/1793108583805.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "5cc3c7cf-0c64-43b7-8723-fe3bee1a3b7d",
-          "title": "CHIVAS REGAL 12 YEARS 0.5ml",
-          "description": "",
-          "price": 760000,
-          "image": "images-webp/1793108740683.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "a4ae8765-c24d-4f03-9152-9dcc98028902",
-          "title": "JACK DANIELS  HONEYO 0 5ml",
-          "description": "",
-          "price": 650000,
-          "image": "images-webp/1793108884241.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "6d9ff674-1c6b-4389-8734-d124107f5174",
-          "title": "MONKEY SHOULDER 0.5ml",
-          "description": "",
-          "price": 650000,
-          "image": "images-webp/1793109029263.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "cd9bccc7-43eb-43e0-aafd-1e5e2b0b09f4",
-          "title": "BLACK LABEL 0.7 ml",
-          "description": "",
-          "price": 1250000,
-          "image": "images-webp/1793109155171.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        }
-      ],
-      "categoryImage": "images-webp/cat_22.jpg"
     }
   ],
   "landing": {
