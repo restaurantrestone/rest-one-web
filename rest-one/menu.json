@@ -2918,6 +2918,91 @@
       ],
       "noPhotos": true,
       "sections": []
+    },
+    {
+      "name": "Виски-Liqueur",
+      "items": [
+        {
+          "id": "014ff07e-c0ac-4d46-89dc-5098165914f2",
+          "title": "GLEN  MALT 0.5ml",
+          "description": "",
+          "price": 450000,
+          "image": "images-webp/1793108009754.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "bd8abdef-bcc7-413c-b4d3-df7cf893725a",
+          "title": "JAMESON 0.7ml",
+          "description": "",
+          "price": 700000,
+          "image": "images-webp/1793108187961.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "803d736b-0a6c-4c67-9e64-649f72be42f4",
+          "title": "THE-GLENLIVET 0.7ml",
+          "description": "",
+          "price": 980000,
+          "image": "images-webp/1793108406472.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "2688a250-2076-418b-967a-8a740be91ae9",
+          "title": "JACK DANIELS 0 5ml",
+          "description": "",
+          "price": 650000,
+          "image": "images-webp/1793108583805.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "5cc3c7cf-0c64-43b7-8723-fe3bee1a3b7d",
+          "title": "CHIVAS REGAL 12 YEARS 0.5ml",
+          "description": "",
+          "price": 760000,
+          "image": "images-webp/1793108740683.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "a4ae8765-c24d-4f03-9152-9dcc98028902",
+          "title": "JACK DANIELS  HONEYO 0 5ml",
+          "description": "",
+          "price": 650000,
+          "image": "images-webp/1793108884241.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "6d9ff674-1c6b-4389-8734-d124107f5174",
+          "title": "MONKEY SHOULDER 0.5ml",
+          "description": "",
+          "price": 650000,
+          "image": "images-webp/1793109029263.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
+          "id": "cd9bccc7-43eb-43e0-aafd-1e5e2b0b09f4",
+          "title": "BLACK LABEL 0.7 ml",
+          "description": "",
+          "price": 1250000,
+          "image": "images-webp/1793109155171.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        }
+      ]
     }
   ],
   "landing": {
