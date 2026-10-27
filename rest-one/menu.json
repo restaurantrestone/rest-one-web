@@ -554,6 +554,16 @@
           "badges": []
         },
         {
+          "id": "b3c812e7-2348-45b2-8239-1f96ca6b48fe",
+          "title": "Крем суп Тыква",
+          "description": "",
+          "price": 30000,
+          "image": "images-webp/1793113162939.jpg",
+          "available": true,
+          "hidden": false,
+          "badges": []
+        },
+        {
           "id": "soup_mushroom",
           "title": "Крем Суп Грибной",
           "description": "Нежный крем-суп с насыщенным вкусом, в котором грибы придают характерный аромат и лёгкую пикантность.",
@@ -639,16 +649,6 @@
           "description": "Окрошка — это освежающее блюдо с приятной текстурой. Колбаски придают ему насыщенный вкус, а картошка и морковь добавляют сытность и лёгкую сладость.",
           "price": 30000,
           "image": "/images/1773229032785.jpg",
-          "available": true,
-          "hidden": false,
-          "badges": []
-        },
-        {
-          "id": "b3c812e7-2348-45b2-8239-1f96ca6b48fe",
-          "title": "Крем суп Тыква",
-          "description": "",
-          "price": 30000,
-          "image": "images-webp/1793113162939.jpg",
           "available": true,
           "hidden": false,
           "badges": []
