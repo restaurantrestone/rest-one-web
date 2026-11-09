@@ -273,14 +273,7 @@
           "available": true,
           "hidden": false,
           "badges": []
-        }
-      ],
-      "sections": []
-    },
-    {
-      "name": "Закуски",
-      "image": "images-webp/myasnoy-assorti.webp",
-      "items": [
+        },
         {
           "id": "snack_pickled_assorted",
           "title": "Маринованное ассорти",
@@ -421,7 +414,8 @@
           "hidden": false,
           "badges": []
         }
-      ]
+      ],
+      "sections": []
     },
     {
       "name": "Горячие закуска",
